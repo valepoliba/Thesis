@@ -1,0 +1,5 @@
+"http://www.influencetracker.com/resource/Hashtag/" "#"
+"http://www.influencetracker.com/resource/User/" " the Twitter user: "
+"http://dbpedia.org/resource/Category:Social_media" " involved in the field of social media "
+"http://dbpedia.org/resource/Category:Video_game_streaming_services" " involved in the field of videogames streaming services "
+"http://dbpedia.org/resource/Category:Living_people" " living people "

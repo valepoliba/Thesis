@@ -1,0 +1,3 @@
+"http://www.influencetracker.com/ontology#hasMentioned" "mentioned"
+"http://www.influencetracker.com/ontology#includedHashtag" "included the hashtag"
+"http://purl.org/dc/terms/subject" "They are"

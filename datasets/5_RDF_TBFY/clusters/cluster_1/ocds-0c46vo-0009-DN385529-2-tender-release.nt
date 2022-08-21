@@ -1,0 +1,61 @@
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/release/DN385529-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.tbfy.eu/ontology/tbfy#Release>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/release/DN385529-2> <http://data.tbfy.eu/ontology/tbfy#releaseURI> "https://openopps.com/tenders/ocds-0c46vo-0009-DN385529-2/?format=json"^^<http://www.w3.org/2001/XMLSchema#anyURI>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/release/DN385529-2> <http://data.tbfy.eu/ontology/tbfy#releasePublishedDate> "2019-03-30T01:34:01.907868+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/release/DN385529-2> <http://data.tbfy.eu/ontology/tbfy#releasePublisherUID> "https://beta.companieshouse.gov.uk/company/04962733"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/release/DN385529-2> <http://data.tbfy.eu/ontology/tbfy#releasePublisherURI> "https://openopps.com"^^<http://www.w3.org/2001/XMLSchema#anyURI>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/release/DN385529-2> <http://data.tbfy.eu/ontology/tbfy#releasePublisherName> "Open Opps"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/release/DN385529-2> <http://data.tbfy.eu/ontology/tbfy#releasePublisherScheme> "Companies House"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/release/DN385529-2> <http://data.tbfy.eu/ontology/tbfy#releaseLicense> "https://opendatacommons.org/licenses/odbl/"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/release/DN385529-2> <http://data.tbfy.eu/ontology/tbfy#releasePublicationPolicy> "https://openopps.com/legal/"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/release/DN385529-2> <http://data.tbfy.eu/ontology/tbfy#releaseId> "DN385529-2"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/release/DN385529-2> <http://data.tbfy.eu/ontology/tbfy#releaseDate> "2019-01-07T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/release/DN385529-2> <http://data.tbfy.eu/ontology/tbfy#releaseTag> "tender"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/release/DN385529-2> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/release/DN385529-2> <http://data.tbfy.eu/ontology/tbfy#releaseInitiationType> "tender"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.tbfy.eu/ontology/ocds#ContractingProcess>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2> <http://data.tbfy.eu/ontology/ocds#ocid> "ocds-0c46vo-0009-DN385529-2"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2> <http://data.tbfy.eu/ontology/ocds#hasRelease> <http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/release/DN385529-2>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2> <http://data.tbfy.eu/ontology/ocds#hasTender> <http://data.tbfy.eu/tender/ocds-0c46vo-0009-DN385529-2_DN385529-2>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2> <http://data.tbfy.eu/ontology/ocds#hasContract> <http://data.tbfy.eu/contract/ocds-0c46vo-0009-DN385529-2_1>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/buyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.tbfy.eu/ontology/ocds#Organisation>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/buyer> <http://data.tbfy.eu/ontology/ocds#legalName> "Wolverhampton City Council"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/buyer> <http://data.tbfy.eu/ontology/ocds#hasContactPoint> <http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/buyer/contactPoint>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/buyer> <http://data.tbfy.eu/ontology/ocds#hasAddress> <http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/buyer/address>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/buyer> <http://data.tbfy.eu/ontology/ocds#isBuyerFor> <http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/buyer> <http://data.tbfy.eu/ontology/ocds#playsRoleIn> <http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/buyer/address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.tbfy.eu/ontology/ocds#Address>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/buyer/address> <http://schema.org/addressLocality> "Wolverhampton"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/buyer/address> <http://schema.org/postalCode> "WV1 1RL"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/buyer/address> <http://schema.org/addressCountry> "United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/buyer/address> <http://schema.org/streetAddress> "Civic Centre"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/buyer/contactPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.tbfy.eu/ontology/ocds#ContactPoint>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/buyer/contactPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.tbfy.eu/ontology/ocds#Person>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/buyer/contactPoint> <http://schema.org/email> "jessica.prince@wolverhampton.gov.uk"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/buyer/contactPoint> <http://schema.org/name> "Jessica Prince"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.tbfy.eu/contractingProcess/ocds-0c46vo-0009-DN385529-2/buyer/contactPoint> <http://schema.org/telephone> "01902 556556"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.tbfy.eu/tender/ocds-0c46vo-0009-DN385529-2_DN385529-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.tbfy.eu/ontology/ocds#Tender>.
+<http://data.tbfy.eu/tender/ocds-0c46vo-0009-DN385529-2_DN385529-2> <http://data.tbfy.eu/ontology/ocds#tenderId> "DN385529-2"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.tbfy.eu/tender/ocds-0c46vo-0009-DN385529-2_DN385529-2> <http://purl.org/dc/terms/title> "PP18182 - Wolverhampton Great Spaces"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.tbfy.eu/tender/ocds-0c46vo-0009-DN385529-2_DN385529-2> <http://purl.org/dc/terms/description> "The Council is looking to appoint an experienced consultant to deliver a strategic evidence base and future planned interventions programme for the City Centre Ring Road – Wolverhampton’s Great Space.The consultant will be required to work directly with the City of Wolverhampton Council Strategic Transportation, Housing and Regeneration teams and the West Midlands Combined Authority in developing this baseline of evidence, exploration of radical transformation opportunities and the co-ordination of the future planned interventions."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.tbfy.eu/tender/ocds-0c46vo-0009-DN385529-2_DN385529-2> <http://data.tbfy.eu/ontology/ocds#tenderStatus> "complete".
+<http://data.tbfy.eu/tender/ocds-0c46vo-0009-DN385529-2_DN385529-2> <http://data.tbfy.eu/ontology/ocds#hasItemToBeProcured> <http://data.tbfy.eu/tender/ocds-0c46vo-0009-DN385529-2_DN385529-2/item/1>.
+<http://data.tbfy.eu/tender/ocds-0c46vo-0009-DN385529-2_DN385529-2> <http://data.tbfy.eu/ontology/ocds#hasTenderPeriod> <http://data.tbfy.eu/tender/ocds-0c46vo-0009-DN385529-2_DN385529-2/period>.
+<http://data.tbfy.eu/tender/ocds-0c46vo-0009-DN385529-2_DN385529-2> <http://data.tbfy.eu/ontology/ocds#hasDocument> <http://data.tbfy.eu/tender/ocds-0c46vo-0009-DN385529-2_DN385529-2/document/tender_url>.
+<http://data.tbfy.eu/tender/ocds-0c46vo-0009-DN385529-2_DN385529-2/item/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.tbfy.eu/ontology/ocds#Item>.
+<http://data.tbfy.eu/tender/ocds-0c46vo-0009-DN385529-2_DN385529-2/item/1> <http://data.tbfy.eu/ontology/ocds#itemId> "1"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.tbfy.eu/tender/ocds-0c46vo-0009-DN385529-2_DN385529-2/item/1> <http://data.tbfy.eu/ontology/ocds#hasClassification> "80000000".
+<http://data.tbfy.eu/tender/ocds-0c46vo-0009-DN385529-2_DN385529-2/item/1> <http://data.tbfy.eu/ontology/ocds#classificationScheme> "UNSPSC".
+<http://data.tbfy.eu/tender/ocds-0c46vo-0009-DN385529-2_DN385529-2/period> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.tbfy.eu/ontology/ocds#Period>.
+<http://data.tbfy.eu/tender/ocds-0c46vo-0009-DN385529-2_DN385529-2/period> <http://data.tbfy.eu/ontology/ocds#periodStartDate> "2019-01-07T15:12:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://data.tbfy.eu/tender/ocds-0c46vo-0009-DN385529-2_DN385529-2/period> <http://data.tbfy.eu/ontology/ocds#periodEndDate> "2019-01-28T12:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://data.tbfy.eu/tender/ocds-0c46vo-0009-DN385529-2_DN385529-2/document/tender_url> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.tbfy.eu/ontology/ocds#Document>.
+<http://data.tbfy.eu/tender/ocds-0c46vo-0009-DN385529-2_DN385529-2/document/tender_url> <http://data.tbfy.eu/ontology/ocds#documentId> "tender_url"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.tbfy.eu/tender/ocds-0c46vo-0009-DN385529-2_DN385529-2/document/tender_url> <http://data.tbfy.eu/ontology/ocds#documentType> "tenderNotice".
+<http://data.tbfy.eu/tender/ocds-0c46vo-0009-DN385529-2_DN385529-2/document/tender_url> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.tbfy.eu/tender/ocds-0c46vo-0009-DN385529-2_DN385529-2/document/tender_url> <http://schema.org/URL> "https://procontract.due-north.com/Advert?advertId=725b2eb2-8e12-e911-80f0-005056b64545"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.tbfy.eu/contract/ocds-0c46vo-0009-DN385529-2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.tbfy.eu/ontology/ocds#Contract>.
+<http://data.tbfy.eu/contract/ocds-0c46vo-0009-DN385529-2_1> <http://data.tbfy.eu/ontology/ocds#contractId> "1"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.tbfy.eu/contract/ocds-0c46vo-0009-DN385529-2_1> <http://data.tbfy.eu/ontology/ocds#hasContractPeriod> <http://data.tbfy.eu/contract/ocds-0c46vo-0009-DN385529-2_1/contractPeriod>.
+<http://data.tbfy.eu/contract/ocds-0c46vo-0009-DN385529-2_1/contractPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.tbfy.eu/ontology/ocds#Period>.
+<http://data.tbfy.eu/contract/ocds-0c46vo-0009-DN385529-2_1/contractPeriod> <http://data.tbfy.eu/ontology/ocds#periodStartDate> "2019-04-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://data.tbfy.eu/contract/ocds-0c46vo-0009-DN385529-2_1/contractPeriod> <http://data.tbfy.eu/ontology/ocds#periodEndDate> "2019-10-31T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
