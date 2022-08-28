@@ -35,3 +35,4 @@ src/verbalization_tool/drugbank_parameters/LOCK_predicates_tl.txt
 main_nt_*
 
 full_dataset_xml-rdf.rar
+datasets/drugbank/drugbank.nq
