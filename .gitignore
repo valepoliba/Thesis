@@ -36,3 +36,6 @@ main_nt_*
 
 full_dataset_xml-rdf.rar
 datasets/drugbank/drugbank.nq
+data/drugbank.nt
+
+datasets/drugbank/clusters_log
