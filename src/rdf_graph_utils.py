@@ -36,7 +36,7 @@ def rdf_to_text(graph, path, format, name):
     path = os.path.join(path, file)
 
     strings = graph.serialize(format=format)
-    with open(path, 'wb+') as f:
+    with open(path, 'w') as f:
         f.write(strings)
 
 
