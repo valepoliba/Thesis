@@ -1,0 +1,7 @@
+_:blank_62e4b892f5773b0e57e5b5122485f137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Category> .
+_:blank_c03fff518c145a85e70419330f8313ec <http://bio2rdf.org/drugbank_vocabulary:category> _:blank_62e4b892f5773b0e57e5b5122485f137 .
+_:blank_32a2b5e355381e7fbbe15bfcb5cf9401 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Category> .
+_:blank_c03fff518c145a85e70419330f8313ec <http://bio2rdf.org/drugbank_vocabulary:category> _:blank_32a2b5e355381e7fbbe15bfcb5cf9401 .
+_:blank_ce52c2b701f8f0a44642cd27d2057199 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Mechanism-of-action> .
+_:blank_c03fff518c145a85e70419330f8313ec <http://bio2rdf.org/drugbank_vocabulary:affected-organism> <http://bio2rdf.org/drugbank_vocabulary:e1e572616d493b2affcc653e19cbcd21> .
+_:blank_c03fff518c145a85e70419330f8313ec <http://bio2rdf.org/drugbank_vocabulary:mechanism-of-action> _:blank_ce52c2b701f8f0a44642cd27d2057199 .
