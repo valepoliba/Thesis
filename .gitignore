@@ -5,8 +5,6 @@ __pycache__
 venv
 images
 
-
-outputs/*
 results
 src/drugbank_notebook/labels.ipynb
 src/drugbank_notebook/main_nq.ipynb
@@ -38,4 +36,3 @@ full_dataset_xml-rdf.rar
 datasets/drugbank/drugbank.nq
 data/drugbank.nt
 
-datasets/drugbank/clusters_log
