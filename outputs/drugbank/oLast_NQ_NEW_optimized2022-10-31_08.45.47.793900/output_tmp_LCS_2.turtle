@@ -1,0 +1,8 @@
+@prefix ns1: <http://bio2rdf.org/drugbank_vocabulary:> .
+
+[] _:blank_f00b92cf5f654b58919db30c12297488 [ a ns1:Category ],
+        [ a ns1:Mechanism-of-action ] ;
+    ns1:affected-organism ns1:e1e572616d493b2affcc653e19cbcd21 ;
+    ns1:category [ a ns1:Category ] ;
+    ns1:mechanism-of-action [ a ns1:Mechanism-of-action ] .
+
