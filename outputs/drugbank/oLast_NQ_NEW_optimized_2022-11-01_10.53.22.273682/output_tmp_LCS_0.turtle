@@ -1,0 +1,41 @@
+@prefix ns1: <http://bio2rdf.org/drugbank_vocabulary:> .
+
+[] a ns1:Small-molecule ;
+    ns1:target [ ns1:amino-acid-sequence [ ] ;
+            ns1:gene-name [ ] ;
+            ns1:gene-sequence [ ] ;
+            ns1:general-function [ ] ;
+            ns1:go-function [ ],
+                [ ],
+                [ ],
+                [ ],
+                [ ],
+                [ ],
+                [ ],
+                [ ],
+                [ ],
+                [ ],
+                "catalytic activity" ;
+            ns1:go-process [ ],
+                [ ],
+                [ ],
+                [ ],
+                [ ],
+                [ ],
+                [ ],
+                "cellular metabolism",
+                "metabolism",
+                "physiological process" ;
+            ns1:locus [ ] ;
+            ns1:molecular-weight [ ] ;
+            ns1:name [ ] ;
+            ns1:organism "Human" ;
+            ns1:theoretical-pi [ ] ;
+            ns1:transmembrane-regions "None" ;
+            ns1:x-genecards [ ] ;
+            ns1:x-gi [ ] ;
+            ns1:x-hgnc [ ] ;
+            ns1:x-pfam [ ],
+                [ ] ;
+            ns1:x-taxonomy <http://bio2rdf.org/taxonomy:9606> ] .
+
