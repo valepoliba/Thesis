@@ -1,8 +1,0 @@
-accounts
-http://www.influencetracker.com/resource/User/airbnb
-http://www.influencetracker.com/resource/User/britneyspears
-http://www.influencetracker.com/resource/User/twitter
-http://www.influencetracker.com/resource/User/theellenshow
-http://www.influencetracker.com/resource/User/whitehouse
-http://www.influencetracker.com/resource/User/pinterest
-http://www.influencetracker.com/resource/User/billgates

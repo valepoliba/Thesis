@@ -1,4 +1,0 @@
-@prefix ns1: <http://www.influencetracker.com/ontology#> .
-
-[] ns1:hasMentioned [ ] .
-
