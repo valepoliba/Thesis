@@ -1,0 +1,14 @@
+@prefix ns1: <http://bio2rdf.org/drugbank_vocabulary:> .
+
+[] ns1:affected-organism ns1:e1e572616d493b2affcc653e19cbcd21 ;
+    ns1:mechanism-of-action [ a ns1:Mechanism-of-action ] ;
+    ns1:mixture [ a ns1:Mixture ;
+            ns1:ingredient _:blank_2691e86ff8a96a289bd0d8265a41d7d7 ;
+            ns1:ingredients _:blank_7b537bc06dff991bfc3c4228f532c672 ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_2691e86ff8a96a289bd0d8265a41d7d7 ;
+            ns1:ingredients _:blank_7b537bc06dff991bfc3c4228f532c672 ] ;
+    ns1:packager [ ] ;
+    ns1:pharmacodynamics [ a ns1:Pharmacodynamics ] ;
+    ns1:x-dpd [ a <http://bio2rdf.org/dpd_vocabulary:Resource> ] .
+

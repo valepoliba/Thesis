@@ -1,0 +1,20 @@
+@prefix ns1: <http://bio2rdf.org/drugbank_vocabulary:> .
+
+[] [ ] [ a ns1:Pharmacodynamics ] ;
+    _:blank_0d7dd1a0afa83de5adf47366ab163091 [ a ns1:Pharmacodynamics ],
+        [ a ns1:Pharmacodynamics ] ;
+    [ ] [ a ns1:Mechanism-of-action ] ;
+    [ ] [ a ns1:Pharmacodynamics ] ;
+    [ ] [ a ns1:Mechanism-of-action ] ;
+    _:blank_674583e230af66b6834b834564752b89 [ a ns1:Mechanism-of-action ],
+        [ a ns1:Mechanism-of-action ] ;
+    [ ] [ a ns1:Pharmacodynamics ] ;
+    [ ] [ a ns1:Pharmacodynamics ] ;
+    [ ] [ a ns1:Mechanism-of-action ] ;
+    [ ] [ a ns1:Mechanism-of-action ] ;
+    _:blank_d4fcdc7c53e8489173f73dce4a7c2d2d [ a ns1:Pharmacodynamics ],
+        [ a ns1:Mechanism-of-action ] ;
+    ns1:affected-organism ns1:e1e572616d493b2affcc653e19cbcd21 ;
+    ns1:mechanism-of-action [ a ns1:Mechanism-of-action ] ;
+    ns1:pharmacodynamics [ a ns1:Pharmacodynamics ] .
+
