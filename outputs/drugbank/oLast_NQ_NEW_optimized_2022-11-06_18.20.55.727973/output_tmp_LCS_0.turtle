@@ -1,0 +1,861 @@
+@prefix ns1: <http://bio2rdf.org/drugbank_vocabulary:> .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Small-molecule ;
+    [ ] [ ns1:amino-acid-sequence [ ] ;
+            ns1:cellular-location [ ] ;
+            ns1:gene-name [ ] ;
+            ns1:gene-sequence [ ] ;
+            ns1:general-function [ ] ;
+            ns1:go-function [ ],
+                [ ],
+                [ ],
+                [ ],
+                "catalytic activity" ;
+            ns1:go-process [ ],
+                [ ],
+                [ ],
+                [ ],
+                "metabolism",
+                "physiological process" ;
+            ns1:locus [ ] ;
+            ns1:molecular-weight [ ] ;
+            ns1:name [ ] ;
+            ns1:organism "Human" ;
+            ns1:specific-function [ ] ;
+            ns1:theoretical-pi [ ] ;
+            ns1:transmembrane-regions [ ] ;
+            ns1:x-genatlas [ ] ;
+            ns1:x-hgnc [ ] ;
+            ns1:x-pfam [ ],
+                [ ] ;
+            ns1:x-taxonomy <http://bio2rdf.org/taxonomy:9606> ] ;
+    ns1:drug-classification-category [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        [ a ns1:Drug-Classification-Category ],
+        <http://bio2rdf.org/drugbank_resource:0d54035b86f9a43f56ecd493c3a6fd59>,
+        <http://bio2rdf.org/drugbank_resource:19fef74914851915b641a3220447b195>,
+        <http://bio2rdf.org/drugbank_resource:777783f1aa2a1942de1c8b131f0b61e8>,
+        <http://bio2rdf.org/drugbank_resource:b9770c6ac5e8981a362a502f68af5011>,
+        <http://bio2rdf.org/drugbank_resource:e0783716ac65b1e931488d76b4d988fd>,
+        <http://bio2rdf.org/drugbank_resource:fd995433de39b531b3b715234cc0c3bc> ;
+    ns1:target [ a ns1:Target ;
+            ns1:amino-acid-sequence [ ] ;
+            ns1:cellular-location [ ] ;
+            ns1:gene-name [ ] ;
+            ns1:gene-sequence [ ] ;
+            ns1:general-function [ ] ;
+            ns1:go-function [ ],
+                [ ],
+                [ ],
+                [ ],
+                [ ] ;
+            ns1:go-process [ ],
+                [ ],
+                [ ],
+                [ ],
+                [ ],
+                [ ] ;
+            ns1:locus [ ] ;
+            ns1:molecular-weight [ ] ;
+            ns1:name [ ] ;
+            ns1:organism "Human" ;
+            ns1:specific-function [ ] ;
+            ns1:theoretical-pi [ ] ;
+            ns1:transmembrane-regions [ ] ;
+            ns1:x-genatlas [ ] ;
+            ns1:x-genecards [ ] ;
+            ns1:x-gi [ ] ;
+            ns1:x-hgnc [ ] ;
+            ns1:x-pfam [ ],
+                [ ] ;
+            ns1:x-taxonomy <http://bio2rdf.org/taxonomy:9606> ] .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
+[] a ns1:Drug-Classification-Category .
+
