@@ -1,6 +1,7 @@
+"""
 import os, sys
 import datetime
-"""
+
 directory = "outputs/drugbank/oLast_NQ_NEW_optimized" + str(datetime.datetime.now()).replace(":", ".").replace(" ", "_")
 if not os.path.exists(directory):
     os.mkdir(directory)
@@ -29,6 +30,7 @@ print("array1: ", array1)
 print("array2: ", array2)
 
 """
+"""
 iteration = 0
 filecount = 5
 
@@ -36,3 +38,17 @@ if iteration > 0 or (iteration == 0 and filecount > 1):
     print("Entro")
 else:
     print("Non entro")
+"""
+import pandas as pd
+
+# Creo file good_predicates.tsv
+badpredicates = pd.read_csv('datasets/drugbank/bad_predicates.tsv', sep='\t')
+allpredicates = pd.read_csv('datasets/drugbank/all_predicates.tsv', sep='\t')
+arraypredicates = []
+
+for item in allpredicates.iterrows():
+    #if item not in badpredicates.:
+    arraypredicates.append(item)
+
+#print(arraypredicates)
+pd.DataFrame.to_csv('datasets/drugbank/good_predicates.tsv')
