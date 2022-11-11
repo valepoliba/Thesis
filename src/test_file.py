@@ -39,16 +39,18 @@ if iteration > 0 or (iteration == 0 and filecount > 1):
 else:
     print("Non entro")
 """
-import pandas as pd
 
 # Creo file good_predicates.tsv
-badpredicates = pd.read_csv('datasets/drugbank/bad_predicates.tsv', sep='\t')
+import pandas as pd
+import csv
+
 allpredicates = pd.read_csv('datasets/drugbank/all_predicates.tsv', sep='\t')
-arraypredicates = []
+badpredicates = pd.read_csv('datasets/drugbank/bad_predicates.tsv', sep='\t')
+print("Count allpredicates: ", allpredicates.count())
+print("Count badpredicates: ", badpredicates.count())
+#print(badpredicates)
 
-for item in allpredicates.iterrows():
-    #if item not in badpredicates.:
-    arraypredicates.append(item)
-
-#print(arraypredicates)
-pd.DataFrame.to_csv('datasets/drugbank/good_predicates.tsv')
+df = pd.concat([allpredicates, badpredicates]).drop_duplicates(keep=False)
+#print(df)
+print("Count: ", df.count())
+df.to_csv('datasets/drugbank/good_predicates.tsv', index=False, quoting=csv.QUOTE_ALL)
