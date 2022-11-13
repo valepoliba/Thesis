@@ -92,7 +92,7 @@ for line in outputnt.readlines():
 
 print("Count row: ", filecount)
 
-outputietration.close()
+#outputietration.close()
 outputnt.close()
 good_predicates.close()    
 
