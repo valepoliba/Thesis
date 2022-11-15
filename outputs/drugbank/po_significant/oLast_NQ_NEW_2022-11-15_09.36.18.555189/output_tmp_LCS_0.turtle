@@ -1,0 +1,161 @@
+@prefix ns1: <http://bio2rdf.org/drugbank_vocabulary:> .
+
+[] a ns1:Small-molecule ;
+    ns1:mechanism-of-action [ a ns1:Mechanism-of-action ] ;
+    ns1:mixture [ a ns1:Mixture ;
+            ns1:ingredient _:blank_feed8382c7d069a51c27a06aee654ec7 ;
+            ns1:ingredients [ ] ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_ddd52cb9c9a5cdb7fb7509bee1070ed9 ;
+            ns1:ingredients [ ] ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_94e981f456728e6ebce4df2fa2f563e5 ;
+            ns1:ingredients _:blank_4f2e089163f00f8f81bc9872b763afd2 ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_d957d3f16a58e8039bfdc3a8e3d60e5a ;
+            ns1:ingredients _:blank_1d1cf5994f878e32bc1c1c79d01b266f ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_72f0e330e57658d69e7a8bd63416a232 ;
+            ns1:ingredients [ ] ],
+        [ a ns1:Mixture ;
+            ns1:ingredient [ ] ;
+            ns1:ingredients [ ] ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_feed8382c7d069a51c27a06aee654ec7 ;
+            ns1:ingredients _:blank_c53f55dca39da35eb0460119530ac380 ],
+        [ a ns1:Mixture ;
+            ns1:ingredient [ ] ;
+            ns1:ingredients [ ] ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_feed8382c7d069a51c27a06aee654ec7 ;
+            ns1:ingredients _:blank_c53f55dca39da35eb0460119530ac380 ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_ddd52cb9c9a5cdb7fb7509bee1070ed9 ;
+            ns1:ingredients _:blank_c37f5bfa717728c1579d70ab3fe1c78e ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_ddd52cb9c9a5cdb7fb7509bee1070ed9 ;
+            ns1:ingredients [ ] ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_feed8382c7d069a51c27a06aee654ec7 ;
+            ns1:ingredients _:blank_0947f3d16a9a6eed07522e7cbe61a4cf ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_feed8382c7d069a51c27a06aee654ec7 ;
+            ns1:ingredients _:blank_3888d91c4d37b8f3d000896c380a5514 ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_feed8382c7d069a51c27a06aee654ec7 ;
+            ns1:ingredients _:blank_0947f3d16a9a6eed07522e7cbe61a4cf ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_feed8382c7d069a51c27a06aee654ec7 ;
+            ns1:ingredients _:blank_0947f3d16a9a6eed07522e7cbe61a4cf ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_feed8382c7d069a51c27a06aee654ec7 ;
+            ns1:ingredients _:blank_4f2e089163f00f8f81bc9872b763afd2 ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_72f0e330e57658d69e7a8bd63416a232 ;
+            ns1:ingredients _:blank_57ba81812f2fc49abf4f98c8a1bc4c47 ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_feed8382c7d069a51c27a06aee654ec7 ;
+            ns1:ingredients _:blank_0947f3d16a9a6eed07522e7cbe61a4cf ],
+        [ ns1:ingredient [ ] ;
+            ns1:ingredients [ ] ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_94e981f456728e6ebce4df2fa2f563e5 ;
+            ns1:ingredients _:blank_4f2e089163f00f8f81bc9872b763afd2 ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_72f0e330e57658d69e7a8bd63416a232 ;
+            ns1:ingredients [ ] ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_74549ce01110c0d998a3f74684da85f1 ;
+            ns1:ingredients [ ] ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_74549ce01110c0d998a3f74684da85f1 ;
+            ns1:ingredients _:blank_3888d91c4d37b8f3d000896c380a5514 ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_d957d3f16a58e8039bfdc3a8e3d60e5a ;
+            ns1:ingredients _:blank_1d1cf5994f878e32bc1c1c79d01b266f ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_feed8382c7d069a51c27a06aee654ec7 ;
+            ns1:ingredients [ ] ],
+        [ a ns1:Mixture ;
+            ns1:ingredient [ ] ;
+            ns1:ingredients [ ] ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_feed8382c7d069a51c27a06aee654ec7 ;
+            ns1:ingredients _:blank_c53f55dca39da35eb0460119530ac380 ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_74549ce01110c0d998a3f74684da85f1 ;
+            ns1:ingredients _:blank_4f2e089163f00f8f81bc9872b763afd2 ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_ddd52cb9c9a5cdb7fb7509bee1070ed9 ;
+            ns1:ingredients [ ] ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_ddd52cb9c9a5cdb7fb7509bee1070ed9 ;
+            ns1:ingredients [ ] ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_feed8382c7d069a51c27a06aee654ec7 ;
+            ns1:ingredients _:blank_0947f3d16a9a6eed07522e7cbe61a4cf ],
+        [ a ns1:Mixture ;
+            ns1:ingredient [ ] ;
+            ns1:ingredients [ ] ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_72f0e330e57658d69e7a8bd63416a232 ;
+            ns1:ingredients _:blank_c53f55dca39da35eb0460119530ac380 ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_feed8382c7d069a51c27a06aee654ec7 ;
+            ns1:ingredients _:blank_0947f3d16a9a6eed07522e7cbe61a4cf ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_d957d3f16a58e8039bfdc3a8e3d60e5a ;
+            ns1:ingredients _:blank_1d1cf5994f878e32bc1c1c79d01b266f ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_db72b6af44a705f89123a79f11b4d849 ;
+            ns1:ingredients [ ] ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_feed8382c7d069a51c27a06aee654ec7 ;
+            ns1:ingredients [ ] ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_feed8382c7d069a51c27a06aee654ec7 ;
+            ns1:ingredients _:blank_0947f3d16a9a6eed07522e7cbe61a4cf ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_feed8382c7d069a51c27a06aee654ec7 ;
+            ns1:ingredients [ ] ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_feed8382c7d069a51c27a06aee654ec7 ;
+            ns1:ingredients _:blank_0947f3d16a9a6eed07522e7cbe61a4cf ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_feed8382c7d069a51c27a06aee654ec7 ;
+            ns1:ingredients [ ] ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_feed8382c7d069a51c27a06aee654ec7 ;
+            ns1:ingredients _:blank_0947f3d16a9a6eed07522e7cbe61a4cf ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_feed8382c7d069a51c27a06aee654ec7 ;
+            ns1:ingredients _:blank_0947f3d16a9a6eed07522e7cbe61a4cf ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_72f0e330e57658d69e7a8bd63416a232 ;
+            ns1:ingredients _:blank_57ba81812f2fc49abf4f98c8a1bc4c47 ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_72f0e330e57658d69e7a8bd63416a232 ;
+            ns1:ingredients [ ] ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_feed8382c7d069a51c27a06aee654ec7 ;
+            ns1:ingredients _:blank_57ba81812f2fc49abf4f98c8a1bc4c47 ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_db72b6af44a705f89123a79f11b4d849 ;
+            ns1:ingredients _:blank_57ba81812f2fc49abf4f98c8a1bc4c47 ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_feed8382c7d069a51c27a06aee654ec7 ;
+            ns1:ingredients _:blank_0947f3d16a9a6eed07522e7cbe61a4cf ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_feed8382c7d069a51c27a06aee654ec7 ;
+            ns1:ingredients _:blank_0947f3d16a9a6eed07522e7cbe61a4cf ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_feed8382c7d069a51c27a06aee654ec7 ;
+            ns1:ingredients _:blank_c37f5bfa717728c1579d70ab3fe1c78e ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_ddd52cb9c9a5cdb7fb7509bee1070ed9 ;
+            ns1:ingredients [ ] ],
+        [ a ns1:Mixture ;
+            ns1:ingredient _:blank_feed8382c7d069a51c27a06aee654ec7 ;
+            ns1:ingredients [ ] ] ;
+    ns1:route-of-elimination [ a ns1:Route-of-elimination ] .
+

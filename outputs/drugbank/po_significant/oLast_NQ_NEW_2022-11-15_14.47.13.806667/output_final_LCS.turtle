@@ -1,0 +1,7 @@
+@prefix ns1: <http://bio2rdf.org/drugbank_vocabulary:> .
+
+[] a ns1:Small-molecule ;
+    ns1:affected-organism [ a ns1:Affected-organism ] ;
+    ns1:category [ a ns1:Category ],
+        [ a ns1:Category ] .
+

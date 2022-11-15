@@ -1,0 +1,7 @@
+_:blank_6a5e302438488a50b27b07d9c936b044 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Affected-organism> .
+_:blank_053937109c883da340e24ec1461afef5 <http://bio2rdf.org/drugbank_vocabulary:category> _:blank_b8649a37ba76db6a0c5174b6250b0acd .
+_:blank_053937109c883da340e24ec1461afef5 <http://bio2rdf.org/drugbank_vocabulary:category> _:blank_591e53fa2fbc16166b7cbb7a72cf039e .
+_:blank_b8649a37ba76db6a0c5174b6250b0acd <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Category> .
+_:blank_053937109c883da340e24ec1461afef5 <http://bio2rdf.org/drugbank_vocabulary:affected-organism> _:blank_6a5e302438488a50b27b07d9c936b044 .
+_:blank_591e53fa2fbc16166b7cbb7a72cf039e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Category> .
+_:blank_053937109c883da340e24ec1461afef5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Small-molecule> .
