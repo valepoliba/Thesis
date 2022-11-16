@@ -1,0 +1,115 @@
+_:blank_592a9fab2f3051656391e2ccf8c2e9d7 http://bio2rdf.org/drugbank_vocabulary:go-process physiological process . 
+_:blank_a9ff298904ab23cc93bd09c7dd1b71d5 http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions None . 
+_:blank_f4110f7ae26179a7cf0abbe14ff2fb68 http://bio2rdf.org/drugbank_vocabulary:go-process metabolism . 
+_:blank_d620b87999c92e929f0826d63dad220e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+_:blank_5f2217859ebb4c09f56a876a9a0452fb http://bio2rdf.org/drugbank_vocabulary:go-function catalytic activity . 
+_:blank_a9ff298904ab23cc93bd09c7dd1b71d5 http://bio2rdf.org/drugbank_vocabulary:go-process metabolism . 
+_:blank_592a9fab2f3051656391e2ccf8c2e9d7 http://bio2rdf.org/drugbank_vocabulary:go-function catalytic activity . 
+_:blank_6dc133f4a60bd667eb01c8aacf702735 http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions None . 
+_:blank_f0204a1881e9802b6404e3e25d7d7e63 http://bio2rdf.org/drugbank_vocabulary:go-process cellular metabolism . 
+_:blank_5f2217859ebb4c09f56a876a9a0452fb http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+_:blank_325d680920848f70ec6ea679b4c6ac72 http://bio2rdf.org/drugbank_vocabulary:go-process physiological process . 
+_:blank_8c1790146b30f58dffb431701bbd2bb0 http://bio2rdf.org/drugbank_vocabulary:go-function catalytic activity . 
+_:blank_325d680920848f70ec6ea679b4c6ac72 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+_:blank_f4110f7ae26179a7cf0abbe14ff2fb68 http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions None . 
+_:blank_5f2217859ebb4c09f56a876a9a0452fb http://bio2rdf.org/drugbank_vocabulary:go-process cellular metabolism . 
+_:blank_f0204a1881e9802b6404e3e25d7d7e63 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+_:blank_b2499b0bb79cf88b95d006d903564849 http://bio2rdf.org/drugbank_vocabulary:go-process metabolism . 
+_:blank_8ce58d94d515f73f5134c6b11ab382c2 http://bio2rdf.org/drugbank_vocabulary:go-process metabolism . 
+_:blank_b0aee461a9164b1c3be8f0042a57cff3 http://bio2rdf.org/drugbank_vocabulary:go-process cellular metabolism . 
+_:blank_8c1790146b30f58dffb431701bbd2bb0 http://bio2rdf.org/drugbank_vocabulary:go-process cellular metabolism . 
+_:blank_e39061a9d801078e36abbead362478d3 http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions None . 
+_:blank_6dc133f4a60bd667eb01c8aacf702735 http://bio2rdf.org/drugbank_vocabulary:go-process cellular metabolism . 
+_:blank_ae8d81b037a87dd110a92b544c1ed3ff http://bio2rdf.org/drugbank_vocabulary:go-process physiological process . 
+_:blank_dff94e3dceffb342733460af09b585ca http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions None . 
+_:blank_dff94e3dceffb342733460af09b585ca http://bio2rdf.org/drugbank_vocabulary:go-process metabolism . 
+_:blank_b0aee461a9164b1c3be8f0042a57cff3 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+_:blank_ae8d81b037a87dd110a92b544c1ed3ff http://bio2rdf.org/drugbank_vocabulary:go-function catalytic activity . 
+_:blank_6dc133f4a60bd667eb01c8aacf702735 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+_:blank_41d2d6f6c451c757c867b7012ac816c4 http://bio2rdf.org/drugbank_vocabulary:go-process metabolism . 
+_:blank_325d680920848f70ec6ea679b4c6ac72 http://bio2rdf.org/drugbank_vocabulary:go-function catalytic activity . 
+_:blank_d620b87999c92e929f0826d63dad220e http://bio2rdf.org/drugbank_vocabulary:go-process physiological process . 
+_:blank_be211ea4e4d0d4a90f3347f5b6343968 http://bio2rdf.org/drugbank_vocabulary:go-process physiological process . 
+_:blank_325d680920848f70ec6ea679b4c6ac72 http://bio2rdf.org/drugbank_vocabulary:go-process metabolism . 
+_:blank_8529c7bf5110f0c9b4d2ab75ae27065f http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions None . 
+_:blank_5f2217859ebb4c09f56a876a9a0452fb http://bio2rdf.org/drugbank_vocabulary:go-process physiological process . 
+_:blank_41d2d6f6c451c757c867b7012ac816c4 http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions None . 
+_:blank_d620b87999c92e929f0826d63dad220e http://bio2rdf.org/drugbank_vocabulary:go-function catalytic activity . 
+_:blank_a9ff298904ab23cc93bd09c7dd1b71d5 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+_:blank_be211ea4e4d0d4a90f3347f5b6343968 http://bio2rdf.org/drugbank_vocabulary:go-function catalytic activity . 
+_:blank_b0aee461a9164b1c3be8f0042a57cff3 http://bio2rdf.org/drugbank_vocabulary:go-process physiological process . 
+_:blank_7fab09d7977e64bed9fcab34ca3c6789 http://bio2rdf.org/drugbank_vocabulary:go-process metabolism . 
+_:blank_e39061a9d801078e36abbead362478d3 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+_:blank_ae8d81b037a87dd110a92b544c1ed3ff http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions None . 
+_:blank_6dc133f4a60bd667eb01c8aacf702735 http://bio2rdf.org/drugbank_vocabulary:go-process physiological process . 
+_:blank_e39061a9d801078e36abbead362478d3 http://bio2rdf.org/drugbank_vocabulary:go-process cellular metabolism . 
+_:blank_ae8d81b037a87dd110a92b544c1ed3ff http://bio2rdf.org/drugbank_vocabulary:go-process metabolism . 
+_:blank_7fab09d7977e64bed9fcab34ca3c6789 http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions None . 
+_:blank_f4110f7ae26179a7cf0abbe14ff2fb68 http://bio2rdf.org/drugbank_vocabulary:go-process physiological process . 
+_:blank_6dc133f4a60bd667eb01c8aacf702735 http://bio2rdf.org/drugbank_vocabulary:go-function catalytic activity . 
+_:blank_d620b87999c92e929f0826d63dad220e http://bio2rdf.org/drugbank_vocabulary:go-process cellular metabolism . 
+_:blank_a9ff298904ab23cc93bd09c7dd1b71d5 http://bio2rdf.org/drugbank_vocabulary:go-process physiological process . 
+_:blank_be211ea4e4d0d4a90f3347f5b6343968 http://bio2rdf.org/drugbank_vocabulary:go-process cellular metabolism . 
+_:blank_8ce58d94d515f73f5134c6b11ab382c2 http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions None . 
+_:blank_f0204a1881e9802b6404e3e25d7d7e63 http://bio2rdf.org/drugbank_vocabulary:go-process metabolism . 
+_:blank_f4110f7ae26179a7cf0abbe14ff2fb68 http://bio2rdf.org/drugbank_vocabulary:go-function catalytic activity . 
+_:blank_5f2217859ebb4c09f56a876a9a0452fb http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions None . 
+_:blank_dff94e3dceffb342733460af09b585ca http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+_:blank_be211ea4e4d0d4a90f3347f5b6343968 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+_:blank_8529c7bf5110f0c9b4d2ab75ae27065f http://bio2rdf.org/drugbank_vocabulary:go-process cellular metabolism . 
+_:blank_5f2217859ebb4c09f56a876a9a0452fb http://bio2rdf.org/drugbank_vocabulary:go-process metabolism . 
+_:blank_8c1790146b30f58dffb431701bbd2bb0 http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions None . 
+_:blank_b0aee461a9164b1c3be8f0042a57cff3 http://bio2rdf.org/drugbank_vocabulary:go-function catalytic activity . 
+_:blank_592a9fab2f3051656391e2ccf8c2e9d7 http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions None . 
+_:blank_f0204a1881e9802b6404e3e25d7d7e63 http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions None . 
+_:blank_b2499b0bb79cf88b95d006d903564849 http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions None . 
+_:blank_b0aee461a9164b1c3be8f0042a57cff3 http://bio2rdf.org/drugbank_vocabulary:go-process metabolism . 
+_:blank_8529c7bf5110f0c9b4d2ab75ae27065f http://bio2rdf.org/drugbank_vocabulary:go-function catalytic activity . 
+_:blank_8c1790146b30f58dffb431701bbd2bb0 http://bio2rdf.org/drugbank_vocabulary:go-process metabolism . 
+_:blank_592a9fab2f3051656391e2ccf8c2e9d7 http://bio2rdf.org/drugbank_vocabulary:go-process metabolism . 
+_:blank_f4110f7ae26179a7cf0abbe14ff2fb68 http://bio2rdf.org/drugbank_vocabulary:go-process cellular metabolism . 
+_:blank_e39061a9d801078e36abbead362478d3 http://bio2rdf.org/drugbank_vocabulary:go-process physiological process . 
+_:blank_6dc133f4a60bd667eb01c8aacf702735 http://bio2rdf.org/drugbank_vocabulary:go-process metabolism . 
+_:blank_a9ff298904ab23cc93bd09c7dd1b71d5 http://bio2rdf.org/drugbank_vocabulary:go-process cellular metabolism . 
+_:blank_dff94e3dceffb342733460af09b585ca http://bio2rdf.org/drugbank_vocabulary:go-process physiological process . 
+_:blank_8529c7bf5110f0c9b4d2ab75ae27065f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+_:blank_a9ff298904ab23cc93bd09c7dd1b71d5 http://bio2rdf.org/drugbank_vocabulary:go-function catalytic activity . 
+_:blank_8ce58d94d515f73f5134c6b11ab382c2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+_:blank_e39061a9d801078e36abbead362478d3 http://bio2rdf.org/drugbank_vocabulary:go-function catalytic activity . 
+_:blank_f4110f7ae26179a7cf0abbe14ff2fb68 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+_:blank_41d2d6f6c451c757c867b7012ac816c4 http://bio2rdf.org/drugbank_vocabulary:go-process physiological process . 
+_:blank_41d2d6f6c451c757c867b7012ac816c4 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+_:blank_b2499b0bb79cf88b95d006d903564849 http://bio2rdf.org/drugbank_vocabulary:go-process cellular metabolism . 
+_:blank_8ce58d94d515f73f5134c6b11ab382c2 http://bio2rdf.org/drugbank_vocabulary:go-process cellular metabolism . 
+_:blank_8c1790146b30f58dffb431701bbd2bb0 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+_:blank_325d680920848f70ec6ea679b4c6ac72 http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions None . 
+_:blank_8529c7bf5110f0c9b4d2ab75ae27065f http://bio2rdf.org/drugbank_vocabulary:go-process physiological process . 
+_:blank_592a9fab2f3051656391e2ccf8c2e9d7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+_:blank_7fab09d7977e64bed9fcab34ca3c6789 http://bio2rdf.org/drugbank_vocabulary:go-process physiological process . 
+_:blank_b2499b0bb79cf88b95d006d903564849 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+_:blank_7fab09d7977e64bed9fcab34ca3c6789 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+_:blank_a9d01359c1ea276653596700d52a2df1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Small-molecule . 
+_:blank_dff94e3dceffb342733460af09b585ca http://bio2rdf.org/drugbank_vocabulary:go-process cellular metabolism . 
+_:blank_592a9fab2f3051656391e2ccf8c2e9d7 http://bio2rdf.org/drugbank_vocabulary:go-process cellular metabolism . 
+_:blank_dff94e3dceffb342733460af09b585ca http://bio2rdf.org/drugbank_vocabulary:go-function catalytic activity . 
+_:blank_e39061a9d801078e36abbead362478d3 http://bio2rdf.org/drugbank_vocabulary:go-process metabolism . 
+_:blank_41d2d6f6c451c757c867b7012ac816c4 http://bio2rdf.org/drugbank_vocabulary:go-process cellular metabolism . 
+_:blank_d620b87999c92e929f0826d63dad220e http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions None . 
+_:blank_41d2d6f6c451c757c867b7012ac816c4 http://bio2rdf.org/drugbank_vocabulary:go-function catalytic activity . 
+_:blank_325d680920848f70ec6ea679b4c6ac72 http://bio2rdf.org/drugbank_vocabulary:go-process cellular metabolism . 
+_:blank_d620b87999c92e929f0826d63dad220e http://bio2rdf.org/drugbank_vocabulary:go-process metabolism . 
+_:blank_be211ea4e4d0d4a90f3347f5b6343968 http://bio2rdf.org/drugbank_vocabulary:go-process metabolism . 
+_:blank_f0204a1881e9802b6404e3e25d7d7e63 http://bio2rdf.org/drugbank_vocabulary:go-process physiological process . 
+_:blank_b2499b0bb79cf88b95d006d903564849 http://bio2rdf.org/drugbank_vocabulary:go-process physiological process . 
+_:blank_8ce58d94d515f73f5134c6b11ab382c2 http://bio2rdf.org/drugbank_vocabulary:go-process physiological process . 
+_:blank_b0aee461a9164b1c3be8f0042a57cff3 http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions None . 
+_:blank_7fab09d7977e64bed9fcab34ca3c6789 http://bio2rdf.org/drugbank_vocabulary:go-process cellular metabolism . 
+_:blank_ae8d81b037a87dd110a92b544c1ed3ff http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+_:blank_f0204a1881e9802b6404e3e25d7d7e63 http://bio2rdf.org/drugbank_vocabulary:go-function catalytic activity . 
+_:blank_b2499b0bb79cf88b95d006d903564849 http://bio2rdf.org/drugbank_vocabulary:go-function catalytic activity . 
+_:blank_7fab09d7977e64bed9fcab34ca3c6789 http://bio2rdf.org/drugbank_vocabulary:go-function catalytic activity . 
+_:blank_8ce58d94d515f73f5134c6b11ab382c2 http://bio2rdf.org/drugbank_vocabulary:go-function catalytic activity . 
+_:blank_be211ea4e4d0d4a90f3347f5b6343968 http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions None . 
+_:blank_8529c7bf5110f0c9b4d2ab75ae27065f http://bio2rdf.org/drugbank_vocabulary:go-process metabolism . 
+_:blank_ae8d81b037a87dd110a92b544c1ed3ff http://bio2rdf.org/drugbank_vocabulary:go-process cellular metabolism . 
+_:blank_8c1790146b30f58dffb431701bbd2bb0 http://bio2rdf.org/drugbank_vocabulary:go-process physiological process . 

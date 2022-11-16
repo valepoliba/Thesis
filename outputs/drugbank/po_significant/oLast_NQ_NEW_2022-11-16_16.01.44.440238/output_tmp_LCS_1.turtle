@@ -1,0 +1,460 @@
+@prefix ns1: <http://bio2rdf.org/drugbank_vocabulary:> .
+
+[] a ns1:Small-molecule ;
+    _:blank_015b252e47f10040845b4331a5a62845 [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_5251c7965a01e19f9b611b7e925c06cf ;
+            ns1:cellular-location _:blank_ded06c01b868f1cd6687d119374fb443 ;
+            ns1:gene-name _:blank_880d407f16ef17e173e6a71762322842 ;
+            ns1:gene-sequence _:blank_d6ac80d1208686f097a2fe44c3c9662b ;
+            ns1:general-function _:blank_7ff4fde4827eaf2feb208746898ae537 ;
+            ns1:go-function _:blank_1ebdf9857f87788b9762cf67acb17e7e,
+                _:blank_20e3d4341a9c485336ef8f4fb9561124,
+                _:blank_6f648e3ac1924d490162b27da8f94750,
+                "catalytic activity" ;
+            ns1:go-process _:blank_47ccbf6c6c6ebad59d624838958fdaa6,
+                _:blank_4e7e81fa7270123b77bc469a06340ca7,
+                _:blank_620e7aec87145d4fa6390d94f7ef7175,
+                _:blank_c82a9912ad950388fb090c1f2b133ca0,
+                "cellular metabolism",
+                "metabolism",
+                "physiological process" ;
+            ns1:molecular-weight _:blank_cb49d0f14cbc0ac4e9187ae77dbe44b8 ;
+            ns1:specific-function _:blank_8229db3139f8db051a45c6a365c9f83a ;
+            ns1:theoretical-pi _:blank_61c2ea11dd25ddf77bf4f2a18aa2032a ;
+            ns1:transmembrane-regions "None" ;
+            ns1:x-gi _:blank_3b582ff9f9e73686d65837db8d012a79 ;
+            ns1:x-pfam _:blank_9841a14212881649982e683ae60f4bd1 ;
+            ns1:x-taxonomy _:blank_7272432cc5525931e3557c1403248922 ],
+        [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_5251c7965a01e19f9b611b7e925c06cf ;
+            ns1:cellular-location _:blank_ded06c01b868f1cd6687d119374fb443 ;
+            ns1:gene-name _:blank_880d407f16ef17e173e6a71762322842 ;
+            ns1:gene-sequence _:blank_d6ac80d1208686f097a2fe44c3c9662b ;
+            ns1:general-function _:blank_7ff4fde4827eaf2feb208746898ae537 ;
+            ns1:go-function _:blank_1ebdf9857f87788b9762cf67acb17e7e,
+                _:blank_20e3d4341a9c485336ef8f4fb9561124,
+                _:blank_6f648e3ac1924d490162b27da8f94750,
+                "catalytic activity" ;
+            ns1:go-process _:blank_47ccbf6c6c6ebad59d624838958fdaa6,
+                _:blank_4e7e81fa7270123b77bc469a06340ca7,
+                _:blank_620e7aec87145d4fa6390d94f7ef7175,
+                _:blank_c82a9912ad950388fb090c1f2b133ca0,
+                "cellular metabolism",
+                "metabolism",
+                "physiological process" ;
+            ns1:molecular-weight _:blank_cb49d0f14cbc0ac4e9187ae77dbe44b8 ;
+            ns1:specific-function _:blank_8229db3139f8db051a45c6a365c9f83a ;
+            ns1:theoretical-pi _:blank_61c2ea11dd25ddf77bf4f2a18aa2032a ;
+            ns1:transmembrane-regions "None" ;
+            ns1:x-gi _:blank_3b582ff9f9e73686d65837db8d012a79 ;
+            ns1:x-pfam _:blank_9841a14212881649982e683ae60f4bd1 ;
+            ns1:x-taxonomy _:blank_7272432cc5525931e3557c1403248922 ],
+        [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_5251c7965a01e19f9b611b7e925c06cf ;
+            ns1:cellular-location _:blank_ded06c01b868f1cd6687d119374fb443 ;
+            ns1:gene-name _:blank_880d407f16ef17e173e6a71762322842 ;
+            ns1:gene-sequence _:blank_d6ac80d1208686f097a2fe44c3c9662b ;
+            ns1:general-function _:blank_7ff4fde4827eaf2feb208746898ae537 ;
+            ns1:go-function _:blank_1ebdf9857f87788b9762cf67acb17e7e,
+                _:blank_20e3d4341a9c485336ef8f4fb9561124,
+                _:blank_6f648e3ac1924d490162b27da8f94750,
+                "catalytic activity" ;
+            ns1:go-process _:blank_47ccbf6c6c6ebad59d624838958fdaa6,
+                _:blank_4e7e81fa7270123b77bc469a06340ca7,
+                _:blank_620e7aec87145d4fa6390d94f7ef7175,
+                _:blank_c82a9912ad950388fb090c1f2b133ca0,
+                "cellular metabolism",
+                "metabolism",
+                "physiological process" ;
+            ns1:molecular-weight _:blank_cb49d0f14cbc0ac4e9187ae77dbe44b8 ;
+            ns1:specific-function _:blank_8229db3139f8db051a45c6a365c9f83a ;
+            ns1:theoretical-pi _:blank_61c2ea11dd25ddf77bf4f2a18aa2032a ;
+            ns1:transmembrane-regions "None" ;
+            ns1:x-gi _:blank_3b582ff9f9e73686d65837db8d012a79 ;
+            ns1:x-pfam _:blank_9841a14212881649982e683ae60f4bd1 ;
+            ns1:x-taxonomy _:blank_7272432cc5525931e3557c1403248922 ] ;
+    [ ] [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_5251c7965a01e19f9b611b7e925c06cf ;
+            ns1:cellular-location _:blank_ded06c01b868f1cd6687d119374fb443 ;
+            ns1:gene-name _:blank_880d407f16ef17e173e6a71762322842 ;
+            ns1:gene-sequence _:blank_d6ac80d1208686f097a2fe44c3c9662b ;
+            ns1:general-function _:blank_7ff4fde4827eaf2feb208746898ae537 ;
+            ns1:go-function _:blank_1ebdf9857f87788b9762cf67acb17e7e,
+                _:blank_20e3d4341a9c485336ef8f4fb9561124,
+                _:blank_6f648e3ac1924d490162b27da8f94750,
+                "catalytic activity" ;
+            ns1:go-process _:blank_47ccbf6c6c6ebad59d624838958fdaa6,
+                _:blank_4e7e81fa7270123b77bc469a06340ca7,
+                _:blank_620e7aec87145d4fa6390d94f7ef7175,
+                _:blank_c82a9912ad950388fb090c1f2b133ca0,
+                "cellular metabolism",
+                "metabolism",
+                "physiological process" ;
+            ns1:molecular-weight _:blank_cb49d0f14cbc0ac4e9187ae77dbe44b8 ;
+            ns1:specific-function _:blank_8229db3139f8db051a45c6a365c9f83a ;
+            ns1:theoretical-pi _:blank_61c2ea11dd25ddf77bf4f2a18aa2032a ;
+            ns1:transmembrane-regions "None" ;
+            ns1:x-gi _:blank_3b582ff9f9e73686d65837db8d012a79 ;
+            ns1:x-pfam _:blank_9841a14212881649982e683ae60f4bd1 ;
+            ns1:x-taxonomy _:blank_7272432cc5525931e3557c1403248922 ] ;
+    [ ] [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_5251c7965a01e19f9b611b7e925c06cf ;
+            ns1:cellular-location _:blank_ded06c01b868f1cd6687d119374fb443 ;
+            ns1:gene-name _:blank_880d407f16ef17e173e6a71762322842 ;
+            ns1:gene-sequence _:blank_d6ac80d1208686f097a2fe44c3c9662b ;
+            ns1:general-function _:blank_7ff4fde4827eaf2feb208746898ae537 ;
+            ns1:go-function _:blank_1ebdf9857f87788b9762cf67acb17e7e,
+                _:blank_20e3d4341a9c485336ef8f4fb9561124,
+                _:blank_6f648e3ac1924d490162b27da8f94750,
+                "catalytic activity" ;
+            ns1:go-process _:blank_47ccbf6c6c6ebad59d624838958fdaa6,
+                _:blank_4e7e81fa7270123b77bc469a06340ca7,
+                _:blank_620e7aec87145d4fa6390d94f7ef7175,
+                _:blank_c82a9912ad950388fb090c1f2b133ca0,
+                "cellular metabolism",
+                "metabolism",
+                "physiological process" ;
+            ns1:molecular-weight _:blank_cb49d0f14cbc0ac4e9187ae77dbe44b8 ;
+            ns1:specific-function _:blank_8229db3139f8db051a45c6a365c9f83a ;
+            ns1:theoretical-pi _:blank_61c2ea11dd25ddf77bf4f2a18aa2032a ;
+            ns1:transmembrane-regions "None" ;
+            ns1:x-gi _:blank_3b582ff9f9e73686d65837db8d012a79 ;
+            ns1:x-pfam _:blank_9841a14212881649982e683ae60f4bd1 ;
+            ns1:x-taxonomy _:blank_7272432cc5525931e3557c1403248922 ] ;
+    [ ] [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_5251c7965a01e19f9b611b7e925c06cf ;
+            ns1:cellular-location _:blank_ded06c01b868f1cd6687d119374fb443 ;
+            ns1:gene-name _:blank_880d407f16ef17e173e6a71762322842 ;
+            ns1:gene-sequence _:blank_d6ac80d1208686f097a2fe44c3c9662b ;
+            ns1:general-function _:blank_7ff4fde4827eaf2feb208746898ae537 ;
+            ns1:go-function _:blank_1ebdf9857f87788b9762cf67acb17e7e,
+                _:blank_20e3d4341a9c485336ef8f4fb9561124,
+                _:blank_6f648e3ac1924d490162b27da8f94750,
+                "catalytic activity" ;
+            ns1:go-process _:blank_47ccbf6c6c6ebad59d624838958fdaa6,
+                _:blank_4e7e81fa7270123b77bc469a06340ca7,
+                _:blank_620e7aec87145d4fa6390d94f7ef7175,
+                _:blank_c82a9912ad950388fb090c1f2b133ca0,
+                "cellular metabolism",
+                "metabolism",
+                "physiological process" ;
+            ns1:molecular-weight _:blank_cb49d0f14cbc0ac4e9187ae77dbe44b8 ;
+            ns1:specific-function _:blank_8229db3139f8db051a45c6a365c9f83a ;
+            ns1:theoretical-pi _:blank_61c2ea11dd25ddf77bf4f2a18aa2032a ;
+            ns1:transmembrane-regions "None" ;
+            ns1:x-gi _:blank_3b582ff9f9e73686d65837db8d012a79 ;
+            ns1:x-pfam _:blank_9841a14212881649982e683ae60f4bd1 ;
+            ns1:x-taxonomy _:blank_7272432cc5525931e3557c1403248922 ] ;
+    [ ] [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_5251c7965a01e19f9b611b7e925c06cf ;
+            ns1:cellular-location _:blank_ded06c01b868f1cd6687d119374fb443 ;
+            ns1:gene-name _:blank_880d407f16ef17e173e6a71762322842 ;
+            ns1:gene-sequence _:blank_d6ac80d1208686f097a2fe44c3c9662b ;
+            ns1:general-function _:blank_7ff4fde4827eaf2feb208746898ae537 ;
+            ns1:go-function _:blank_1ebdf9857f87788b9762cf67acb17e7e,
+                _:blank_20e3d4341a9c485336ef8f4fb9561124,
+                _:blank_6f648e3ac1924d490162b27da8f94750,
+                "catalytic activity" ;
+            ns1:go-process _:blank_47ccbf6c6c6ebad59d624838958fdaa6,
+                _:blank_4e7e81fa7270123b77bc469a06340ca7,
+                _:blank_620e7aec87145d4fa6390d94f7ef7175,
+                _:blank_c82a9912ad950388fb090c1f2b133ca0,
+                "cellular metabolism",
+                "metabolism",
+                "physiological process" ;
+            ns1:molecular-weight _:blank_cb49d0f14cbc0ac4e9187ae77dbe44b8 ;
+            ns1:specific-function _:blank_8229db3139f8db051a45c6a365c9f83a ;
+            ns1:theoretical-pi _:blank_61c2ea11dd25ddf77bf4f2a18aa2032a ;
+            ns1:transmembrane-regions "None" ;
+            ns1:x-gi _:blank_3b582ff9f9e73686d65837db8d012a79 ;
+            ns1:x-pfam _:blank_9841a14212881649982e683ae60f4bd1 ;
+            ns1:x-taxonomy _:blank_7272432cc5525931e3557c1403248922 ] ;
+    [ ] [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_5251c7965a01e19f9b611b7e925c06cf ;
+            ns1:cellular-location _:blank_ded06c01b868f1cd6687d119374fb443 ;
+            ns1:gene-name _:blank_880d407f16ef17e173e6a71762322842 ;
+            ns1:gene-sequence _:blank_d6ac80d1208686f097a2fe44c3c9662b ;
+            ns1:general-function _:blank_7ff4fde4827eaf2feb208746898ae537 ;
+            ns1:go-function _:blank_1ebdf9857f87788b9762cf67acb17e7e,
+                _:blank_20e3d4341a9c485336ef8f4fb9561124,
+                _:blank_6f648e3ac1924d490162b27da8f94750,
+                "catalytic activity" ;
+            ns1:go-process _:blank_47ccbf6c6c6ebad59d624838958fdaa6,
+                _:blank_4e7e81fa7270123b77bc469a06340ca7,
+                _:blank_620e7aec87145d4fa6390d94f7ef7175,
+                _:blank_c82a9912ad950388fb090c1f2b133ca0,
+                "cellular metabolism",
+                "metabolism",
+                "physiological process" ;
+            ns1:molecular-weight _:blank_cb49d0f14cbc0ac4e9187ae77dbe44b8 ;
+            ns1:specific-function _:blank_8229db3139f8db051a45c6a365c9f83a ;
+            ns1:theoretical-pi _:blank_61c2ea11dd25ddf77bf4f2a18aa2032a ;
+            ns1:transmembrane-regions "None" ;
+            ns1:x-gi _:blank_3b582ff9f9e73686d65837db8d012a79 ;
+            ns1:x-pfam _:blank_9841a14212881649982e683ae60f4bd1 ;
+            ns1:x-taxonomy _:blank_7272432cc5525931e3557c1403248922 ] ;
+    [ ] [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_5251c7965a01e19f9b611b7e925c06cf ;
+            ns1:cellular-location _:blank_ded06c01b868f1cd6687d119374fb443 ;
+            ns1:gene-name _:blank_880d407f16ef17e173e6a71762322842 ;
+            ns1:gene-sequence _:blank_d6ac80d1208686f097a2fe44c3c9662b ;
+            ns1:general-function _:blank_7ff4fde4827eaf2feb208746898ae537 ;
+            ns1:go-function _:blank_1ebdf9857f87788b9762cf67acb17e7e,
+                _:blank_20e3d4341a9c485336ef8f4fb9561124,
+                _:blank_6f648e3ac1924d490162b27da8f94750,
+                "catalytic activity" ;
+            ns1:go-process _:blank_47ccbf6c6c6ebad59d624838958fdaa6,
+                _:blank_4e7e81fa7270123b77bc469a06340ca7,
+                _:blank_620e7aec87145d4fa6390d94f7ef7175,
+                _:blank_c82a9912ad950388fb090c1f2b133ca0,
+                "cellular metabolism",
+                "metabolism",
+                "physiological process" ;
+            ns1:molecular-weight _:blank_cb49d0f14cbc0ac4e9187ae77dbe44b8 ;
+            ns1:specific-function _:blank_8229db3139f8db051a45c6a365c9f83a ;
+            ns1:theoretical-pi _:blank_61c2ea11dd25ddf77bf4f2a18aa2032a ;
+            ns1:transmembrane-regions "None" ;
+            ns1:x-gi _:blank_3b582ff9f9e73686d65837db8d012a79 ;
+            ns1:x-pfam _:blank_9841a14212881649982e683ae60f4bd1 ;
+            ns1:x-taxonomy _:blank_7272432cc5525931e3557c1403248922 ] ;
+    [ ] [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_5251c7965a01e19f9b611b7e925c06cf ;
+            ns1:cellular-location _:blank_ded06c01b868f1cd6687d119374fb443 ;
+            ns1:gene-name _:blank_880d407f16ef17e173e6a71762322842 ;
+            ns1:gene-sequence _:blank_d6ac80d1208686f097a2fe44c3c9662b ;
+            ns1:general-function _:blank_7ff4fde4827eaf2feb208746898ae537 ;
+            ns1:go-function _:blank_1ebdf9857f87788b9762cf67acb17e7e,
+                _:blank_20e3d4341a9c485336ef8f4fb9561124,
+                _:blank_6f648e3ac1924d490162b27da8f94750,
+                "catalytic activity" ;
+            ns1:go-process _:blank_47ccbf6c6c6ebad59d624838958fdaa6,
+                _:blank_4e7e81fa7270123b77bc469a06340ca7,
+                _:blank_620e7aec87145d4fa6390d94f7ef7175,
+                _:blank_c82a9912ad950388fb090c1f2b133ca0,
+                "cellular metabolism",
+                "metabolism",
+                "physiological process" ;
+            ns1:molecular-weight _:blank_cb49d0f14cbc0ac4e9187ae77dbe44b8 ;
+            ns1:specific-function _:blank_8229db3139f8db051a45c6a365c9f83a ;
+            ns1:theoretical-pi _:blank_61c2ea11dd25ddf77bf4f2a18aa2032a ;
+            ns1:transmembrane-regions "None" ;
+            ns1:x-gi _:blank_3b582ff9f9e73686d65837db8d012a79 ;
+            ns1:x-pfam _:blank_9841a14212881649982e683ae60f4bd1 ;
+            ns1:x-taxonomy _:blank_7272432cc5525931e3557c1403248922 ] ;
+    [ ] [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_5251c7965a01e19f9b611b7e925c06cf ;
+            ns1:cellular-location _:blank_ded06c01b868f1cd6687d119374fb443 ;
+            ns1:gene-name _:blank_880d407f16ef17e173e6a71762322842 ;
+            ns1:gene-sequence _:blank_d6ac80d1208686f097a2fe44c3c9662b ;
+            ns1:general-function _:blank_7ff4fde4827eaf2feb208746898ae537 ;
+            ns1:go-function _:blank_1ebdf9857f87788b9762cf67acb17e7e,
+                _:blank_20e3d4341a9c485336ef8f4fb9561124,
+                _:blank_6f648e3ac1924d490162b27da8f94750,
+                "catalytic activity" ;
+            ns1:go-process _:blank_47ccbf6c6c6ebad59d624838958fdaa6,
+                _:blank_4e7e81fa7270123b77bc469a06340ca7,
+                _:blank_620e7aec87145d4fa6390d94f7ef7175,
+                _:blank_c82a9912ad950388fb090c1f2b133ca0,
+                "cellular metabolism",
+                "metabolism",
+                "physiological process" ;
+            ns1:molecular-weight _:blank_cb49d0f14cbc0ac4e9187ae77dbe44b8 ;
+            ns1:specific-function _:blank_8229db3139f8db051a45c6a365c9f83a ;
+            ns1:theoretical-pi _:blank_61c2ea11dd25ddf77bf4f2a18aa2032a ;
+            ns1:transmembrane-regions "None" ;
+            ns1:x-gi _:blank_3b582ff9f9e73686d65837db8d012a79 ;
+            ns1:x-pfam _:blank_9841a14212881649982e683ae60f4bd1 ;
+            ns1:x-taxonomy _:blank_7272432cc5525931e3557c1403248922 ] ;
+    [ ] [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_5251c7965a01e19f9b611b7e925c06cf ;
+            ns1:cellular-location _:blank_ded06c01b868f1cd6687d119374fb443 ;
+            ns1:gene-name _:blank_880d407f16ef17e173e6a71762322842 ;
+            ns1:gene-sequence _:blank_d6ac80d1208686f097a2fe44c3c9662b ;
+            ns1:general-function _:blank_7ff4fde4827eaf2feb208746898ae537 ;
+            ns1:go-function _:blank_1ebdf9857f87788b9762cf67acb17e7e,
+                _:blank_20e3d4341a9c485336ef8f4fb9561124,
+                _:blank_6f648e3ac1924d490162b27da8f94750,
+                "catalytic activity" ;
+            ns1:go-process _:blank_47ccbf6c6c6ebad59d624838958fdaa6,
+                _:blank_4e7e81fa7270123b77bc469a06340ca7,
+                _:blank_620e7aec87145d4fa6390d94f7ef7175,
+                _:blank_c82a9912ad950388fb090c1f2b133ca0,
+                "cellular metabolism",
+                "metabolism",
+                "physiological process" ;
+            ns1:molecular-weight _:blank_cb49d0f14cbc0ac4e9187ae77dbe44b8 ;
+            ns1:specific-function _:blank_8229db3139f8db051a45c6a365c9f83a ;
+            ns1:theoretical-pi _:blank_61c2ea11dd25ddf77bf4f2a18aa2032a ;
+            ns1:transmembrane-regions "None" ;
+            ns1:x-gi _:blank_3b582ff9f9e73686d65837db8d012a79 ;
+            ns1:x-pfam _:blank_9841a14212881649982e683ae60f4bd1 ;
+            ns1:x-taxonomy _:blank_7272432cc5525931e3557c1403248922 ] ;
+    _:blank_dcfe261d60e82d8409678cfb8301e333 [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_5251c7965a01e19f9b611b7e925c06cf ;
+            ns1:cellular-location _:blank_ded06c01b868f1cd6687d119374fb443 ;
+            ns1:gene-name _:blank_880d407f16ef17e173e6a71762322842 ;
+            ns1:gene-sequence _:blank_d6ac80d1208686f097a2fe44c3c9662b ;
+            ns1:general-function _:blank_7ff4fde4827eaf2feb208746898ae537 ;
+            ns1:go-function _:blank_1ebdf9857f87788b9762cf67acb17e7e,
+                _:blank_20e3d4341a9c485336ef8f4fb9561124,
+                _:blank_6f648e3ac1924d490162b27da8f94750,
+                "catalytic activity" ;
+            ns1:go-process _:blank_47ccbf6c6c6ebad59d624838958fdaa6,
+                _:blank_4e7e81fa7270123b77bc469a06340ca7,
+                _:blank_620e7aec87145d4fa6390d94f7ef7175,
+                _:blank_c82a9912ad950388fb090c1f2b133ca0,
+                "cellular metabolism",
+                "metabolism",
+                "physiological process" ;
+            ns1:molecular-weight _:blank_cb49d0f14cbc0ac4e9187ae77dbe44b8 ;
+            ns1:specific-function _:blank_8229db3139f8db051a45c6a365c9f83a ;
+            ns1:theoretical-pi _:blank_61c2ea11dd25ddf77bf4f2a18aa2032a ;
+            ns1:transmembrane-regions "None" ;
+            ns1:x-gi _:blank_3b582ff9f9e73686d65837db8d012a79 ;
+            ns1:x-pfam _:blank_9841a14212881649982e683ae60f4bd1 ;
+            ns1:x-taxonomy _:blank_7272432cc5525931e3557c1403248922 ],
+        [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_5251c7965a01e19f9b611b7e925c06cf ;
+            ns1:cellular-location _:blank_ded06c01b868f1cd6687d119374fb443 ;
+            ns1:gene-name _:blank_880d407f16ef17e173e6a71762322842 ;
+            ns1:gene-sequence _:blank_d6ac80d1208686f097a2fe44c3c9662b ;
+            ns1:general-function _:blank_7ff4fde4827eaf2feb208746898ae537 ;
+            ns1:go-function _:blank_1ebdf9857f87788b9762cf67acb17e7e,
+                _:blank_20e3d4341a9c485336ef8f4fb9561124,
+                _:blank_6f648e3ac1924d490162b27da8f94750,
+                "catalytic activity" ;
+            ns1:go-process _:blank_47ccbf6c6c6ebad59d624838958fdaa6,
+                _:blank_4e7e81fa7270123b77bc469a06340ca7,
+                _:blank_620e7aec87145d4fa6390d94f7ef7175,
+                _:blank_c82a9912ad950388fb090c1f2b133ca0,
+                "cellular metabolism",
+                "metabolism",
+                "physiological process" ;
+            ns1:molecular-weight _:blank_cb49d0f14cbc0ac4e9187ae77dbe44b8 ;
+            ns1:specific-function _:blank_8229db3139f8db051a45c6a365c9f83a ;
+            ns1:theoretical-pi _:blank_61c2ea11dd25ddf77bf4f2a18aa2032a ;
+            ns1:transmembrane-regions "None" ;
+            ns1:x-gi _:blank_3b582ff9f9e73686d65837db8d012a79 ;
+            ns1:x-pfam _:blank_9841a14212881649982e683ae60f4bd1 ;
+            ns1:x-taxonomy _:blank_7272432cc5525931e3557c1403248922 ],
+        [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_5251c7965a01e19f9b611b7e925c06cf ;
+            ns1:cellular-location _:blank_ded06c01b868f1cd6687d119374fb443 ;
+            ns1:gene-name _:blank_880d407f16ef17e173e6a71762322842 ;
+            ns1:gene-sequence _:blank_d6ac80d1208686f097a2fe44c3c9662b ;
+            ns1:general-function _:blank_7ff4fde4827eaf2feb208746898ae537 ;
+            ns1:go-function _:blank_1ebdf9857f87788b9762cf67acb17e7e,
+                _:blank_20e3d4341a9c485336ef8f4fb9561124,
+                _:blank_6f648e3ac1924d490162b27da8f94750,
+                "catalytic activity" ;
+            ns1:go-process _:blank_47ccbf6c6c6ebad59d624838958fdaa6,
+                _:blank_4e7e81fa7270123b77bc469a06340ca7,
+                _:blank_620e7aec87145d4fa6390d94f7ef7175,
+                _:blank_c82a9912ad950388fb090c1f2b133ca0,
+                "cellular metabolism",
+                "metabolism",
+                "physiological process" ;
+            ns1:molecular-weight _:blank_cb49d0f14cbc0ac4e9187ae77dbe44b8 ;
+            ns1:specific-function _:blank_8229db3139f8db051a45c6a365c9f83a ;
+            ns1:theoretical-pi _:blank_61c2ea11dd25ddf77bf4f2a18aa2032a ;
+            ns1:transmembrane-regions "None" ;
+            ns1:x-gi _:blank_3b582ff9f9e73686d65837db8d012a79 ;
+            ns1:x-pfam _:blank_9841a14212881649982e683ae60f4bd1 ;
+            ns1:x-taxonomy _:blank_7272432cc5525931e3557c1403248922 ],
+        [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_5251c7965a01e19f9b611b7e925c06cf ;
+            ns1:cellular-location _:blank_ded06c01b868f1cd6687d119374fb443 ;
+            ns1:gene-name _:blank_880d407f16ef17e173e6a71762322842 ;
+            ns1:gene-sequence _:blank_d6ac80d1208686f097a2fe44c3c9662b ;
+            ns1:general-function _:blank_7ff4fde4827eaf2feb208746898ae537 ;
+            ns1:go-function _:blank_1ebdf9857f87788b9762cf67acb17e7e,
+                _:blank_20e3d4341a9c485336ef8f4fb9561124,
+                _:blank_6f648e3ac1924d490162b27da8f94750,
+                "catalytic activity" ;
+            ns1:go-process _:blank_47ccbf6c6c6ebad59d624838958fdaa6,
+                _:blank_4e7e81fa7270123b77bc469a06340ca7,
+                _:blank_620e7aec87145d4fa6390d94f7ef7175,
+                _:blank_c82a9912ad950388fb090c1f2b133ca0,
+                "cellular metabolism",
+                "metabolism",
+                "physiological process" ;
+            ns1:molecular-weight _:blank_cb49d0f14cbc0ac4e9187ae77dbe44b8 ;
+            ns1:specific-function _:blank_8229db3139f8db051a45c6a365c9f83a ;
+            ns1:theoretical-pi _:blank_61c2ea11dd25ddf77bf4f2a18aa2032a ;
+            ns1:transmembrane-regions "None" ;
+            ns1:x-gi _:blank_3b582ff9f9e73686d65837db8d012a79 ;
+            ns1:x-pfam _:blank_9841a14212881649982e683ae60f4bd1 ;
+            ns1:x-taxonomy _:blank_7272432cc5525931e3557c1403248922 ] ;
+    [ ] [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_5251c7965a01e19f9b611b7e925c06cf ;
+            ns1:cellular-location _:blank_ded06c01b868f1cd6687d119374fb443 ;
+            ns1:gene-name _:blank_880d407f16ef17e173e6a71762322842 ;
+            ns1:gene-sequence _:blank_d6ac80d1208686f097a2fe44c3c9662b ;
+            ns1:general-function _:blank_7ff4fde4827eaf2feb208746898ae537 ;
+            ns1:go-function _:blank_1ebdf9857f87788b9762cf67acb17e7e,
+                _:blank_20e3d4341a9c485336ef8f4fb9561124,
+                _:blank_6f648e3ac1924d490162b27da8f94750,
+                "catalytic activity" ;
+            ns1:go-process _:blank_47ccbf6c6c6ebad59d624838958fdaa6,
+                _:blank_4e7e81fa7270123b77bc469a06340ca7,
+                _:blank_620e7aec87145d4fa6390d94f7ef7175,
+                _:blank_c82a9912ad950388fb090c1f2b133ca0,
+                "cellular metabolism",
+                "metabolism",
+                "physiological process" ;
+            ns1:molecular-weight _:blank_cb49d0f14cbc0ac4e9187ae77dbe44b8 ;
+            ns1:specific-function _:blank_8229db3139f8db051a45c6a365c9f83a ;
+            ns1:theoretical-pi _:blank_61c2ea11dd25ddf77bf4f2a18aa2032a ;
+            ns1:transmembrane-regions "None" ;
+            ns1:x-gi _:blank_3b582ff9f9e73686d65837db8d012a79 ;
+            ns1:x-pfam _:blank_9841a14212881649982e683ae60f4bd1 ;
+            ns1:x-taxonomy _:blank_7272432cc5525931e3557c1403248922 ] ;
+    [ ] [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_5251c7965a01e19f9b611b7e925c06cf ;
+            ns1:cellular-location _:blank_ded06c01b868f1cd6687d119374fb443 ;
+            ns1:gene-name _:blank_880d407f16ef17e173e6a71762322842 ;
+            ns1:gene-sequence _:blank_d6ac80d1208686f097a2fe44c3c9662b ;
+            ns1:general-function _:blank_7ff4fde4827eaf2feb208746898ae537 ;
+            ns1:go-function _:blank_1ebdf9857f87788b9762cf67acb17e7e,
+                _:blank_20e3d4341a9c485336ef8f4fb9561124,
+                _:blank_6f648e3ac1924d490162b27da8f94750,
+                "catalytic activity" ;
+            ns1:go-process _:blank_47ccbf6c6c6ebad59d624838958fdaa6,
+                _:blank_4e7e81fa7270123b77bc469a06340ca7,
+                _:blank_620e7aec87145d4fa6390d94f7ef7175,
+                _:blank_c82a9912ad950388fb090c1f2b133ca0,
+                "cellular metabolism",
+                "metabolism",
+                "physiological process" ;
+            ns1:molecular-weight _:blank_cb49d0f14cbc0ac4e9187ae77dbe44b8 ;
+            ns1:specific-function _:blank_8229db3139f8db051a45c6a365c9f83a ;
+            ns1:theoretical-pi _:blank_61c2ea11dd25ddf77bf4f2a18aa2032a ;
+            ns1:transmembrane-regions "None" ;
+            ns1:x-gi _:blank_3b582ff9f9e73686d65837db8d012a79 ;
+            ns1:x-pfam _:blank_9841a14212881649982e683ae60f4bd1 ;
+            ns1:x-taxonomy _:blank_7272432cc5525931e3557c1403248922 ] ;
+    ns1:target [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_5251c7965a01e19f9b611b7e925c06cf ;
+            ns1:cellular-location _:blank_ded06c01b868f1cd6687d119374fb443 ;
+            ns1:gene-name _:blank_880d407f16ef17e173e6a71762322842 ;
+            ns1:gene-sequence _:blank_d6ac80d1208686f097a2fe44c3c9662b ;
+            ns1:general-function _:blank_7ff4fde4827eaf2feb208746898ae537 ;
+            ns1:go-function _:blank_1ebdf9857f87788b9762cf67acb17e7e,
+                _:blank_20e3d4341a9c485336ef8f4fb9561124,
+                _:blank_6f648e3ac1924d490162b27da8f94750,
+                "catalytic activity" ;
+            ns1:go-process _:blank_47ccbf6c6c6ebad59d624838958fdaa6,
+                _:blank_4e7e81fa7270123b77bc469a06340ca7,
+                _:blank_620e7aec87145d4fa6390d94f7ef7175,
+                _:blank_c82a9912ad950388fb090c1f2b133ca0,
+                "cellular metabolism",
+                "metabolism",
+                "physiological process" ;
+            ns1:molecular-weight _:blank_cb49d0f14cbc0ac4e9187ae77dbe44b8 ;
+            ns1:specific-function _:blank_8229db3139f8db051a45c6a365c9f83a ;
+            ns1:theoretical-pi _:blank_61c2ea11dd25ddf77bf4f2a18aa2032a ;
+            ns1:transmembrane-regions "None" ;
+            ns1:x-gi _:blank_3b582ff9f9e73686d65837db8d012a79 ;
+            ns1:x-pfam _:blank_9841a14212881649982e683ae60f4bd1 ;
+            ns1:x-taxonomy _:blank_7272432cc5525931e3557c1403248922 ] .
+

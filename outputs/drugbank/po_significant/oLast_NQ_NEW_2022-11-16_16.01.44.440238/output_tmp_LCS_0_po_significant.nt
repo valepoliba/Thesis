@@ -1,0 +1,7 @@
+_:blank_8f5b1794686f50eaff1d656f22562ae1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Small-molecule . 
+_:blank_0a9b6c0cd540fa5f7c8a6f0317f9609e http://bio2rdf.org/drugbank_vocabulary:go-process metabolism . 
+_:blank_0a9b6c0cd540fa5f7c8a6f0317f9609e http://bio2rdf.org/drugbank_vocabulary:go-process cellular metabolism . 
+_:blank_0a9b6c0cd540fa5f7c8a6f0317f9609e http://bio2rdf.org/drugbank_vocabulary:go-function catalytic activity . 
+_:blank_0a9b6c0cd540fa5f7c8a6f0317f9609e http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions None . 
+_:blank_0a9b6c0cd540fa5f7c8a6f0317f9609e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+_:blank_0a9b6c0cd540fa5f7c8a6f0317f9609e http://bio2rdf.org/drugbank_vocabulary:go-process physiological process . 

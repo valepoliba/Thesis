@@ -75,7 +75,7 @@ for s, p, o in g:
         if _is_valid_uri(p):
             print(p)
 """
-
+"""
 with open('datasets/drugbank/good_predicates.tsv', 'r') as good_predicates:
     gp = good_predicates.read().split()
 outputnt = open('outputs/drugbank/oLast_NQ_NEW_3/output_tmp_LCS_0.nt', 'r')
@@ -87,12 +87,63 @@ for line in outputnt.readlines():
         if not ('_:blank_' in o) and not ('_:blank_' in p):
             for goodline in gp:
                 if goodline == p:
-                    outputietration.write(p + '\n')
+                    outputietration.write(s + ' ' + p + ' ' + o + ' ' + _ + ' ' + '\n')
                     filecount += 1
 
 print("Count row: ", filecount)
 
-#outputietration.close()
+outputietration.close()
 outputnt.close()
 good_predicates.close()    
+"""
+#po1 = pd.read_csv('outputs/drugbank/po_significant/oLast_NQ_NEW_2022-11-16_15.11.01.877589/output_tmp_LCS_0_po_significant.nt', sep='\t')
+#po2 = pd.read_csv('outputs/drugbank/po_significant/oLast_NQ_NEW_2022-11-16_15.11.01.877589/output_tmp_LCS_1_po_significant.nt', sep='\t')
+#print("Count po1: ", po1.count())
+#print("Count po2: ", po2.count())
+#df = pd.concat([po1, po2])
+#print(df)
+#print("Count: ", df.count())
+"""
+po1 = open('outputs/drugbank/po_significant/oLast_NQ_NEW_2022-11-16_15.11.01.877589/output_tmp_LCS_0_po_significant.nt', 'r')
+po2 = open('outputs/drugbank/po_significant/oLast_NQ_NEW_2022-11-16_15.11.01.877589/output_tmp_LCS_1_po_significant.nt', 'r')
+outputietrationdifference =  open('outputs/drugbank/po_significant/oLast_NQ_NEW_2022-11-16_15.11.01.877589/output_tmp_LCS_0_po_difference.nt', 'a')
+for line in po1.readlines():
+        line = line.replace('<', '').replace('>', '')
+        s, p, o, _ = shlex.split(line)
+        po2.seek(0)
+        for line2 in po2.readlines():
+            line2 = line2.replace('<', '').replace('>', '')
+            s2, p2, o2, dot = shlex.split(line2)
+            if p != p2 or o != o2:
+                outputietrationdifference.write('DIFFERENCE' + '\n')
+                outputietrationdifference.write(s + ' ' + p + ' ' + o + ' ' + _ + ' ' + '\n')
+                outputietrationdifference.write(s2 + ' ' + p2 + ' ' + o2 + ' ' + dot + ' ' + '\n\n')
 
+outputietrationdifference.close()
+"""
+"""
+if iteration != 0:
+    po1 = open(directory + '/output_tmp_LCS_' + str(iteration-1) + '_po_significant.nt', 'r')
+    po2 = open(directory + '/output_tmp_LCS_' + str(iteration) + '_po_significant.nt', 'r')
+    outputietrationdifference =  open(directory + '/output_tmp_LCS_' + str(iteration) + '_po_difference.nt', 'a')
+    for line in po1.readlines():
+            line = line.replace('<', '').replace('>', '')
+            s, p, o, _ = shlex.split(line)
+            po2.seek(0)
+            for line2 in po2.readlines():
+                line2 = line2.replace('<', '').replace('>', '')
+                s2, p2, o2, dot = shlex.split(line2)
+                if p != p2 or o != o2:
+                    outputietrationdifference.write('DIFFERENCE' + '\n')
+                    outputietrationdifference.write(s + ' ' + p + ' ' + o + ' ' + _ + ' ' + '\n')
+                    outputietrationdifference.write(s2 + ' ' + p2 + ' ' + o2 + ' ' + dot + ' ' + '\n\n')
+
+    outputietrationdifference.close()
+"""  
+
+outputnt = open('outputs\drugbank\po_significant\oLast_NQ_NEW_2022-11-16_16.01.44.440238\output_tmp_LCS_0.nt', 'r')
+for line in outputnt.readlines():
+    line = line.replace('<', '').replace('>', '')
+    s, p, o, _ = shlex.split(line)
+    if not ('_:blank_' in p) and not ('_:blank_' in o) and ('http' in o):
+        print(s + ' ' + p + ' ' + o + ' ' + _ + ' ' + '\n')
