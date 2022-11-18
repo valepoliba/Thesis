@@ -140,10 +140,29 @@ if iteration != 0:
 
     outputietrationdifference.close()
 """  
-
+"""
 outputnt = open('outputs\drugbank\po_significant\oLast_NQ_NEW_2022-11-16_16.01.44.440238\output_tmp_LCS_0.nt', 'r')
 for line in outputnt.readlines():
     line = line.replace('<', '').replace('>', '')
     s, p, o, _ = shlex.split(line)
     if not ('_:blank_' in p) and not ('_:blank_' in o) and ('http' in o):
         print(s + ' ' + p + ' ' + o + ' ' + _ + ' ' + '\n')
+"""
+import difflib
+ 
+with open('outputs\drugbank\po_significant\oLast_NQ_NEW_2022-11-17_16.27.09.816007\output_tmp_LCS_0_po_significant.nt') as file_1:
+    file_1_text = file_1.readlines()
+ 
+with open('outputs\drugbank\po_significant\oLast_NQ_NEW_2022-11-17_16.27.09.816007\output_tmp_LCS_1_po_significant.nt') as file_2:
+    file_2_text = file_2.readlines()
+
+outputietrationdifference =  open('test1.nt', 'a')
+# Find and print the diff:
+for line in difflib.unified_diff(
+        file_1_text, file_2_text, fromfile='outputs\drugbank\po_significant\oLast_NQ_NEW_2022-11-17_16.27.09.816007\output_tmp_LCS_0_po_significant.nt',
+        tofile='outputs\drugbank\po_significant\oLast_NQ_NEW_2022-11-17_16.27.09.816007\output_tmp_LCS_1_po_significant.nt', lineterm='', n=0):
+    #print(line)
+    outputietrationdifference.write(line + '\n')
+
+outputietrationdifference.close()
+

@@ -1,0 +1,7 @@
+--- outputs\drugbank\po_significant\oLast_NQ_NEW_2022-11-17_16.27.09.816007\output_tmp_LCS_0_po_significant.nt
++++ outputs\drugbank\po_significant\oLast_NQ_NEW_2022-11-17_16.27.09.816007\output_tmp_LCS_1_po_significant.nt
+@@ -1 +1 @@
+-http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Absorption . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Pharmacodynamics . 
+
