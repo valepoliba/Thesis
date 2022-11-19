@@ -149,20 +149,21 @@ for line in outputnt.readlines():
         print(s + ' ' + p + ' ' + o + ' ' + _ + ' ' + '\n')
 """
 import difflib
+import os
  
 with open('outputs\drugbank\po_significant\oLast_NQ_NEW_2022-11-17_16.27.09.816007\output_tmp_LCS_0_po_significant.nt') as file_1:
     file_1_text = file_1.readlines()
  
 with open('outputs\drugbank\po_significant\oLast_NQ_NEW_2022-11-17_16.27.09.816007\output_tmp_LCS_1_po_significant.nt') as file_2:
     file_2_text = file_2.readlines()
-
+outputietrationdifference =  open('outputs\drugbank\po_significant\oLast_NQ_NEW_2022-11-17_16.27.09.816007\output_tmp_LCS_' + str(iteration) + '_po_difference.nt', 'a')
 outputietrationdifference =  open('test1.nt', 'a')
 # Find and print the diff:
 for line in difflib.unified_diff(
-        file_1_text, file_2_text, fromfile='outputs\drugbank\po_significant\oLast_NQ_NEW_2022-11-17_16.27.09.816007\output_tmp_LCS_0_po_significant.nt',
-        tofile='outputs\drugbank\po_significant\oLast_NQ_NEW_2022-11-17_16.27.09.816007\output_tmp_LCS_1_po_significant.nt', lineterm='', n=0):
+        file_1_text, file_2_text, fromfile=str(file_1), tofile=str(file_2), lineterm='', n=0):
     #print(line)
     outputietrationdifference.write(line + '\n')
 
 outputietrationdifference.close()
+os.remove('test1.nt')
 

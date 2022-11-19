@@ -1,0 +1,32 @@
+@prefix ns1: <http://bio2rdf.org/drugbank_vocabulary:> .
+
+[] ns1:affected-organism ns1:e1e572616d493b2affcc653e19cbcd21 ;
+    ns1:pharmacodynamics [ a ns1:Pharmacodynamics ] ;
+    ns1:target [ a ns1:Target ;
+            ns1:amino-acid-sequence [ ] ;
+            ns1:cellular-location [ ] ;
+            ns1:gene-name [ ] ;
+            ns1:gene-sequence [ ] ;
+            ns1:general-function [ ] ;
+            ns1:go-component [ ],
+                [ ],
+                "cell",
+                "membrane" ;
+            ns1:go-function [ ] ;
+            ns1:go-process [ ],
+                [ ],
+                [ ] ;
+            ns1:locus [ ] ;
+            ns1:molecular-weight [ ] ;
+            ns1:name [ ] ;
+            ns1:organism "Human" ;
+            ns1:specific-function [ ] ;
+            ns1:theoretical-pi [ ] ;
+            ns1:transmembrane-regions [ ] ;
+            ns1:x-genatlas [ ] ;
+            ns1:x-genecards [ ] ;
+            ns1:x-gi [ ] ;
+            ns1:x-hgnc [ ] ;
+            ns1:x-pfam [ ] ;
+            ns1:x-taxonomy <http://bio2rdf.org/taxonomy:9606> ] .
+

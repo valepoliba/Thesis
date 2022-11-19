@@ -1,0 +1,73 @@
+--- outputs\drugbank\po_significant\oLast_NQ_NEW_2022-11-17_16.27.09.816007\output_tmp_LCS_0_po_significant.nt
++++ outputs\drugbank\po_significant\oLast_NQ_NEW_2022-11-17_16.27.09.816007\output_tmp_LCS_1_po_significant.nt
+@@ -1 +1 @@
+-http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Absorption . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Pharmacodynamics . 
+
+# gestione numero predicato-oggetto significativi
+    outputnt = open(directory + '/output_tmp_LCS_' + str(iteration) + '.nt', 'r')
+    outputietration =  open(directory + '/output_tmp_LCS_' + str(iteration) + '_po_significant.nt', 'a')
+    filecount = 0
+    for line in outputnt.readlines():
+          line = line.replace('<', '').replace('>', '')
+          s, p, o, _ = shlex.split(line)
+          if not ('_:blank_' in p) and not ('_:blank_' in o) and ('http' in o):
+                for goodline in gp:
+                  if goodline == p:
+                      outputietration.write(s + ' ' + p + ' ' + o + ' ' + _ + ' ' + '\n')
+                      filecount += 1
+    print('Count significant row: ', filecount)
+    outputietration.close()
+    outputnt.close()
+    
+    diffcheck = False
+    # confronto con iterazione precedente dei po significativi
+    if iteration != 0:
+      po1 = open(directory + '/output_tmp_LCS_' + str(iteration-1) + '_po_significant.nt', 'r')
+      po2 = open(directory + '/output_tmp_LCS_' + str(iteration) + '_po_significant.nt', 'r')
+      outputietrationdifference =  open(directory + '/output_tmp_LCS_' + str(iteration) + '_po_difference.nt', 'a')
+      for linepo1 in po1.readlines():
+            linepo1 = linepo1.replace('<', '').replace('>', '')
+            s, p, o, _ = shlex.split(linepo1)
+            po2.seek(0)
+            for linepo2 in po2.readlines():
+                  linepo2 = linepo2.replace('<', '').replace('>', '')
+                  s2, p2, o2, dot = shlex.split(linepo2)
+                  if p != p2 or o != o2:
+                        outputietrationdifference.write('DIFFERENCE' + '\n')
+                        outputietrationdifference.write(s + ' ' + p + ' ' + o + ' ' + _ + ' ' + '\n')
+                        outputietrationdifference.write(s2 + ' ' + p2 + ' ' + o2 + ' ' + dot + ' ' + '\n\n')
+                        diffcheck = True
+
+      if diffcheck == False:
+            outputietrationdifference.write('NO DIFFERENCE WAS FOUND')
+
+      outputietrationdifference.close()  
+
+
+
+
+
+
+
+
+
+ diffcheck = False
+    # confronto con iterazione precedente dei po significativi
+    if iteration != 0:
+      po1 = open(directory + '/output_tmp_LCS_' + str(iteration-1) + '_po_significant.nt', 'r')
+      po2 = open(directory + '/output_tmp_LCS_' + str(iteration) + '_po_significant.nt', 'r')
+      outputietrationdifference =  open(directory + '/output_tmp_LCS_' + str(iteration) + '_po_difference.nt', 'a')
+      for linepo1 in po1.readlines():
+            linepo1 = linepo1.replace('<', '').replace('>', '')
+            s, p, o, _ = shlex.split(linepo1)
+            po2.seek(0)
+            for linepo2 in po2.readlines():
+                  linepo2 = linepo2.replace('<', '').replace('>', '')
+                  s2, p2, o2, dot = shlex.split(linepo2)
+                  if p != p2 or o != o2:
+                        outputietrationdifference.write('DIFFERENCE' + '\n')
+                        outputietrationdifference.write(s + ' ' + p + ' ' + o + ' ' + _ + ' ' + '\n')
+                        outputietrationdifference.write(s2 + ' ' + p2 + ' ' + o2 + ' ' + dot + ' ' + '\n\n')
+                        diffcheck = True
