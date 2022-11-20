@@ -1,0 +1,3 @@
+_:blank_176882f4f663806c31bd97189daab6da http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Small-molecule . 
+_:blank_32e35bf63232996886aaa8adcab998ae http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+_:blank_6f992988427795fc74fb0943e706a0c8 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 

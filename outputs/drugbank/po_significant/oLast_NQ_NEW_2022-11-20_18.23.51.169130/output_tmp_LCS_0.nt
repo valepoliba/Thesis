@@ -1,0 +1,56 @@
+_:blank_32e35bf63232996886aaa8adcab998ae <http://bio2rdf.org/drugbank_vocabulary:cellular-location> _:blank_ed54abc756e58dd612454ce0819bf76b .
+_:blank_176882f4f663806c31bd97189daab6da <http://bio2rdf.org/drugbank_vocabulary:target> _:blank_6f992988427795fc74fb0943e706a0c8 .
+_:blank_6f992988427795fc74fb0943e706a0c8 <http://bio2rdf.org/drugbank_vocabulary:x-taxonomy> _:blank_d985b4f94a616269f2d99cc18d45f832 .
+_:blank_32e35bf63232996886aaa8adcab998ae <http://bio2rdf.org/drugbank_vocabulary:theoretical-pi> _:blank_687ba130598d6d0bdc6828a8776912e3 .
+_:blank_6f992988427795fc74fb0943e706a0c8 <http://bio2rdf.org/drugbank_vocabulary:name> _:blank_28a8740439bf7e561eb4d40aa58ba0f8 .
+_:blank_32e35bf63232996886aaa8adcab998ae <http://bio2rdf.org/drugbank_vocabulary:specific-function> _:blank_0590d28a9b1394c417553d07acfafd15 .
+_:blank_6f992988427795fc74fb0943e706a0c8 <http://bio2rdf.org/drugbank_vocabulary:go-process> "physiological process" .
+_:blank_6f992988427795fc74fb0943e706a0c8 <http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions> "None" .
+_:blank_32e35bf63232996886aaa8adcab998ae <http://bio2rdf.org/drugbank_vocabulary:amino-acid-sequence> _:blank_1cdb69427daaa89b66d3d93e20fdc6f9 .
+_:blank_6f992988427795fc74fb0943e706a0c8 <http://bio2rdf.org/drugbank_vocabulary:gene-name> _:blank_7718149e2bc08a35cf741ea7ec2e84c9 .
+_:blank_32e35bf63232996886aaa8adcab998ae <http://bio2rdf.org/drugbank_vocabulary:go-process> "cellular metabolism" .
+_:blank_6f992988427795fc74fb0943e706a0c8 <http://bio2rdf.org/drugbank_vocabulary:x-gi> _:blank_694c5e2c25caf9875dc870779b2567fd .
+_:blank_6f992988427795fc74fb0943e706a0c8 <http://bio2rdf.org/drugbank_vocabulary:go-function> "ion binding" .
+_:blank_6f992988427795fc74fb0943e706a0c8 <http://bio2rdf.org/drugbank_vocabulary:organism> _:blank_200ff8d657ecbc07ccab02b5e38dd38e .
+_:blank_6f992988427795fc74fb0943e706a0c8 <http://bio2rdf.org/drugbank_vocabulary:molecular-weight> _:blank_f6467b966c281c38dd6bb7455a286f9c .
+_:blank_176882f4f663806c31bd97189daab6da <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Small-molecule> .
+_:blank_6f992988427795fc74fb0943e706a0c8 <http://bio2rdf.org/drugbank_vocabulary:x-pfam> _:blank_d4a12ef38a3a57bf61cac023f435b7be .
+_:blank_32e35bf63232996886aaa8adcab998ae <http://bio2rdf.org/drugbank_vocabulary:go-function> _:blank_aa0c816d881dc999afa950f114e46418 .
+_:blank_6f992988427795fc74fb0943e706a0c8 <http://bio2rdf.org/drugbank_vocabulary:specific-function> _:blank_8c45770b297060b6ec15d309310bc94e .
+_:blank_32e35bf63232996886aaa8adcab998ae <http://bio2rdf.org/drugbank_vocabulary:x-pfam> _:blank_e8d570d2428e128d4dee5c26480031c7 .
+_:blank_32e35bf63232996886aaa8adcab998ae <http://bio2rdf.org/drugbank_vocabulary:go-process> _:blank_4ea2d8b63557452019faea41660dbac2 .
+_:blank_32e35bf63232996886aaa8adcab998ae <http://bio2rdf.org/drugbank_vocabulary:go-process> "metabolism" .
+_:blank_32e35bf63232996886aaa8adcab998ae <http://bio2rdf.org/drugbank_vocabulary:go-function> "binding" .
+_:blank_32e35bf63232996886aaa8adcab998ae <http://bio2rdf.org/drugbank_vocabulary:x-gi> _:blank_e3fc2848e7f681230414c40660519d09 .
+_:blank_6f992988427795fc74fb0943e706a0c8 <http://bio2rdf.org/drugbank_vocabulary:gene-sequence> _:blank_c473c2689469b0b89e4d3526b2447cde .
+_:blank_6f992988427795fc74fb0943e706a0c8 <http://bio2rdf.org/drugbank_vocabulary:go-process> "cellular metabolism" .
+_:blank_176882f4f663806c31bd97189daab6da <http://bio2rdf.org/drugbank_vocabulary:target> _:blank_32e35bf63232996886aaa8adcab998ae .
+_:blank_6f992988427795fc74fb0943e706a0c8 <http://bio2rdf.org/drugbank_vocabulary:go-process> _:blank_f15377fba730de42804f86864ba78403 .
+_:blank_32e35bf63232996886aaa8adcab998ae <http://bio2rdf.org/drugbank_vocabulary:go-function> _:blank_18e0442a212bcc45011e626ec70e7f1e .
+_:blank_32e35bf63232996886aaa8adcab998ae <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Target> .
+_:blank_32e35bf63232996886aaa8adcab998ae <http://bio2rdf.org/drugbank_vocabulary:x-taxonomy> _:blank_d985b4f94a616269f2d99cc18d45f832 .
+_:blank_32e35bf63232996886aaa8adcab998ae <http://bio2rdf.org/drugbank_vocabulary:go-function> _:blank_e5579f5040c4ca905a04e75f13199d97 .
+_:blank_6f992988427795fc74fb0943e706a0c8 <http://bio2rdf.org/drugbank_vocabulary:go-function> "transition metal ion binding" .
+_:blank_32e35bf63232996886aaa8adcab998ae <http://bio2rdf.org/drugbank_vocabulary:molecular-weight> _:blank_75d1d775ce287fca64d791af3c2bee71 .
+_:blank_6f992988427795fc74fb0943e706a0c8 <http://bio2rdf.org/drugbank_vocabulary:general-function> _:blank_ef0c38923f96cc6eb4f75de2f6229913 .
+_:blank_32e35bf63232996886aaa8adcab998ae <http://bio2rdf.org/drugbank_vocabulary:go-function> _:blank_2f985dcd77d1cd4106eb2ccdc63f3402 .
+_:blank_6f992988427795fc74fb0943e706a0c8 <http://bio2rdf.org/drugbank_vocabulary:go-function> "cation binding" .
+_:blank_32e35bf63232996886aaa8adcab998ae <http://bio2rdf.org/drugbank_vocabulary:general-function> _:blank_b60b41bc40622bef9515480295a386a3 .
+_:blank_32e35bf63232996886aaa8adcab998ae <http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions> "None" .
+_:blank_6f992988427795fc74fb0943e706a0c8 <http://bio2rdf.org/drugbank_vocabulary:go-process> _:blank_d8cb0cbd6f528adaac8531087f49e4a6 .
+_:blank_6f992988427795fc74fb0943e706a0c8 <http://bio2rdf.org/drugbank_vocabulary:go-process> "metabolism" .
+_:blank_6f992988427795fc74fb0943e706a0c8 <http://bio2rdf.org/drugbank_vocabulary:go-function> "binding" .
+_:blank_6f992988427795fc74fb0943e706a0c8 <http://bio2rdf.org/drugbank_vocabulary:go-function> _:blank_5c5c11a1e06d613baa324738d424d061 .
+_:blank_32e35bf63232996886aaa8adcab998ae <http://bio2rdf.org/drugbank_vocabulary:go-process> _:blank_fb18004fd404483302fd0b50fea1a15e .
+_:blank_32e35bf63232996886aaa8adcab998ae <http://bio2rdf.org/drugbank_vocabulary:gene-name> _:blank_10ed97bfa5c0f138978d2b6cecb52817 .
+_:blank_32e35bf63232996886aaa8adcab998ae <http://bio2rdf.org/drugbank_vocabulary:go-process> "physiological process" .
+_:blank_32e35bf63232996886aaa8adcab998ae <http://bio2rdf.org/drugbank_vocabulary:gene-sequence> _:blank_8bb0617f3dbe8b069b16168dfbbeda15 .
+_:blank_32e35bf63232996886aaa8adcab998ae <http://bio2rdf.org/drugbank_vocabulary:go-function> _:blank_780c3abc6144ee46723628772e6bb9d8 .
+_:blank_6f992988427795fc74fb0943e706a0c8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Target> .
+_:blank_32e35bf63232996886aaa8adcab998ae <http://bio2rdf.org/drugbank_vocabulary:organism> _:blank_200ff8d657ecbc07ccab02b5e38dd38e .
+_:blank_6f992988427795fc74fb0943e706a0c8 <http://bio2rdf.org/drugbank_vocabulary:go-function> _:blank_544e22fe2ef0434ab2a3080396dbdb63 .
+_:blank_6f992988427795fc74fb0943e706a0c8 <http://bio2rdf.org/drugbank_vocabulary:theoretical-pi> _:blank_2fdf471a3ce328792b039d5c305e18f8 .
+_:blank_6f992988427795fc74fb0943e706a0c8 <http://bio2rdf.org/drugbank_vocabulary:amino-acid-sequence> _:blank_439e44530f07fa1f665db0ce69baaaf2 .
+_:blank_32e35bf63232996886aaa8adcab998ae <http://bio2rdf.org/drugbank_vocabulary:name> _:blank_9de6f91bae08d089ee9e62307cbc3d65 .
+_:blank_6f992988427795fc74fb0943e706a0c8 <http://bio2rdf.org/drugbank_vocabulary:go-function> _:blank_82cd222f6e37eeb2f53af955d1a2afe9 .
+_:blank_32e35bf63232996886aaa8adcab998ae <http://bio2rdf.org/drugbank_vocabulary:go-function> _:blank_c284418445975a37252adc0d92586f06 .
