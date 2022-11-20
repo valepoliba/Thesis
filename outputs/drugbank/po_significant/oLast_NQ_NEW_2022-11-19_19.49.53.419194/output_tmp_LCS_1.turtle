@@ -1,0 +1,706 @@
+@prefix ns1: <http://bio2rdf.org/drugbank_vocabulary:> .
+
+[] a ns1:Small-molecule ;
+    _:blank_02489f1e9bf286977fb2bbcd29976445 [ a ns1:Pharmacodynamics ],
+        [ a ns1:Pharmacodynamics ] ;
+    _:blank_05d6741d197c295b38c525bb9e1432b4 [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_20d2b0bd7018acc5aa4e786c4e9970df,
+                _:blank_ee0d840a7c4b7b9722027d988b674e35 ;
+            ns1:gene-name _:blank_93e2ef36195a490ef15d9a3581ef9897,
+                _:blank_fa3b9812c556637e0e197497a189367f ;
+            ns1:gene-sequence _:blank_b8c905aee718081bc7b403f13a8a7333,
+                _:blank_f9b6db788e8055e83328255a299094b4 ;
+            ns1:general-function _:blank_1e930ae520ef12d6fd74705c2f84c136 ;
+            ns1:molecular-weight _:blank_303bb1fbb6db6baf4c9fb7c9c408d87a,
+                _:blank_6513cf5f2a26a340741dbd3b2bbccdb1 ;
+            ns1:organism "Human" ;
+            ns1:specific-function _:blank_0f9a66b81fdfe977e9b527ce69065e15,
+                _:blank_aa006f3e49bad1744e52f1a5a3314c70 ;
+            ns1:theoretical-pi _:blank_16938c71d17905923d3f006435233f16,
+                _:blank_9f70a22e9f648129dafcaa2038ad331a ;
+            ns1:transmembrane-regions _:blank_936b062869611d75e3e82ca1b3bb0e75,
+                _:blank_95d04948165265ec313f41223f02a77b ;
+            ns1:x-genatlas _:blank_709b39263478e05a02db097c9df214b7,
+                _:blank_c09e2bfb8a1e8b63bdf65a9b6e6281b5 ;
+            ns1:x-genecards _:blank_583374103816e55d8bbac95d38ca04dd,
+                _:blank_d00ceb1d313c53733cf05d0cff7e8b3d ;
+            ns1:x-hgnc _:blank_5e45edd82569fb2e433baa0bb413e949,
+                _:blank_c4a011e8cff70283ff6c5fe9aedfff8d ;
+            ns1:x-taxonomy <http://bio2rdf.org/taxonomy:9606> ],
+        [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_20d2b0bd7018acc5aa4e786c4e9970df,
+                _:blank_ee0d840a7c4b7b9722027d988b674e35 ;
+            ns1:gene-name _:blank_93e2ef36195a490ef15d9a3581ef9897,
+                _:blank_fa3b9812c556637e0e197497a189367f ;
+            ns1:gene-sequence _:blank_b8c905aee718081bc7b403f13a8a7333,
+                _:blank_f9b6db788e8055e83328255a299094b4 ;
+            ns1:general-function _:blank_1e930ae520ef12d6fd74705c2f84c136 ;
+            ns1:molecular-weight _:blank_303bb1fbb6db6baf4c9fb7c9c408d87a,
+                _:blank_6513cf5f2a26a340741dbd3b2bbccdb1 ;
+            ns1:organism "Human" ;
+            ns1:specific-function _:blank_0f9a66b81fdfe977e9b527ce69065e15,
+                _:blank_aa006f3e49bad1744e52f1a5a3314c70 ;
+            ns1:theoretical-pi _:blank_16938c71d17905923d3f006435233f16,
+                _:blank_9f70a22e9f648129dafcaa2038ad331a ;
+            ns1:transmembrane-regions _:blank_936b062869611d75e3e82ca1b3bb0e75,
+                _:blank_95d04948165265ec313f41223f02a77b ;
+            ns1:x-genatlas _:blank_709b39263478e05a02db097c9df214b7,
+                _:blank_c09e2bfb8a1e8b63bdf65a9b6e6281b5 ;
+            ns1:x-genecards _:blank_583374103816e55d8bbac95d38ca04dd,
+                _:blank_d00ceb1d313c53733cf05d0cff7e8b3d ;
+            ns1:x-hgnc _:blank_5e45edd82569fb2e433baa0bb413e949,
+                _:blank_c4a011e8cff70283ff6c5fe9aedfff8d ;
+            ns1:x-taxonomy <http://bio2rdf.org/taxonomy:9606> ] ;
+    _:blank_0a7b6b1ccf3a54857a41d11ba702951f [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_20d2b0bd7018acc5aa4e786c4e9970df,
+                _:blank_ee0d840a7c4b7b9722027d988b674e35 ;
+            ns1:gene-name _:blank_93e2ef36195a490ef15d9a3581ef9897,
+                _:blank_fa3b9812c556637e0e197497a189367f ;
+            ns1:gene-sequence _:blank_b8c905aee718081bc7b403f13a8a7333,
+                _:blank_f9b6db788e8055e83328255a299094b4 ;
+            ns1:general-function _:blank_1e930ae520ef12d6fd74705c2f84c136 ;
+            ns1:molecular-weight _:blank_303bb1fbb6db6baf4c9fb7c9c408d87a,
+                _:blank_6513cf5f2a26a340741dbd3b2bbccdb1 ;
+            ns1:organism "Human" ;
+            ns1:specific-function _:blank_0f9a66b81fdfe977e9b527ce69065e15,
+                _:blank_aa006f3e49bad1744e52f1a5a3314c70 ;
+            ns1:theoretical-pi _:blank_16938c71d17905923d3f006435233f16,
+                _:blank_9f70a22e9f648129dafcaa2038ad331a ;
+            ns1:transmembrane-regions _:blank_936b062869611d75e3e82ca1b3bb0e75,
+                _:blank_95d04948165265ec313f41223f02a77b ;
+            ns1:x-genatlas _:blank_709b39263478e05a02db097c9df214b7,
+                _:blank_c09e2bfb8a1e8b63bdf65a9b6e6281b5 ;
+            ns1:x-genecards _:blank_583374103816e55d8bbac95d38ca04dd,
+                _:blank_d00ceb1d313c53733cf05d0cff7e8b3d ;
+            ns1:x-hgnc _:blank_5e45edd82569fb2e433baa0bb413e949,
+                _:blank_c4a011e8cff70283ff6c5fe9aedfff8d ;
+            ns1:x-taxonomy <http://bio2rdf.org/taxonomy:9606> ],
+        [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_20d2b0bd7018acc5aa4e786c4e9970df,
+                _:blank_ee0d840a7c4b7b9722027d988b674e35 ;
+            ns1:gene-name _:blank_93e2ef36195a490ef15d9a3581ef9897,
+                _:blank_fa3b9812c556637e0e197497a189367f ;
+            ns1:gene-sequence _:blank_b8c905aee718081bc7b403f13a8a7333,
+                _:blank_f9b6db788e8055e83328255a299094b4 ;
+            ns1:general-function _:blank_1e930ae520ef12d6fd74705c2f84c136 ;
+            ns1:molecular-weight _:blank_303bb1fbb6db6baf4c9fb7c9c408d87a,
+                _:blank_6513cf5f2a26a340741dbd3b2bbccdb1 ;
+            ns1:organism "Human" ;
+            ns1:specific-function _:blank_0f9a66b81fdfe977e9b527ce69065e15,
+                _:blank_aa006f3e49bad1744e52f1a5a3314c70 ;
+            ns1:theoretical-pi _:blank_16938c71d17905923d3f006435233f16,
+                _:blank_9f70a22e9f648129dafcaa2038ad331a ;
+            ns1:transmembrane-regions _:blank_936b062869611d75e3e82ca1b3bb0e75,
+                _:blank_95d04948165265ec313f41223f02a77b ;
+            ns1:x-genatlas _:blank_709b39263478e05a02db097c9df214b7,
+                _:blank_c09e2bfb8a1e8b63bdf65a9b6e6281b5 ;
+            ns1:x-genecards _:blank_583374103816e55d8bbac95d38ca04dd,
+                _:blank_d00ceb1d313c53733cf05d0cff7e8b3d ;
+            ns1:x-hgnc _:blank_5e45edd82569fb2e433baa0bb413e949,
+                _:blank_c4a011e8cff70283ff6c5fe9aedfff8d ;
+            ns1:x-taxonomy <http://bio2rdf.org/taxonomy:9606> ] ;
+    [ ] [ a ns1:Affected-organism ] ;
+    _:blank_12c995f9fc3bd42e785ff11c3341e319 [ a ns1:Affected-organism ],
+        [ a ns1:Affected-organism ] ;
+    _:blank_1394838710a8503682fb766388dff928 [ a ns1:Pharmacodynamics ],
+        [ a ns1:Pharmacodynamics ],
+        [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_20d2b0bd7018acc5aa4e786c4e9970df,
+                _:blank_ee0d840a7c4b7b9722027d988b674e35 ;
+            ns1:gene-name _:blank_93e2ef36195a490ef15d9a3581ef9897,
+                _:blank_fa3b9812c556637e0e197497a189367f ;
+            ns1:gene-sequence _:blank_b8c905aee718081bc7b403f13a8a7333,
+                _:blank_f9b6db788e8055e83328255a299094b4 ;
+            ns1:general-function _:blank_1e930ae520ef12d6fd74705c2f84c136 ;
+            ns1:molecular-weight _:blank_303bb1fbb6db6baf4c9fb7c9c408d87a,
+                _:blank_6513cf5f2a26a340741dbd3b2bbccdb1 ;
+            ns1:organism "Human" ;
+            ns1:specific-function _:blank_0f9a66b81fdfe977e9b527ce69065e15,
+                _:blank_aa006f3e49bad1744e52f1a5a3314c70 ;
+            ns1:theoretical-pi _:blank_16938c71d17905923d3f006435233f16,
+                _:blank_9f70a22e9f648129dafcaa2038ad331a ;
+            ns1:transmembrane-regions _:blank_936b062869611d75e3e82ca1b3bb0e75,
+                _:blank_95d04948165265ec313f41223f02a77b ;
+            ns1:x-genatlas _:blank_709b39263478e05a02db097c9df214b7,
+                _:blank_c09e2bfb8a1e8b63bdf65a9b6e6281b5 ;
+            ns1:x-genecards _:blank_583374103816e55d8bbac95d38ca04dd,
+                _:blank_d00ceb1d313c53733cf05d0cff7e8b3d ;
+            ns1:x-hgnc _:blank_5e45edd82569fb2e433baa0bb413e949,
+                _:blank_c4a011e8cff70283ff6c5fe9aedfff8d ;
+            ns1:x-taxonomy <http://bio2rdf.org/taxonomy:9606> ] ;
+    _:blank_13ea12b2aa0b0048c72e1ea5dec24093 [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_20d2b0bd7018acc5aa4e786c4e9970df,
+                _:blank_ee0d840a7c4b7b9722027d988b674e35 ;
+            ns1:gene-name _:blank_93e2ef36195a490ef15d9a3581ef9897,
+                _:blank_fa3b9812c556637e0e197497a189367f ;
+            ns1:gene-sequence _:blank_b8c905aee718081bc7b403f13a8a7333,
+                _:blank_f9b6db788e8055e83328255a299094b4 ;
+            ns1:general-function _:blank_1e930ae520ef12d6fd74705c2f84c136 ;
+            ns1:molecular-weight _:blank_303bb1fbb6db6baf4c9fb7c9c408d87a,
+                _:blank_6513cf5f2a26a340741dbd3b2bbccdb1 ;
+            ns1:organism "Human" ;
+            ns1:specific-function _:blank_0f9a66b81fdfe977e9b527ce69065e15,
+                _:blank_aa006f3e49bad1744e52f1a5a3314c70 ;
+            ns1:theoretical-pi _:blank_16938c71d17905923d3f006435233f16,
+                _:blank_9f70a22e9f648129dafcaa2038ad331a ;
+            ns1:transmembrane-regions _:blank_936b062869611d75e3e82ca1b3bb0e75,
+                _:blank_95d04948165265ec313f41223f02a77b ;
+            ns1:x-genatlas _:blank_709b39263478e05a02db097c9df214b7,
+                _:blank_c09e2bfb8a1e8b63bdf65a9b6e6281b5 ;
+            ns1:x-genecards _:blank_583374103816e55d8bbac95d38ca04dd,
+                _:blank_d00ceb1d313c53733cf05d0cff7e8b3d ;
+            ns1:x-hgnc _:blank_5e45edd82569fb2e433baa0bb413e949,
+                _:blank_c4a011e8cff70283ff6c5fe9aedfff8d ;
+            ns1:x-taxonomy <http://bio2rdf.org/taxonomy:9606> ],
+        [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_20d2b0bd7018acc5aa4e786c4e9970df,
+                _:blank_ee0d840a7c4b7b9722027d988b674e35 ;
+            ns1:gene-name _:blank_93e2ef36195a490ef15d9a3581ef9897,
+                _:blank_fa3b9812c556637e0e197497a189367f ;
+            ns1:gene-sequence _:blank_b8c905aee718081bc7b403f13a8a7333,
+                _:blank_f9b6db788e8055e83328255a299094b4 ;
+            ns1:general-function _:blank_1e930ae520ef12d6fd74705c2f84c136 ;
+            ns1:molecular-weight _:blank_303bb1fbb6db6baf4c9fb7c9c408d87a,
+                _:blank_6513cf5f2a26a340741dbd3b2bbccdb1 ;
+            ns1:organism "Human" ;
+            ns1:specific-function _:blank_0f9a66b81fdfe977e9b527ce69065e15,
+                _:blank_aa006f3e49bad1744e52f1a5a3314c70 ;
+            ns1:theoretical-pi _:blank_16938c71d17905923d3f006435233f16,
+                _:blank_9f70a22e9f648129dafcaa2038ad331a ;
+            ns1:transmembrane-regions _:blank_936b062869611d75e3e82ca1b3bb0e75,
+                _:blank_95d04948165265ec313f41223f02a77b ;
+            ns1:x-genatlas _:blank_709b39263478e05a02db097c9df214b7,
+                _:blank_c09e2bfb8a1e8b63bdf65a9b6e6281b5 ;
+            ns1:x-genecards _:blank_583374103816e55d8bbac95d38ca04dd,
+                _:blank_d00ceb1d313c53733cf05d0cff7e8b3d ;
+            ns1:x-hgnc _:blank_5e45edd82569fb2e433baa0bb413e949,
+                _:blank_c4a011e8cff70283ff6c5fe9aedfff8d ;
+            ns1:x-taxonomy <http://bio2rdf.org/taxonomy:9606> ] ;
+    _:blank_140e4dfe249580dc6173322a17c47bf1 [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_20d2b0bd7018acc5aa4e786c4e9970df,
+                _:blank_ee0d840a7c4b7b9722027d988b674e35 ;
+            ns1:gene-name _:blank_93e2ef36195a490ef15d9a3581ef9897,
+                _:blank_fa3b9812c556637e0e197497a189367f ;
+            ns1:gene-sequence _:blank_b8c905aee718081bc7b403f13a8a7333,
+                _:blank_f9b6db788e8055e83328255a299094b4 ;
+            ns1:general-function _:blank_1e930ae520ef12d6fd74705c2f84c136 ;
+            ns1:molecular-weight _:blank_303bb1fbb6db6baf4c9fb7c9c408d87a,
+                _:blank_6513cf5f2a26a340741dbd3b2bbccdb1 ;
+            ns1:organism "Human" ;
+            ns1:specific-function _:blank_0f9a66b81fdfe977e9b527ce69065e15,
+                _:blank_aa006f3e49bad1744e52f1a5a3314c70 ;
+            ns1:theoretical-pi _:blank_16938c71d17905923d3f006435233f16,
+                _:blank_9f70a22e9f648129dafcaa2038ad331a ;
+            ns1:transmembrane-regions _:blank_936b062869611d75e3e82ca1b3bb0e75,
+                _:blank_95d04948165265ec313f41223f02a77b ;
+            ns1:x-genatlas _:blank_709b39263478e05a02db097c9df214b7,
+                _:blank_c09e2bfb8a1e8b63bdf65a9b6e6281b5 ;
+            ns1:x-genecards _:blank_583374103816e55d8bbac95d38ca04dd,
+                _:blank_d00ceb1d313c53733cf05d0cff7e8b3d ;
+            ns1:x-hgnc _:blank_5e45edd82569fb2e433baa0bb413e949,
+                _:blank_c4a011e8cff70283ff6c5fe9aedfff8d ;
+            ns1:x-taxonomy <http://bio2rdf.org/taxonomy:9606> ],
+        [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_20d2b0bd7018acc5aa4e786c4e9970df,
+                _:blank_ee0d840a7c4b7b9722027d988b674e35 ;
+            ns1:gene-name _:blank_93e2ef36195a490ef15d9a3581ef9897,
+                _:blank_fa3b9812c556637e0e197497a189367f ;
+            ns1:gene-sequence _:blank_b8c905aee718081bc7b403f13a8a7333,
+                _:blank_f9b6db788e8055e83328255a299094b4 ;
+            ns1:general-function _:blank_1e930ae520ef12d6fd74705c2f84c136 ;
+            ns1:molecular-weight _:blank_303bb1fbb6db6baf4c9fb7c9c408d87a,
+                _:blank_6513cf5f2a26a340741dbd3b2bbccdb1 ;
+            ns1:organism "Human" ;
+            ns1:specific-function _:blank_0f9a66b81fdfe977e9b527ce69065e15,
+                _:blank_aa006f3e49bad1744e52f1a5a3314c70 ;
+            ns1:theoretical-pi _:blank_16938c71d17905923d3f006435233f16,
+                _:blank_9f70a22e9f648129dafcaa2038ad331a ;
+            ns1:transmembrane-regions _:blank_936b062869611d75e3e82ca1b3bb0e75,
+                _:blank_95d04948165265ec313f41223f02a77b ;
+            ns1:x-genatlas _:blank_709b39263478e05a02db097c9df214b7,
+                _:blank_c09e2bfb8a1e8b63bdf65a9b6e6281b5 ;
+            ns1:x-genecards _:blank_583374103816e55d8bbac95d38ca04dd,
+                _:blank_d00ceb1d313c53733cf05d0cff7e8b3d ;
+            ns1:x-hgnc _:blank_5e45edd82569fb2e433baa0bb413e949,
+                _:blank_c4a011e8cff70283ff6c5fe9aedfff8d ;
+            ns1:x-taxonomy <http://bio2rdf.org/taxonomy:9606> ] ;
+    _:blank_1746753c706e76653a36e93360568638 [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_20d2b0bd7018acc5aa4e786c4e9970df,
+                _:blank_ee0d840a7c4b7b9722027d988b674e35 ;
+            ns1:gene-name _:blank_93e2ef36195a490ef15d9a3581ef9897,
+                _:blank_fa3b9812c556637e0e197497a189367f ;
+            ns1:gene-sequence _:blank_b8c905aee718081bc7b403f13a8a7333,
+                _:blank_f9b6db788e8055e83328255a299094b4 ;
+            ns1:general-function _:blank_1e930ae520ef12d6fd74705c2f84c136 ;
+            ns1:molecular-weight _:blank_303bb1fbb6db6baf4c9fb7c9c408d87a,
+                _:blank_6513cf5f2a26a340741dbd3b2bbccdb1 ;
+            ns1:organism "Human" ;
+            ns1:specific-function _:blank_0f9a66b81fdfe977e9b527ce69065e15,
+                _:blank_aa006f3e49bad1744e52f1a5a3314c70 ;
+            ns1:theoretical-pi _:blank_16938c71d17905923d3f006435233f16,
+                _:blank_9f70a22e9f648129dafcaa2038ad331a ;
+            ns1:transmembrane-regions _:blank_936b062869611d75e3e82ca1b3bb0e75,
+                _:blank_95d04948165265ec313f41223f02a77b ;
+            ns1:x-genatlas _:blank_709b39263478e05a02db097c9df214b7,
+                _:blank_c09e2bfb8a1e8b63bdf65a9b6e6281b5 ;
+            ns1:x-genecards _:blank_583374103816e55d8bbac95d38ca04dd,
+                _:blank_d00ceb1d313c53733cf05d0cff7e8b3d ;
+            ns1:x-hgnc _:blank_5e45edd82569fb2e433baa0bb413e949,
+                _:blank_c4a011e8cff70283ff6c5fe9aedfff8d ;
+            ns1:x-taxonomy <http://bio2rdf.org/taxonomy:9606> ],
+        [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_20d2b0bd7018acc5aa4e786c4e9970df,
+                _:blank_ee0d840a7c4b7b9722027d988b674e35 ;
+            ns1:gene-name _:blank_93e2ef36195a490ef15d9a3581ef9897,
+                _:blank_fa3b9812c556637e0e197497a189367f ;
+            ns1:gene-sequence _:blank_b8c905aee718081bc7b403f13a8a7333,
+                _:blank_f9b6db788e8055e83328255a299094b4 ;
+            ns1:general-function _:blank_1e930ae520ef12d6fd74705c2f84c136 ;
+            ns1:molecular-weight _:blank_303bb1fbb6db6baf4c9fb7c9c408d87a,
+                _:blank_6513cf5f2a26a340741dbd3b2bbccdb1 ;
+            ns1:organism "Human" ;
+            ns1:specific-function _:blank_0f9a66b81fdfe977e9b527ce69065e15,
+                _:blank_aa006f3e49bad1744e52f1a5a3314c70 ;
+            ns1:theoretical-pi _:blank_16938c71d17905923d3f006435233f16,
+                _:blank_9f70a22e9f648129dafcaa2038ad331a ;
+            ns1:transmembrane-regions _:blank_936b062869611d75e3e82ca1b3bb0e75,
+                _:blank_95d04948165265ec313f41223f02a77b ;
+            ns1:x-genatlas _:blank_709b39263478e05a02db097c9df214b7,
+                _:blank_c09e2bfb8a1e8b63bdf65a9b6e6281b5 ;
+            ns1:x-genecards _:blank_583374103816e55d8bbac95d38ca04dd,
+                _:blank_d00ceb1d313c53733cf05d0cff7e8b3d ;
+            ns1:x-hgnc _:blank_5e45edd82569fb2e433baa0bb413e949,
+                _:blank_c4a011e8cff70283ff6c5fe9aedfff8d ;
+            ns1:x-taxonomy <http://bio2rdf.org/taxonomy:9606> ] ;
+    _:blank_24db9d7f6aee5aedcecb6e941bf53688 [ a ns1:Mechanism-of-action ],
+        [ a ns1:Pharmacodynamics ] ;
+    _:blank_255e4f16f70519d55721a9360c9515f5 [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_20d2b0bd7018acc5aa4e786c4e9970df,
+                _:blank_ee0d840a7c4b7b9722027d988b674e35 ;
+            ns1:gene-name _:blank_93e2ef36195a490ef15d9a3581ef9897,
+                _:blank_fa3b9812c556637e0e197497a189367f ;
+            ns1:gene-sequence _:blank_b8c905aee718081bc7b403f13a8a7333,
+                _:blank_f9b6db788e8055e83328255a299094b4 ;
+            ns1:general-function _:blank_1e930ae520ef12d6fd74705c2f84c136 ;
+            ns1:molecular-weight _:blank_303bb1fbb6db6baf4c9fb7c9c408d87a,
+                _:blank_6513cf5f2a26a340741dbd3b2bbccdb1 ;
+            ns1:organism "Human" ;
+            ns1:specific-function _:blank_0f9a66b81fdfe977e9b527ce69065e15,
+                _:blank_aa006f3e49bad1744e52f1a5a3314c70 ;
+            ns1:theoretical-pi _:blank_16938c71d17905923d3f006435233f16,
+                _:blank_9f70a22e9f648129dafcaa2038ad331a ;
+            ns1:transmembrane-regions _:blank_936b062869611d75e3e82ca1b3bb0e75,
+                _:blank_95d04948165265ec313f41223f02a77b ;
+            ns1:x-genatlas _:blank_709b39263478e05a02db097c9df214b7,
+                _:blank_c09e2bfb8a1e8b63bdf65a9b6e6281b5 ;
+            ns1:x-genecards _:blank_583374103816e55d8bbac95d38ca04dd,
+                _:blank_d00ceb1d313c53733cf05d0cff7e8b3d ;
+            ns1:x-hgnc _:blank_5e45edd82569fb2e433baa0bb413e949,
+                _:blank_c4a011e8cff70283ff6c5fe9aedfff8d ;
+            ns1:x-taxonomy <http://bio2rdf.org/taxonomy:9606> ],
+        [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_20d2b0bd7018acc5aa4e786c4e9970df,
+                _:blank_ee0d840a7c4b7b9722027d988b674e35 ;
+            ns1:gene-name _:blank_93e2ef36195a490ef15d9a3581ef9897,
+                _:blank_fa3b9812c556637e0e197497a189367f ;
+            ns1:gene-sequence _:blank_b8c905aee718081bc7b403f13a8a7333,
+                _:blank_f9b6db788e8055e83328255a299094b4 ;
+            ns1:general-function _:blank_1e930ae520ef12d6fd74705c2f84c136 ;
+            ns1:molecular-weight _:blank_303bb1fbb6db6baf4c9fb7c9c408d87a,
+                _:blank_6513cf5f2a26a340741dbd3b2bbccdb1 ;
+            ns1:organism "Human" ;
+            ns1:specific-function _:blank_0f9a66b81fdfe977e9b527ce69065e15,
+                _:blank_aa006f3e49bad1744e52f1a5a3314c70 ;
+            ns1:theoretical-pi _:blank_16938c71d17905923d3f006435233f16,
+                _:blank_9f70a22e9f648129dafcaa2038ad331a ;
+            ns1:transmembrane-regions _:blank_936b062869611d75e3e82ca1b3bb0e75,
+                _:blank_95d04948165265ec313f41223f02a77b ;
+            ns1:x-genatlas _:blank_709b39263478e05a02db097c9df214b7,
+                _:blank_c09e2bfb8a1e8b63bdf65a9b6e6281b5 ;
+            ns1:x-genecards _:blank_583374103816e55d8bbac95d38ca04dd,
+                _:blank_d00ceb1d313c53733cf05d0cff7e8b3d ;
+            ns1:x-hgnc _:blank_5e45edd82569fb2e433baa0bb413e949,
+                _:blank_c4a011e8cff70283ff6c5fe9aedfff8d ;
+            ns1:x-taxonomy <http://bio2rdf.org/taxonomy:9606> ] ;
+    [ ] [ a ns1:Mechanism-of-action ] ;
+    _:blank_2ed38400ca9d7ab617fe9f41844a1c7d [ a ns1:Pharmacodynamics ],
+        [ a ns1:Pharmacodynamics ] ;
+    _:blank_415148439a2ed2c0322be6c45e70a354 [ a ns1:Pharmacodynamics ],
+        [ a ns1:Pharmacodynamics ] ;
+    _:blank_466823ef0e8b8303fe75dafda319c175 [ a ns1:Affected-organism ],
+        [ a ns1:Affected-organism ] ;
+    _:blank_48332335d00f2726ad02650531ddb925 [ a ns1:Pharmacodynamics ],
+        [ a ns1:Pharmacodynamics ] ;
+    _:blank_4b3175dd645e363ec854a14666f0df07 [ a ns1:Pharmacodynamics ],
+        [ a ns1:Pharmacodynamics ] ;
+    _:blank_53d74cb78fa9a358b31404cef3d604ed [ a ns1:Affected-organism ],
+        [ a ns1:Affected-organism ] ;
+    _:blank_58939625fef5cd9d345cc553dfa99ac5 [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_20d2b0bd7018acc5aa4e786c4e9970df,
+                _:blank_ee0d840a7c4b7b9722027d988b674e35 ;
+            ns1:gene-name _:blank_93e2ef36195a490ef15d9a3581ef9897,
+                _:blank_fa3b9812c556637e0e197497a189367f ;
+            ns1:gene-sequence _:blank_b8c905aee718081bc7b403f13a8a7333,
+                _:blank_f9b6db788e8055e83328255a299094b4 ;
+            ns1:general-function _:blank_1e930ae520ef12d6fd74705c2f84c136 ;
+            ns1:molecular-weight _:blank_303bb1fbb6db6baf4c9fb7c9c408d87a,
+                _:blank_6513cf5f2a26a340741dbd3b2bbccdb1 ;
+            ns1:organism "Human" ;
+            ns1:specific-function _:blank_0f9a66b81fdfe977e9b527ce69065e15,
+                _:blank_aa006f3e49bad1744e52f1a5a3314c70 ;
+            ns1:theoretical-pi _:blank_16938c71d17905923d3f006435233f16,
+                _:blank_9f70a22e9f648129dafcaa2038ad331a ;
+            ns1:transmembrane-regions _:blank_936b062869611d75e3e82ca1b3bb0e75,
+                _:blank_95d04948165265ec313f41223f02a77b ;
+            ns1:x-genatlas _:blank_709b39263478e05a02db097c9df214b7,
+                _:blank_c09e2bfb8a1e8b63bdf65a9b6e6281b5 ;
+            ns1:x-genecards _:blank_583374103816e55d8bbac95d38ca04dd,
+                _:blank_d00ceb1d313c53733cf05d0cff7e8b3d ;
+            ns1:x-hgnc _:blank_5e45edd82569fb2e433baa0bb413e949,
+                _:blank_c4a011e8cff70283ff6c5fe9aedfff8d ;
+            ns1:x-taxonomy <http://bio2rdf.org/taxonomy:9606> ],
+        [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_20d2b0bd7018acc5aa4e786c4e9970df,
+                _:blank_ee0d840a7c4b7b9722027d988b674e35 ;
+            ns1:gene-name _:blank_93e2ef36195a490ef15d9a3581ef9897,
+                _:blank_fa3b9812c556637e0e197497a189367f ;
+            ns1:gene-sequence _:blank_b8c905aee718081bc7b403f13a8a7333,
+                _:blank_f9b6db788e8055e83328255a299094b4 ;
+            ns1:general-function _:blank_1e930ae520ef12d6fd74705c2f84c136 ;
+            ns1:molecular-weight _:blank_303bb1fbb6db6baf4c9fb7c9c408d87a,
+                _:blank_6513cf5f2a26a340741dbd3b2bbccdb1 ;
+            ns1:organism "Human" ;
+            ns1:specific-function _:blank_0f9a66b81fdfe977e9b527ce69065e15,
+                _:blank_aa006f3e49bad1744e52f1a5a3314c70 ;
+            ns1:theoretical-pi _:blank_16938c71d17905923d3f006435233f16,
+                _:blank_9f70a22e9f648129dafcaa2038ad331a ;
+            ns1:transmembrane-regions _:blank_936b062869611d75e3e82ca1b3bb0e75,
+                _:blank_95d04948165265ec313f41223f02a77b ;
+            ns1:x-genatlas _:blank_709b39263478e05a02db097c9df214b7,
+                _:blank_c09e2bfb8a1e8b63bdf65a9b6e6281b5 ;
+            ns1:x-genecards _:blank_583374103816e55d8bbac95d38ca04dd,
+                _:blank_d00ceb1d313c53733cf05d0cff7e8b3d ;
+            ns1:x-hgnc _:blank_5e45edd82569fb2e433baa0bb413e949,
+                _:blank_c4a011e8cff70283ff6c5fe9aedfff8d ;
+            ns1:x-taxonomy <http://bio2rdf.org/taxonomy:9606> ] ;
+    _:blank_5a83cb2f4b3b23f47d8dc65c8faf162c [ a ns1:Affected-organism ],
+        [ a ns1:Affected-organism ] ;
+    _:blank_5c13951e8387108d3eece7222ecc0a3f [ a ns1:Affected-organism ],
+        [ a ns1:Affected-organism ] ;
+    _:blank_6ced90b31d5e277db237958b3df87baf [ a ns1:Pharmacodynamics ],
+        [ a ns1:Pharmacodynamics ] ;
+    _:blank_771cc68bda85c0836d789f9accd70c15 [ a ns1:Mechanism-of-action ],
+        [ a ns1:Mechanism-of-action ] ;
+    _:blank_77400b741021d838709d580721437c2b [ a ns1:Affected-organism ],
+        [ a ns1:Affected-organism ] ;
+    _:blank_7c0f8b505cb273055875a246d8265e09 [ a ns1:Mechanism-of-action ],
+        [ a ns1:Mechanism-of-action ] ;
+    _:blank_7cfbca72e698378a04db54331d93fead [ a ns1:Pharmacodynamics ],
+        [ a ns1:Pharmacodynamics ] ;
+    _:blank_7f209075ccf02a82348d8af33e7890d0 [ a ns1:Affected-organism ],
+        [ a ns1:Pharmacodynamics ] ;
+    _:blank_82320c7d9f348f41e6a8183f41a9ea2d [ a ns1:Affected-organism ],
+        [ a ns1:Affected-organism ] ;
+    _:blank_8c3de185f6bd4871adc018e841e1ea34 [ a ns1:Mechanism-of-action ],
+        [ a ns1:Mechanism-of-action ] ;
+    _:blank_8fa30515d348ff4796887d539ba0314e [ a ns1:Affected-organism ],
+        [ a ns1:Affected-organism ] ;
+    _:blank_941f1235370e17829e6f46c9bbd3f7d6 [ a ns1:Pharmacodynamics ],
+        [ a ns1:Pharmacodynamics ] ;
+    _:blank_9504645e48ad6bba065afa0048b9184c [ a ns1:Affected-organism ],
+        [ a ns1:Mechanism-of-action ] ;
+    _:blank_a0819f073bdbe400aec7a5ddb84dfc3e [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_20d2b0bd7018acc5aa4e786c4e9970df,
+                _:blank_ee0d840a7c4b7b9722027d988b674e35 ;
+            ns1:gene-name _:blank_93e2ef36195a490ef15d9a3581ef9897,
+                _:blank_fa3b9812c556637e0e197497a189367f ;
+            ns1:gene-sequence _:blank_b8c905aee718081bc7b403f13a8a7333,
+                _:blank_f9b6db788e8055e83328255a299094b4 ;
+            ns1:general-function _:blank_1e930ae520ef12d6fd74705c2f84c136 ;
+            ns1:molecular-weight _:blank_303bb1fbb6db6baf4c9fb7c9c408d87a,
+                _:blank_6513cf5f2a26a340741dbd3b2bbccdb1 ;
+            ns1:organism "Human" ;
+            ns1:specific-function _:blank_0f9a66b81fdfe977e9b527ce69065e15,
+                _:blank_aa006f3e49bad1744e52f1a5a3314c70 ;
+            ns1:theoretical-pi _:blank_16938c71d17905923d3f006435233f16,
+                _:blank_9f70a22e9f648129dafcaa2038ad331a ;
+            ns1:transmembrane-regions _:blank_936b062869611d75e3e82ca1b3bb0e75,
+                _:blank_95d04948165265ec313f41223f02a77b ;
+            ns1:x-genatlas _:blank_709b39263478e05a02db097c9df214b7,
+                _:blank_c09e2bfb8a1e8b63bdf65a9b6e6281b5 ;
+            ns1:x-genecards _:blank_583374103816e55d8bbac95d38ca04dd,
+                _:blank_d00ceb1d313c53733cf05d0cff7e8b3d ;
+            ns1:x-hgnc _:blank_5e45edd82569fb2e433baa0bb413e949,
+                _:blank_c4a011e8cff70283ff6c5fe9aedfff8d ;
+            ns1:x-taxonomy <http://bio2rdf.org/taxonomy:9606> ],
+        [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_20d2b0bd7018acc5aa4e786c4e9970df,
+                _:blank_ee0d840a7c4b7b9722027d988b674e35 ;
+            ns1:gene-name _:blank_93e2ef36195a490ef15d9a3581ef9897,
+                _:blank_fa3b9812c556637e0e197497a189367f ;
+            ns1:gene-sequence _:blank_b8c905aee718081bc7b403f13a8a7333,
+                _:blank_f9b6db788e8055e83328255a299094b4 ;
+            ns1:general-function _:blank_1e930ae520ef12d6fd74705c2f84c136 ;
+            ns1:molecular-weight _:blank_303bb1fbb6db6baf4c9fb7c9c408d87a,
+                _:blank_6513cf5f2a26a340741dbd3b2bbccdb1 ;
+            ns1:organism "Human" ;
+            ns1:specific-function _:blank_0f9a66b81fdfe977e9b527ce69065e15,
+                _:blank_aa006f3e49bad1744e52f1a5a3314c70 ;
+            ns1:theoretical-pi _:blank_16938c71d17905923d3f006435233f16,
+                _:blank_9f70a22e9f648129dafcaa2038ad331a ;
+            ns1:transmembrane-regions _:blank_936b062869611d75e3e82ca1b3bb0e75,
+                _:blank_95d04948165265ec313f41223f02a77b ;
+            ns1:x-genatlas _:blank_709b39263478e05a02db097c9df214b7,
+                _:blank_c09e2bfb8a1e8b63bdf65a9b6e6281b5 ;
+            ns1:x-genecards _:blank_583374103816e55d8bbac95d38ca04dd,
+                _:blank_d00ceb1d313c53733cf05d0cff7e8b3d ;
+            ns1:x-hgnc _:blank_5e45edd82569fb2e433baa0bb413e949,
+                _:blank_c4a011e8cff70283ff6c5fe9aedfff8d ;
+            ns1:x-taxonomy <http://bio2rdf.org/taxonomy:9606> ] ;
+    _:blank_a6e18ef61f7193fa97f53f2f67477e7c [ a ns1:Affected-organism ],
+        [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_20d2b0bd7018acc5aa4e786c4e9970df,
+                _:blank_ee0d840a7c4b7b9722027d988b674e35 ;
+            ns1:gene-name _:blank_93e2ef36195a490ef15d9a3581ef9897,
+                _:blank_fa3b9812c556637e0e197497a189367f ;
+            ns1:gene-sequence _:blank_b8c905aee718081bc7b403f13a8a7333,
+                _:blank_f9b6db788e8055e83328255a299094b4 ;
+            ns1:general-function _:blank_1e930ae520ef12d6fd74705c2f84c136 ;
+            ns1:molecular-weight _:blank_303bb1fbb6db6baf4c9fb7c9c408d87a,
+                _:blank_6513cf5f2a26a340741dbd3b2bbccdb1 ;
+            ns1:organism "Human" ;
+            ns1:specific-function _:blank_0f9a66b81fdfe977e9b527ce69065e15,
+                _:blank_aa006f3e49bad1744e52f1a5a3314c70 ;
+            ns1:theoretical-pi _:blank_16938c71d17905923d3f006435233f16,
+                _:blank_9f70a22e9f648129dafcaa2038ad331a ;
+            ns1:transmembrane-regions _:blank_936b062869611d75e3e82ca1b3bb0e75,
+                _:blank_95d04948165265ec313f41223f02a77b ;
+            ns1:x-genatlas _:blank_709b39263478e05a02db097c9df214b7,
+                _:blank_c09e2bfb8a1e8b63bdf65a9b6e6281b5 ;
+            ns1:x-genecards _:blank_583374103816e55d8bbac95d38ca04dd,
+                _:blank_d00ceb1d313c53733cf05d0cff7e8b3d ;
+            ns1:x-hgnc _:blank_5e45edd82569fb2e433baa0bb413e949,
+                _:blank_c4a011e8cff70283ff6c5fe9aedfff8d ;
+            ns1:x-taxonomy <http://bio2rdf.org/taxonomy:9606> ],
+        [ a ns1:Affected-organism ] ;
+    _:blank_ab5fe85c61505af7fba006b37ebf4c02 [ a ns1:Affected-organism ],
+        [ a ns1:Affected-organism ] ;
+    _:blank_ac8f4c933cee404bf168c128b091f644 [ a ns1:Affected-organism ],
+        [ a ns1:Affected-organism ] ;
+    _:blank_b41258acc0f4b3ffd26b691ab5d12bdc [ a ns1:Pharmacodynamics ],
+        [ a ns1:Pharmacodynamics ] ;
+    _:blank_b423cad71374c620390a44b2137c9c0e [ a ns1:Pharmacodynamics ],
+        [ a ns1:Pharmacodynamics ] ;
+    _:blank_b6b0b811484e47e18f351c427c18d520 [ a ns1:Mechanism-of-action ],
+        [ a ns1:Mechanism-of-action ] ;
+    _:blank_c3889a3e7e24df063320f07281611d22 [ a ns1:Mechanism-of-action ],
+        [ a ns1:Mechanism-of-action ],
+        [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_20d2b0bd7018acc5aa4e786c4e9970df,
+                _:blank_ee0d840a7c4b7b9722027d988b674e35 ;
+            ns1:gene-name _:blank_93e2ef36195a490ef15d9a3581ef9897,
+                _:blank_fa3b9812c556637e0e197497a189367f ;
+            ns1:gene-sequence _:blank_b8c905aee718081bc7b403f13a8a7333,
+                _:blank_f9b6db788e8055e83328255a299094b4 ;
+            ns1:general-function _:blank_1e930ae520ef12d6fd74705c2f84c136 ;
+            ns1:molecular-weight _:blank_303bb1fbb6db6baf4c9fb7c9c408d87a,
+                _:blank_6513cf5f2a26a340741dbd3b2bbccdb1 ;
+            ns1:organism "Human" ;
+            ns1:specific-function _:blank_0f9a66b81fdfe977e9b527ce69065e15,
+                _:blank_aa006f3e49bad1744e52f1a5a3314c70 ;
+            ns1:theoretical-pi _:blank_16938c71d17905923d3f006435233f16,
+                _:blank_9f70a22e9f648129dafcaa2038ad331a ;
+            ns1:transmembrane-regions _:blank_936b062869611d75e3e82ca1b3bb0e75,
+                _:blank_95d04948165265ec313f41223f02a77b ;
+            ns1:x-genatlas _:blank_709b39263478e05a02db097c9df214b7,
+                _:blank_c09e2bfb8a1e8b63bdf65a9b6e6281b5 ;
+            ns1:x-genecards _:blank_583374103816e55d8bbac95d38ca04dd,
+                _:blank_d00ceb1d313c53733cf05d0cff7e8b3d ;
+            ns1:x-hgnc _:blank_5e45edd82569fb2e433baa0bb413e949,
+                _:blank_c4a011e8cff70283ff6c5fe9aedfff8d ;
+            ns1:x-taxonomy <http://bio2rdf.org/taxonomy:9606> ] ;
+    _:blank_c3cca34208a8a247eadd27a456e37de6 [ a ns1:Mechanism-of-action ],
+        [ a ns1:Mechanism-of-action ] ;
+    _:blank_c4c864155ce7193e48f975d46bb035c2 [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_20d2b0bd7018acc5aa4e786c4e9970df,
+                _:blank_ee0d840a7c4b7b9722027d988b674e35 ;
+            ns1:gene-name _:blank_93e2ef36195a490ef15d9a3581ef9897,
+                _:blank_fa3b9812c556637e0e197497a189367f ;
+            ns1:gene-sequence _:blank_b8c905aee718081bc7b403f13a8a7333,
+                _:blank_f9b6db788e8055e83328255a299094b4 ;
+            ns1:general-function _:blank_1e930ae520ef12d6fd74705c2f84c136 ;
+            ns1:molecular-weight _:blank_303bb1fbb6db6baf4c9fb7c9c408d87a,
+                _:blank_6513cf5f2a26a340741dbd3b2bbccdb1 ;
+            ns1:organism "Human" ;
+            ns1:specific-function _:blank_0f9a66b81fdfe977e9b527ce69065e15,
+                _:blank_aa006f3e49bad1744e52f1a5a3314c70 ;
+            ns1:theoretical-pi _:blank_16938c71d17905923d3f006435233f16,
+                _:blank_9f70a22e9f648129dafcaa2038ad331a ;
+            ns1:transmembrane-regions _:blank_936b062869611d75e3e82ca1b3bb0e75,
+                _:blank_95d04948165265ec313f41223f02a77b ;
+            ns1:x-genatlas _:blank_709b39263478e05a02db097c9df214b7,
+                _:blank_c09e2bfb8a1e8b63bdf65a9b6e6281b5 ;
+            ns1:x-genecards _:blank_583374103816e55d8bbac95d38ca04dd,
+                _:blank_d00ceb1d313c53733cf05d0cff7e8b3d ;
+            ns1:x-hgnc _:blank_5e45edd82569fb2e433baa0bb413e949,
+                _:blank_c4a011e8cff70283ff6c5fe9aedfff8d ;
+            ns1:x-taxonomy <http://bio2rdf.org/taxonomy:9606> ],
+        [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_20d2b0bd7018acc5aa4e786c4e9970df,
+                _:blank_ee0d840a7c4b7b9722027d988b674e35 ;
+            ns1:gene-name _:blank_93e2ef36195a490ef15d9a3581ef9897,
+                _:blank_fa3b9812c556637e0e197497a189367f ;
+            ns1:gene-sequence _:blank_b8c905aee718081bc7b403f13a8a7333,
+                _:blank_f9b6db788e8055e83328255a299094b4 ;
+            ns1:general-function _:blank_1e930ae520ef12d6fd74705c2f84c136 ;
+            ns1:molecular-weight _:blank_303bb1fbb6db6baf4c9fb7c9c408d87a,
+                _:blank_6513cf5f2a26a340741dbd3b2bbccdb1 ;
+            ns1:organism "Human" ;
+            ns1:specific-function _:blank_0f9a66b81fdfe977e9b527ce69065e15,
+                _:blank_aa006f3e49bad1744e52f1a5a3314c70 ;
+            ns1:theoretical-pi _:blank_16938c71d17905923d3f006435233f16,
+                _:blank_9f70a22e9f648129dafcaa2038ad331a ;
+            ns1:transmembrane-regions _:blank_936b062869611d75e3e82ca1b3bb0e75,
+                _:blank_95d04948165265ec313f41223f02a77b ;
+            ns1:x-genatlas _:blank_709b39263478e05a02db097c9df214b7,
+                _:blank_c09e2bfb8a1e8b63bdf65a9b6e6281b5 ;
+            ns1:x-genecards _:blank_583374103816e55d8bbac95d38ca04dd,
+                _:blank_d00ceb1d313c53733cf05d0cff7e8b3d ;
+            ns1:x-hgnc _:blank_5e45edd82569fb2e433baa0bb413e949,
+                _:blank_c4a011e8cff70283ff6c5fe9aedfff8d ;
+            ns1:x-taxonomy <http://bio2rdf.org/taxonomy:9606> ] ;
+    _:blank_c6575f47fbb8437c1a1ce0338bbfab5d [ a ns1:Mechanism-of-action ],
+        [ a ns1:Mechanism-of-action ] ;
+    _:blank_c73fbce2cafef015e4888d1913ffa047 [ a ns1:Mechanism-of-action ],
+        [ a ns1:Mechanism-of-action ] ;
+    _:blank_c8ce8ae9f203a04ce2e370bbd3fa4cee [ a ns1:Mechanism-of-action ],
+        [ a ns1:Mechanism-of-action ] ;
+    [ ] [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_20d2b0bd7018acc5aa4e786c4e9970df,
+                _:blank_ee0d840a7c4b7b9722027d988b674e35 ;
+            ns1:gene-name _:blank_93e2ef36195a490ef15d9a3581ef9897,
+                _:blank_fa3b9812c556637e0e197497a189367f ;
+            ns1:gene-sequence _:blank_b8c905aee718081bc7b403f13a8a7333,
+                _:blank_f9b6db788e8055e83328255a299094b4 ;
+            ns1:general-function _:blank_1e930ae520ef12d6fd74705c2f84c136 ;
+            ns1:molecular-weight _:blank_303bb1fbb6db6baf4c9fb7c9c408d87a,
+                _:blank_6513cf5f2a26a340741dbd3b2bbccdb1 ;
+            ns1:organism "Human" ;
+            ns1:specific-function _:blank_0f9a66b81fdfe977e9b527ce69065e15,
+                _:blank_aa006f3e49bad1744e52f1a5a3314c70 ;
+            ns1:theoretical-pi _:blank_16938c71d17905923d3f006435233f16,
+                _:blank_9f70a22e9f648129dafcaa2038ad331a ;
+            ns1:transmembrane-regions _:blank_936b062869611d75e3e82ca1b3bb0e75,
+                _:blank_95d04948165265ec313f41223f02a77b ;
+            ns1:x-genatlas _:blank_709b39263478e05a02db097c9df214b7,
+                _:blank_c09e2bfb8a1e8b63bdf65a9b6e6281b5 ;
+            ns1:x-genecards _:blank_583374103816e55d8bbac95d38ca04dd,
+                _:blank_d00ceb1d313c53733cf05d0cff7e8b3d ;
+            ns1:x-hgnc _:blank_5e45edd82569fb2e433baa0bb413e949,
+                _:blank_c4a011e8cff70283ff6c5fe9aedfff8d ;
+            ns1:x-taxonomy <http://bio2rdf.org/taxonomy:9606> ] ;
+    [ ] [ a ns1:Pharmacodynamics ] ;
+    _:blank_e59f6b238cb57f727cb75e02dec31b70 [ a ns1:Mechanism-of-action ],
+        [ a ns1:Mechanism-of-action ] ;
+    _:blank_e80cc2498d34704555bd2df62f62f957 [ a ns1:Mechanism-of-action ],
+        [ a ns1:Mechanism-of-action ] ;
+    _:blank_f31f4cc68316a3784e93f0b0b86e36db [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_20d2b0bd7018acc5aa4e786c4e9970df,
+                _:blank_ee0d840a7c4b7b9722027d988b674e35 ;
+            ns1:gene-name _:blank_93e2ef36195a490ef15d9a3581ef9897,
+                _:blank_fa3b9812c556637e0e197497a189367f ;
+            ns1:gene-sequence _:blank_b8c905aee718081bc7b403f13a8a7333,
+                _:blank_f9b6db788e8055e83328255a299094b4 ;
+            ns1:general-function _:blank_1e930ae520ef12d6fd74705c2f84c136 ;
+            ns1:molecular-weight _:blank_303bb1fbb6db6baf4c9fb7c9c408d87a,
+                _:blank_6513cf5f2a26a340741dbd3b2bbccdb1 ;
+            ns1:organism "Human" ;
+            ns1:specific-function _:blank_0f9a66b81fdfe977e9b527ce69065e15,
+                _:blank_aa006f3e49bad1744e52f1a5a3314c70 ;
+            ns1:theoretical-pi _:blank_16938c71d17905923d3f006435233f16,
+                _:blank_9f70a22e9f648129dafcaa2038ad331a ;
+            ns1:transmembrane-regions _:blank_936b062869611d75e3e82ca1b3bb0e75,
+                _:blank_95d04948165265ec313f41223f02a77b ;
+            ns1:x-genatlas _:blank_709b39263478e05a02db097c9df214b7,
+                _:blank_c09e2bfb8a1e8b63bdf65a9b6e6281b5 ;
+            ns1:x-genecards _:blank_583374103816e55d8bbac95d38ca04dd,
+                _:blank_d00ceb1d313c53733cf05d0cff7e8b3d ;
+            ns1:x-hgnc _:blank_5e45edd82569fb2e433baa0bb413e949,
+                _:blank_c4a011e8cff70283ff6c5fe9aedfff8d ;
+            ns1:x-taxonomy <http://bio2rdf.org/taxonomy:9606> ],
+        [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_20d2b0bd7018acc5aa4e786c4e9970df,
+                _:blank_ee0d840a7c4b7b9722027d988b674e35 ;
+            ns1:gene-name _:blank_93e2ef36195a490ef15d9a3581ef9897,
+                _:blank_fa3b9812c556637e0e197497a189367f ;
+            ns1:gene-sequence _:blank_b8c905aee718081bc7b403f13a8a7333,
+                _:blank_f9b6db788e8055e83328255a299094b4 ;
+            ns1:general-function _:blank_1e930ae520ef12d6fd74705c2f84c136 ;
+            ns1:molecular-weight _:blank_303bb1fbb6db6baf4c9fb7c9c408d87a,
+                _:blank_6513cf5f2a26a340741dbd3b2bbccdb1 ;
+            ns1:organism "Human" ;
+            ns1:specific-function _:blank_0f9a66b81fdfe977e9b527ce69065e15,
+                _:blank_aa006f3e49bad1744e52f1a5a3314c70 ;
+            ns1:theoretical-pi _:blank_16938c71d17905923d3f006435233f16,
+                _:blank_9f70a22e9f648129dafcaa2038ad331a ;
+            ns1:transmembrane-regions _:blank_936b062869611d75e3e82ca1b3bb0e75,
+                _:blank_95d04948165265ec313f41223f02a77b ;
+            ns1:x-genatlas _:blank_709b39263478e05a02db097c9df214b7,
+                _:blank_c09e2bfb8a1e8b63bdf65a9b6e6281b5 ;
+            ns1:x-genecards _:blank_583374103816e55d8bbac95d38ca04dd,
+                _:blank_d00ceb1d313c53733cf05d0cff7e8b3d ;
+            ns1:x-hgnc _:blank_5e45edd82569fb2e433baa0bb413e949,
+                _:blank_c4a011e8cff70283ff6c5fe9aedfff8d ;
+            ns1:x-taxonomy <http://bio2rdf.org/taxonomy:9606> ] ;
+    ns1:affected-organism [ a ns1:Affected-organism ] ;
+    ns1:mechanism-of-action [ a ns1:Mechanism-of-action ] ;
+    ns1:pharmacodynamics [ a ns1:Pharmacodynamics ] ;
+    ns1:target [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_20d2b0bd7018acc5aa4e786c4e9970df,
+                _:blank_ee0d840a7c4b7b9722027d988b674e35 ;
+            ns1:gene-name _:blank_93e2ef36195a490ef15d9a3581ef9897,
+                _:blank_fa3b9812c556637e0e197497a189367f ;
+            ns1:gene-sequence _:blank_b8c905aee718081bc7b403f13a8a7333,
+                _:blank_f9b6db788e8055e83328255a299094b4 ;
+            ns1:general-function _:blank_1e930ae520ef12d6fd74705c2f84c136 ;
+            ns1:molecular-weight _:blank_303bb1fbb6db6baf4c9fb7c9c408d87a,
+                _:blank_6513cf5f2a26a340741dbd3b2bbccdb1 ;
+            ns1:organism "Human" ;
+            ns1:specific-function _:blank_0f9a66b81fdfe977e9b527ce69065e15,
+                _:blank_aa006f3e49bad1744e52f1a5a3314c70 ;
+            ns1:theoretical-pi _:blank_16938c71d17905923d3f006435233f16,
+                _:blank_9f70a22e9f648129dafcaa2038ad331a ;
+            ns1:transmembrane-regions _:blank_936b062869611d75e3e82ca1b3bb0e75,
+                _:blank_95d04948165265ec313f41223f02a77b ;
+            ns1:x-genatlas _:blank_709b39263478e05a02db097c9df214b7,
+                _:blank_c09e2bfb8a1e8b63bdf65a9b6e6281b5 ;
+            ns1:x-genecards _:blank_583374103816e55d8bbac95d38ca04dd,
+                _:blank_d00ceb1d313c53733cf05d0cff7e8b3d ;
+            ns1:x-hgnc _:blank_5e45edd82569fb2e433baa0bb413e949,
+                _:blank_c4a011e8cff70283ff6c5fe9aedfff8d ;
+            ns1:x-taxonomy <http://bio2rdf.org/taxonomy:9606> ],
+        [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_20d2b0bd7018acc5aa4e786c4e9970df,
+                _:blank_ee0d840a7c4b7b9722027d988b674e35 ;
+            ns1:gene-name _:blank_93e2ef36195a490ef15d9a3581ef9897,
+                _:blank_fa3b9812c556637e0e197497a189367f ;
+            ns1:gene-sequence _:blank_b8c905aee718081bc7b403f13a8a7333,
+                _:blank_f9b6db788e8055e83328255a299094b4 ;
+            ns1:general-function _:blank_1e930ae520ef12d6fd74705c2f84c136 ;
+            ns1:molecular-weight _:blank_303bb1fbb6db6baf4c9fb7c9c408d87a,
+                _:blank_6513cf5f2a26a340741dbd3b2bbccdb1 ;
+            ns1:organism "Human" ;
+            ns1:specific-function _:blank_0f9a66b81fdfe977e9b527ce69065e15,
+                _:blank_aa006f3e49bad1744e52f1a5a3314c70 ;
+            ns1:theoretical-pi _:blank_16938c71d17905923d3f006435233f16,
+                _:blank_9f70a22e9f648129dafcaa2038ad331a ;
+            ns1:transmembrane-regions _:blank_936b062869611d75e3e82ca1b3bb0e75,
+                _:blank_95d04948165265ec313f41223f02a77b ;
+            ns1:x-genatlas _:blank_709b39263478e05a02db097c9df214b7,
+                _:blank_c09e2bfb8a1e8b63bdf65a9b6e6281b5 ;
+            ns1:x-genecards _:blank_583374103816e55d8bbac95d38ca04dd,
+                _:blank_d00ceb1d313c53733cf05d0cff7e8b3d ;
+            ns1:x-hgnc _:blank_5e45edd82569fb2e433baa0bb413e949,
+                _:blank_c4a011e8cff70283ff6c5fe9aedfff8d ;
+            ns1:x-taxonomy <http://bio2rdf.org/taxonomy:9606> ] .
+

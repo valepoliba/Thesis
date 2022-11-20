@@ -1,0 +1,2 @@
+_:blank_a7ae1cb16615a6a361103077fc4a0fd7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Small-molecule . 
+_:blank_a7ae1cb16615a6a361103077fc4a0fd7 http://bio2rdf.org/drugbank_vocabulary:affected-organism http://bio2rdf.org/drugbank_vocabulary:e1e572616d493b2affcc653e19cbcd21 . 

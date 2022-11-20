@@ -1,0 +1,130 @@
+--- <_io.TextIOWrapper name='../../outputs/drugbank/po_significant/oLast_NQ_NEW_2022-11-20_14.12.43.124918/output_tmp_LCS_0_po_significant_temp.nt' mode='r' encoding='cp1252'>
++++ <_io.TextIOWrapper name='../../outputs/drugbank/po_significant/oLast_NQ_NEW_2022-11-20_14.12.43.124918/output_tmp_LCS_1_po_significant_temp.nt' mode='r' encoding='cp1252'>
+@@ -0,0 +1,4 @@
++http://bio2rdf.org/drugbank_vocabulary:x-taxonomy http://bio2rdf.org/taxonomy:9606 . 
+
++http://bio2rdf.org/drugbank_vocabulary:x-taxonomy http://bio2rdf.org/taxonomy:9606 . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Mechanism-of-action . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Mechanism-of-action . 
+
+@@ -2,0 +7,41 @@
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Mechanism-of-action . 
+
++http://bio2rdf.org/drugbank_vocabulary:x-taxonomy http://bio2rdf.org/taxonomy:9606 . 
+
++http://bio2rdf.org/drugbank_vocabulary:x-taxonomy http://bio2rdf.org/taxonomy:9606 . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+
++http://bio2rdf.org/drugbank_vocabulary:x-taxonomy http://bio2rdf.org/taxonomy:9606 . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+
++http://bio2rdf.org/drugbank_vocabulary:x-taxonomy http://bio2rdf.org/taxonomy:9606 . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Mechanism-of-action . 
+
++http://bio2rdf.org/drugbank_vocabulary:x-taxonomy http://bio2rdf.org/taxonomy:9606 . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Mechanism-of-action . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Small-molecule . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Mechanism-of-action . 
+
++http://bio2rdf.org/drugbank_vocabulary:x-taxonomy http://bio2rdf.org/taxonomy:9606 . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Mechanism-of-action . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Mechanism-of-action . 
+
++http://bio2rdf.org/drugbank_vocabulary:x-taxonomy http://bio2rdf.org/taxonomy:9606 . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Mechanism-of-action . 
+
++http://bio2rdf.org/drugbank_vocabulary:x-taxonomy http://bio2rdf.org/taxonomy:9606 . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Mechanism-of-action . 
+
++http://bio2rdf.org/drugbank_vocabulary:x-taxonomy http://bio2rdf.org/taxonomy:9606 . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Mechanism-of-action . 
+
++http://bio2rdf.org/drugbank_vocabulary:x-taxonomy http://bio2rdf.org/taxonomy:9606 . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Mechanism-of-action . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Mechanism-of-action . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Mechanism-of-action . 
+
++http://bio2rdf.org/drugbank_vocabulary:x-taxonomy http://bio2rdf.org/taxonomy:9606 . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Mechanism-of-action . 
+
++http://bio2rdf.org/drugbank_vocabulary:x-taxonomy http://bio2rdf.org/taxonomy:9606 . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Mechanism-of-action . 
+
++http://bio2rdf.org/drugbank_vocabulary:x-taxonomy http://bio2rdf.org/taxonomy:9606 . 
+
+@@ -4 +49,2 @@
+-http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Small-molecule . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+
++http://bio2rdf.org/drugbank_vocabulary:x-taxonomy http://bio2rdf.org/taxonomy:9606 . 
+
+@@ -5,0 +52,14 @@
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Mechanism-of-action . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Mechanism-of-action . 
+
++http://bio2rdf.org/drugbank_vocabulary:x-taxonomy http://bio2rdf.org/taxonomy:9606 . 
+
++http://bio2rdf.org/drugbank_vocabulary:x-taxonomy http://bio2rdf.org/taxonomy:9606 . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+
++http://bio2rdf.org/drugbank_vocabulary:x-taxonomy http://bio2rdf.org/taxonomy:9606 . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Mechanism-of-action . 
+
++http://bio2rdf.org/drugbank_vocabulary:x-taxonomy http://bio2rdf.org/taxonomy:9606 . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Mechanism-of-action . 
+

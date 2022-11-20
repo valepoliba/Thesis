@@ -1,0 +1,5 @@
+_:blank_6a39b43052d7b0b47dcc5fa78b46c51d http://bio2rdf.org/drugbank_vocabulary:x-taxonomy http://bio2rdf.org/taxonomy:9606 . 
+_:blank_6a39b43052d7b0b47dcc5fa78b46c51d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+_:blank_01081bde2550fe764029f64513a97f4b http://bio2rdf.org/drugbank_vocabulary:affected-organism http://bio2rdf.org/drugbank_vocabulary:e1e572616d493b2affcc653e19cbcd21 . 
+_:blank_01081bde2550fe764029f64513a97f4b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Small-molecule . 
+_:blank_a898369a85491640e115e370d4692e5c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Mechanism-of-action . 
