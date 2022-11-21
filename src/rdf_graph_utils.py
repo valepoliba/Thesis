@@ -2,6 +2,8 @@ import os
 from time import time
 import networkx as nx
 import matplotlib.pyplot as plt
+import shlex
+import difflib
 
 
 def rdf_to_plot(graph, dir):
@@ -71,4 +73,47 @@ def root_node(graph):
         print("multiple root nodes found. ")
         # return most_conncted(ss1, graph)
         raise Exception("Error: multiple root nodes found.")
+
+# gestione numero predicato-oggetto significativi
+def pred_obj_significant(directory, iteration, gp):
+    outputnt = open(directory + '/output_tmp_LCS_' + str(iteration) + '.nt', 'r')
+    outputietration =  open(directory + '/output_tmp_LCS_' + str(iteration) + '_po_significant.nt', 'a')
+    outputietration_temp =  open(directory + '/output_tmp_LCS_' + str(iteration) + '_po_significant_temp.nt', 'a')
+    filecount = 0
+    for line in outputnt.readlines():
+          line = line.replace('<', '').replace('>', '')
+          s, p, o, _ = shlex.split(line)
+          if not ('_:blank_' in p) and not ('_:blank_' in o) and ('http' in o):
+                for goodline in gp:
+                  if goodline == p:
+                      outputietration.write(s + ' ' + p + ' ' + o + ' ' + _ + ' ' + '\n')
+                      outputietration_temp.write(p + ' ' + o + ' ' + _ + ' ' + '\n')
+                      filecount += 1
+    print('Count significant row: ', filecount)
+    outputietration.close()
+    outputnt.close()
+    outputietration_temp.close()
+
+# confronto con iterazione precedente dei po significativi
+def compare_prev_next_iteration(directory, iteration):
+    diffcheck = False
+    if iteration != 0:  
+      with open(directory + '/output_tmp_LCS_' + str(iteration-1) + '_po_significant_temp.nt') as po1:
+            po_1 = po1.readlines()
+      
+      with open(directory + '/output_tmp_LCS_' + str(iteration) + '_po_significant_temp.nt') as po2:
+            po_2 = po2.readlines()
+
+      outputietrationdifference =  open(directory + '/output_tmp_LCS_' + str(iteration) + '_po_difference.nt', 'a')
+      
+      # Find and print the diff:
+      for line in difflib.unified_diff(po_1, po_2, fromfile=str(po1), tofile=str(po2), lineterm='', n=0):
+            diffcheck = True
+            outputietrationdifference.write(line + '\n')
+
+      if diffcheck == False:
+            outputietrationdifference.write('NO DIFFERENCE WAS FOUND')
+
+      outputietrationdifference.close()
+      os.remove(directory + '/output_tmp_LCS_' + str(iteration-1) + '_po_significant_temp.nt')  
 
