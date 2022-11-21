@@ -1,0 +1,4 @@
+_:blank_865f626e207a106c9f0a8428c19ba930 <http://bio2rdf.org/drugbank_vocabulary:affected-organism> <http://bio2rdf.org/drugbank_vocabulary:e1e572616d493b2affcc653e19cbcd21> .
+_:blank_865f626e207a106c9f0a8428c19ba930 <http://bio2rdf.org/drugbank_vocabulary:pharmacodynamics> _:blank_e45fe76c24ca2d20de9f3fe9987da511 .
+_:blank_865f626e207a106c9f0a8428c19ba930 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Small-molecule> .
+_:blank_e45fe76c24ca2d20de9f3fe9987da511 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Pharmacodynamics> .
