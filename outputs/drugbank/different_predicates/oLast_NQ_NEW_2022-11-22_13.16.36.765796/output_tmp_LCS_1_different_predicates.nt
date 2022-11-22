@@ -1,0 +1,6 @@
+http://bio2rdf.org/drugbank_vocabulary:mechanism-of-action
+http://bio2rdf.org/drugbank_vocabulary:affected-organism
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+
+#######
+Different predicates count: 3

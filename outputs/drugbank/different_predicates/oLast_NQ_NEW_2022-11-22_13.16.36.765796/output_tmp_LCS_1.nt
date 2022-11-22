@@ -1,0 +1,3 @@
+_:blank_7ce11b70e76576033b34f0a03ab4bda0 <http://bio2rdf.org/drugbank_vocabulary:mechanism-of-action> _:blank_52c9bf11f90a390800fecb0cca9f1142 .
+_:blank_7ce11b70e76576033b34f0a03ab4bda0 <http://bio2rdf.org/drugbank_vocabulary:affected-organism> <http://bio2rdf.org/drugbank_vocabulary:e1e572616d493b2affcc653e19cbcd21> .
+_:blank_52c9bf11f90a390800fecb0cca9f1142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Mechanism-of-action> .
