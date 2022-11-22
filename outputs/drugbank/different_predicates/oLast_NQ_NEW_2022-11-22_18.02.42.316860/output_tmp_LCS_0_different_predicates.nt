@@ -1,0 +1,19 @@
+http://bio2rdf.org/drugbank_vocabulary:general-function
+http://bio2rdf.org/drugbank_vocabulary:go-function
+http://bio2rdf.org/drugbank_vocabulary:x-pfam
+http://bio2rdf.org/drugbank_vocabulary:amino-acid-sequence
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://bio2rdf.org/drugbank_vocabulary:gene-sequence
+http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions
+http://bio2rdf.org/drugbank_vocabulary:target
+http://bio2rdf.org/drugbank_vocabulary:specific-function
+http://bio2rdf.org/drugbank_vocabulary:gene-name
+http://bio2rdf.org/drugbank_vocabulary:name
+http://bio2rdf.org/drugbank_vocabulary:x-gi
+http://bio2rdf.org/drugbank_vocabulary:organism
+http://bio2rdf.org/drugbank_vocabulary:theoretical-pi
+http://bio2rdf.org/drugbank_vocabulary:molecular-weight
+http://bio2rdf.org/drugbank_vocabulary:x-taxonomy
+
+#######
+Different predicates count: 16

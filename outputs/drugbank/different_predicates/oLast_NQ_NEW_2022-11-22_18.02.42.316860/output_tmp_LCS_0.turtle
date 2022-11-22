@@ -1,0 +1,50 @@
+@prefix ns1: <http://bio2rdf.org/drugbank_vocabulary:> .
+
+[] a ns1:Small-molecule ;
+    ns1:target [ ns1:amino-acid-sequence [ ] ;
+            ns1:gene-name [ ] ;
+            ns1:gene-sequence [ ] ;
+            ns1:general-function _:blank_1603791a7f6a55f9277f591913368a5b ;
+            ns1:go-function _:blank_03b012ea1b3d2a5a0ed7da0970d51cb6,
+                _:blank_0dc7b83edead31fa7bce5a06c2eb243f,
+                _:blank_2e21daf00a2a0aaa498ec4094017fec4,
+                _:blank_43c2ce0345999bb09696817ec37b00fa,
+                _:blank_63773e713a515ee0e779b1a64252b6a4,
+                _:blank_6b653cb83dbce80afab2ae15bba85f68,
+                _:blank_796a359e6c72a4e7408a99aaa6c680c8,
+                _:blank_8ae3ea0c86def55913053dc7760bc4b5,
+                _:blank_d0a0fdb01ab53ec97734a50cf6e5ff73,
+                _:blank_e2e7ef9b6438f5143370f8aae526639f ;
+            ns1:molecular-weight [ ] ;
+            ns1:name [ ] ;
+            ns1:organism _:blank_3844acaeeef823b1e6fdeacb6161ba0d ;
+            ns1:specific-function [ ] ;
+            ns1:theoretical-pi [ ] ;
+            ns1:transmembrane-regions "None" ;
+            ns1:x-gi [ ] ;
+            ns1:x-pfam [ ] ;
+            ns1:x-taxonomy _:blank_df927fb4a6fbdb00591d52aea814a398 ],
+        [ ns1:amino-acid-sequence [ ] ;
+            ns1:gene-name [ ] ;
+            ns1:gene-sequence [ ] ;
+            ns1:general-function _:blank_1603791a7f6a55f9277f591913368a5b ;
+            ns1:go-function _:blank_03b012ea1b3d2a5a0ed7da0970d51cb6,
+                _:blank_0dc7b83edead31fa7bce5a06c2eb243f,
+                _:blank_2e21daf00a2a0aaa498ec4094017fec4,
+                _:blank_43c2ce0345999bb09696817ec37b00fa,
+                _:blank_63773e713a515ee0e779b1a64252b6a4,
+                _:blank_6b653cb83dbce80afab2ae15bba85f68,
+                _:blank_796a359e6c72a4e7408a99aaa6c680c8,
+                _:blank_8ae3ea0c86def55913053dc7760bc4b5,
+                _:blank_d0a0fdb01ab53ec97734a50cf6e5ff73,
+                _:blank_e2e7ef9b6438f5143370f8aae526639f ;
+            ns1:molecular-weight [ ] ;
+            ns1:name [ ] ;
+            ns1:organism _:blank_3844acaeeef823b1e6fdeacb6161ba0d ;
+            ns1:specific-function [ ] ;
+            ns1:theoretical-pi [ ] ;
+            ns1:transmembrane-regions "None" ;
+            ns1:x-gi [ ] ;
+            ns1:x-pfam [ ] ;
+            ns1:x-taxonomy _:blank_df927fb4a6fbdb00591d52aea814a398 ] .
+
