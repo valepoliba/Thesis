@@ -115,5 +115,24 @@ def compare_prev_next_iteration(directory, iteration):
             outputietrationdifference.write('NO DIFFERENCE WAS FOUND')
 
       outputietrationdifference.close()
+      po1.close()
+      po2.close()
       os.remove(directory + '/output_tmp_LCS_' + str(iteration-1) + '_po_significant_temp.nt')  
 
+# numero predicati diversi
+def different_predicates_count(directory, iteration):
+    outputnt = open(directory + '/output_tmp_LCS_' + str(iteration) + '.nt', 'r')
+    outputietration =  open(directory + '/output_tmp_LCS_' + str(iteration) + '_different_predicates.nt', 'a')
+    temparray = []
+
+    for line in outputnt.readlines():
+            line = line.replace('<', '').replace('>', '')
+            s, p, o, _ = shlex.split(line)
+            if not (p in temparray):
+                temparray.append(p)
+                
+    print('Different predicates count: ' + str(len(temparray)))
+    outputietration.write(str('\n'.join(temparray)) + '\n')
+    outputietration.write('\n' + '#######' + '\n' + 'Different predicates count: ' + str(len(temparray)))
+    outputietration.close()
+    outputnt.close()

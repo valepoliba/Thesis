@@ -54,14 +54,14 @@ df = pd.concat([allpredicates, badpredicates]).drop_duplicates(keep=False)
 print("Count: ", df.count())
 df.to_csv('datasets/drugbank/good_predicates.tsv', index=False, quoting=csv.QUOTE_ALL)
 """
-
+"""
 import rdflib
 import pandas as pd
 from rdflib import Graph, RDF
 from rdflib.term import _is_valid_uri
 from knowledge_graph import *
 import shlex
-"""
+
 g = Graph()
 g.parse('outputs/drugbank/oLast_NQ_NEW_3/output_tmp_LCS_0.nt')
 
@@ -147,7 +147,7 @@ for line in outputnt.readlines():
     s, p, o, _ = shlex.split(line)
     if not ('_:blank_' in p) and not ('_:blank_' in o) and ('http' in o):
         print(s + ' ' + p + ' ' + o + ' ' + _ + ' ' + '\n')
-"""
+
 import difflib
 import os
  
@@ -166,4 +166,29 @@ for line in difflib.unified_diff(
 
 outputietrationdifference.close()
 os.remove('test1.nt')
+"""
+
+"""
+valueTo1={"a","b","c"}
+
+if valueTo1.has_key("a"):
+        print "Found key in dictionary"
+"""
+import shlex
+
+outputnt = open('outputs\drugbank\po_significant\oLast_NQ_NEW_2022-11-21_18.01.19.886840\output_tmp_LCS_0.nt', 'r')
+outputietration =  open('outputs\drugbank\po_significant\oLast_NQ_NEW_2022-11-21_18.01.19.886840\output_tmp_LCS_0_different_predicates.nt', 'a')
+temparray = []
+filecount = 0   
+for line in outputnt.readlines():
+        line = line.replace('<', '').replace('>', '')
+        s, p, o, _ = shlex.split(line)
+        if not (p in temparray):
+            temparray.append(p)
+            
+print('Different predicates count: ' + str(len(temparray)))
+outputietration.write(str('\n'.join(temparray)) + '\n')
+outputietration.write('\n' + '#######' + '\n' + 'Different predicates count: ' + str(len(temparray)))
+                    
+
 
