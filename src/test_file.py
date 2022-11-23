@@ -173,7 +173,7 @@ valueTo1={"a","b","c"}
 
 if valueTo1.has_key("a"):
         print "Found key in dictionary"
-"""
+
 import shlex
 
 outputnt = open('outputs\drugbank\po_significant\oLast_NQ_NEW_2022-11-21_18.01.19.886840\output_tmp_LCS_0.nt', 'r')
@@ -189,6 +189,11 @@ for line in outputnt.readlines():
 print('Different predicates count: ' + str(len(temparray)))
 outputietration.write(str('\n'.join(temparray)) + '\n')
 outputietration.write('\n' + '#######' + '\n' + 'Different predicates count: ' + str(len(temparray)))
-                    
+"""
 
+from rdf_graph_utils import diff_pred_significant
+directory = 'outputs/drugbank/po_significant/oLast_NQ_NEW_2022-11-21_18.01.19.886840'
+iteration = 0
+
+diff_pred_significant(directory, iteration)
 
