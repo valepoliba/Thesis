@@ -1,0 +1,8 @@
+--- <_io.TextIOWrapper name='../../outputs/drugbank/diff_predicates/oLast_NQ_NEW_2022-11-23_19.29.15.541165/output_tmp_LCS_0_different_predicates.nt' mode='r' encoding='cp1252'>
++++ <_io.TextIOWrapper name='../../outputs/drugbank/diff_predicates/oLast_NQ_NEW_2022-11-23_19.29.15.541165/output_tmp_LCS_0_po_significant_temp2.nt' mode='r' encoding='cp1252'>
+@@ -1 +0,0 @@
+-http://bio2rdf.org/drugbank_vocabulary:mechanism-of-action
+
+@@ -2,0 +2 @@
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+
