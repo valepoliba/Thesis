@@ -1,0 +1,89 @@
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:go-function> "DNA binding" .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:x-genatlas> _:blank_6f5c9d881c5cf46335154aaf9065c319 .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:x-taxonomy> <http://bio2rdf.org/taxonomy:9606> .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:locus> _:blank_16de968bc4a0733a8ece523fa72d33a5 .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:amino-acid-sequence> _:blank_6a5c59941d9decb23ad438c23de9c900 .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:go-function> _:blank_859cc242b8b21b66534f5a02c2098528 .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:go-function> "binding" .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:go-process> "regulation of transcription, DNA-dependent" .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:go-component> "intracellular membrane-bound organelle" .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:go-function> "nucleic acid binding" .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:specific-function> _:blank_107c38fdc864ab0c83c4988a2d284d31 .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:go-process> "regulation of physiological process" .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:go-component> "organelle" .
+_:blank_b507940a3d031dab8acfde13c4d5cd42 <http://bio2rdf.org/drugbank_vocabulary:affected-organism> <http://bio2rdf.org/drugbank_vocabulary:e1e572616d493b2affcc653e19cbcd21> .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:go-component> "membrane-bound organelle" .
+_:blank_560fabeae6905c814d2203c45c1cc63e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Mechanism-of-action> .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:theoretical-pi> _:blank_2d03c7788f5a06923400df5d7ca57900 .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:go-process> "regulation of metabolism" .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Target> .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:x-pfam> _:blank_cd7f7011621b883b4f7ebed0c6238a7a .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:x-hgnc> _:blank_6d82ee0dd9b52b80582a0749d8c25322 .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:x-gi> _:blank_6f7afcfc5047516d02a2b6c61301cf1b .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:go-component> "nucleus" .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:x-taxonomy> <http://bio2rdf.org/taxonomy:9606> .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:x-pfam> _:blank_555a3aa3b8b38dc205b371ce5865359f .
+_:blank_b507940a3d031dab8acfde13c4d5cd42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Small-molecule> .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:go-process> "regulation of cellular metabolism" .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:gene-name> _:blank_7407d3077139c20191feebab8465a189 .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:go-function> "binding" .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:general-function> "Involved in transcription factor activity" .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions> "None" .
+_:blank_eb7478d1f0be385e2a2d94fd2d8fa78d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Absorption> .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:go-function> "nucleic acid binding" .
+_:blank_b507940a3d031dab8acfde13c4d5cd42 <http://bio2rdf.org/drugbank_vocabulary:target> _:blank_2447a29758259433d9f30a88b531100a .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:go-function> _:blank_15b7e8d46cd738bcc2b50bee8d316fe8 .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:go-process> "regulation of transcription" .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:go-function> _:blank_022a18c27f43bba12c69babcc56a2d22 .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:go-function> _:blank_507239bcf7e488143aef87beada18a0a .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:go-process> "regulation of transcription, DNA-dependent" .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:amino-acid-sequence> _:blank_27ce3bf91de5e3aa2a30d28de138b945 .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:x-pfam> _:blank_e23d7d8269e8799be7f332b80981bb59 .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:go-process> "regulation of cellular metabolism" .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:go-function> _:blank_d4957b71360a58e8e7e4bb0d441310a1 .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:go-process> "regulation of biological process" .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:go-function> _:blank_4af6f8b48b49cdf4e590fe8f32734743 .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:gene-name> _:blank_a2d24513a781023b9982e3ee05eeb1a3 .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:molecular-weight> _:blank_281b0d68f65fd098c88f8686a53d5d01 .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:go-process> "regulation of metabolism" .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:go-function> "transcription factor activity" .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions> "None" .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:theoretical-pi> _:blank_13bf49d910b932e5bee445f23014b227 .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:cellular-location> _:blank_d274b09ac1b78e314847b99a9968e81d .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:go-component> "nucleus" .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:go-process> "regulation of nucleobase, nucleoside, nucleotide and nucleic acid metabolism" .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:go-function> _:blank_60556395d317164f48907f79f125ea85 .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:name> _:blank_4b9b3fddeb139d232ec1057a79dc2209 .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:x-genecards> _:blank_241efa3a56474d1094dbf96c95f075b0 .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:organism> "Human" .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:go-function> _:blank_4e3eeba9a5e2a15face38b4899999715 .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:go-process> "regulation of biological process" .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:go-process> "regulation of transcription" .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:name> _:blank_02a99eea5140835662bf00625ce858e6 .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:gene-sequence> _:blank_bcb23922ac1c282fe3896f44b53fb293 .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:go-component> "intracellular membrane-bound organelle" .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:go-component> "organelle" .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:x-pfam> _:blank_b3479ea2481a905a9f1ee0e0c0512c27 .
+_:blank_b507940a3d031dab8acfde13c4d5cd42 <http://bio2rdf.org/drugbank_vocabulary:mechanism-of-action> _:blank_560fabeae6905c814d2203c45c1cc63e .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:go-component> "membrane-bound organelle" .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:go-function> "DNA binding" .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:go-function> "transcription factor activity" .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:molecular-weight> _:blank_e2868f67d90d4914ffaa0c71cfe7536f .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:x-pfam> _:blank_acbcad34dd84b9f286486d7c99798480 .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:specific-function> _:blank_635032587d155547c0cc4c8d4bb87ac9 .
+_:blank_b507940a3d031dab8acfde13c4d5cd42 <http://bio2rdf.org/drugbank_vocabulary:target> _:blank_6fc84d16a47655b0f2a58f6d934a0743 .
+_:blank_2447a29758259433d9f30a88b531100a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Target> .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:gene-sequence> _:blank_e9e0b9e94a2c0c17474d8361c5e9f049 .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:go-function> _:blank_e7a15e3aab4558e13e493b5d8a9ad08a .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:general-function> _:blank_7c67f364278151d2c76e623ac5b01a8d .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:x-hgnc> _:blank_f185e04868b70198213c23094b15274b .
+_:blank_b507940a3d031dab8acfde13c4d5cd42 <http://bio2rdf.org/drugbank_vocabulary:absorption> _:blank_eb7478d1f0be385e2a2d94fd2d8fa78d .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:organism> "Human" .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:go-process> "regulation of physiological process" .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:go-function> _:blank_ce72a82b19ece73fae2dd876cd6a7504 .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:go-process> "regulation of nucleobase, nucleoside, nucleotide and nucleic acid metabolism" .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:locus> _:blank_6afd66beb22be4dfdd56a19b19851702 .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:x-genatlas> _:blank_96f1507abd3593fab6ed1e5ebe4ec115 .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:x-genecards> _:blank_a0bb365ec16789b23df7a419d8a8b656 .
+_:blank_2447a29758259433d9f30a88b531100a <http://bio2rdf.org/drugbank_vocabulary:cellular-location> _:blank_cb2aafd9f40d612426bb90f58a712306 .
+_:blank_6fc84d16a47655b0f2a58f6d934a0743 <http://bio2rdf.org/drugbank_vocabulary:x-pfam> _:blank_fe3d95f0fd63166c497e3315176ee8f2 .

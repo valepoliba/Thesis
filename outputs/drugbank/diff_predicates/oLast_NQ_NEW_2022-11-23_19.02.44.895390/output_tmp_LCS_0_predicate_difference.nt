@@ -1,0 +1,61 @@
+--- <_io.TextIOWrapper name='../../outputs/drugbank/diff_predicates/oLast_NQ_NEW_2022-11-23_19.02.44.895390/output_tmp_LCS_0_different_predicates.nt' mode='r' encoding='cp1252'>
++++ <_io.TextIOWrapper name='../../outputs/drugbank/diff_predicates/oLast_NQ_NEW_2022-11-23_19.02.44.895390/output_tmp_LCS_0_po_significant_temp2.nt' mode='r' encoding='cp1252'>
+@@ -1,2 +0,0 @@
+-http://bio2rdf.org/drugbank_vocabulary:go-function
+
+-http://bio2rdf.org/drugbank_vocabulary:x-genatlas
+
+@@ -4,5 +1,0 @@
+-http://bio2rdf.org/drugbank_vocabulary:locus
+
+-http://bio2rdf.org/drugbank_vocabulary:amino-acid-sequence
+
+-http://bio2rdf.org/drugbank_vocabulary:go-process
+
+-http://bio2rdf.org/drugbank_vocabulary:go-component
+
+-http://bio2rdf.org/drugbank_vocabulary:specific-function
+
+@@ -11,16 +4,5 @@
+-http://bio2rdf.org/drugbank_vocabulary:theoretical-pi
+
+-http://bio2rdf.org/drugbank_vocabulary:x-pfam
+
+-http://bio2rdf.org/drugbank_vocabulary:x-hgnc
+
+-http://bio2rdf.org/drugbank_vocabulary:x-gi
+
+-http://bio2rdf.org/drugbank_vocabulary:gene-name
+
+-http://bio2rdf.org/drugbank_vocabulary:general-function
+
+-http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions
+
+-http://bio2rdf.org/drugbank_vocabulary:target
+
+-http://bio2rdf.org/drugbank_vocabulary:molecular-weight
+
+-http://bio2rdf.org/drugbank_vocabulary:cellular-location
+
+-http://bio2rdf.org/drugbank_vocabulary:name
+
+-http://bio2rdf.org/drugbank_vocabulary:x-genecards
+
+-http://bio2rdf.org/drugbank_vocabulary:organism
+
+-http://bio2rdf.org/drugbank_vocabulary:gene-sequence
+
+-http://bio2rdf.org/drugbank_vocabulary:mechanism-of-action
+
+-http://bio2rdf.org/drugbank_vocabulary:absorption
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+
++http://bio2rdf.org/drugbank_vocabulary:x-taxonomy
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+
++http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+
