@@ -3,7 +3,7 @@ from time import time
 import networkx as nx
 import matplotlib.pyplot as plt
 import shlex
-import statistics
+import difflib
 
 
 def rdf_to_plot(graph, dir):
@@ -131,30 +131,69 @@ def triplecount(directory, iteration):
     
     return filecountfirst, filecountsecond
 
-# valutazione con iterazione precedente
-def prev_iteration_evaluation(iteration, graph_1, explored_resoures_ok, resource_2, file, directory, filecountfirst, filecountsecond):
-    stop = False
-    if iteration == 0:
-        graph_ok = graph_1
-        explored_resoures_ok.append(resource_2)
-        file.write("Iterazione: " + str(iteration) +  " risorse esplorate: " + str(explored_resoures_ok) + "\n")
+# confronto con iterazione precedente dei po significativi
+def compare_prev_next_iteration(directory, iteration):
+    diffcheck = False
+    if iteration != 0:  
+      with open(directory + '/output_tmp_LCS_' + str(iteration-1) + '_po_significant_temp.nt') as po1:
+            po_1 = po1.readlines()
+      
+      with open(directory + '/output_tmp_LCS_' + str(iteration) + '_po_significant_temp.nt') as po2:
+            po_2 = po2.readlines()
 
-    if iteration != 0:
-        prevfilecountfirst, prevfilecountsecond = triplecount(directory, iteration - 1)
-        arrcur = [filecountfirst, filecountsecond]
-        arrprev = [prevfilecountfirst, prevfilecountsecond]
-        mediancurr = statistics.median(arrcur)
-        medianprev = statistics.median(arrprev)
-        print('Current median: ', mediancurr)
-        print('Previous median: ', medianprev)
-        # statistics.variance()
-        # statistics.stdev()
-        if medianprev <= mediancurr:
-            graph_ok = graph_1
-            explored_resoures_ok.append(resource_2)
-            file.write("Iterazione: " + str(iteration) +  " risorse esplorate: " + str(explored_resoures_ok) + "\n")
-        else:
-            stop = True
-            print("Iteration stopped at iteration: " + str(iteration))
+      outputietrationdifference =  open(directory + '/output_tmp_LCS_' + str(iteration) + '_po_difference.nt', 'a')
+      
+      # Find and print the diff:
+      for line in difflib.unified_diff(po_1, po_2, fromfile=str(po1), tofile=str(po2), lineterm='', n=0):
+            diffcheck = True
+            outputietrationdifference.write(line + '\n')
 
-    return graph_ok, explored_resoures_ok, stop                     
+      if diffcheck == False:
+            outputietrationdifference.write('NO DIFFERENCE WAS FOUND')
+
+      outputietrationdifference.close()
+      po1.close()
+      po2.close()
+      os.remove(directory + '/output_tmp_LCS_' + str(iteration-1) + '_po_significant_temp.nt')  
+
+# numero predicati diversi
+def different_predicates_count(directory, iteration):
+    outputnt = open(directory + '/output_tmp_LCS_' + str(iteration) + '.nt', 'r')
+    outputietration =  open(directory + '/output_tmp_LCS_' + str(iteration) + '_different_predicates.nt', 'a')
+    temparray = []
+
+    for line in outputnt.readlines():
+            line = line.replace('<', '').replace('>', '')
+            s, p, o, _ = shlex.split(line)
+            if not (p in temparray):
+                temparray.append(p)
+                
+    print('Different predicates count: ' + str(len(temparray)))
+    outputietration.write(str('\n'.join(temparray)) + '\n')
+    # outputietration.write('\n' + '#######' + '\n' + 'Different predicates count: ' + str(len(temparray)))
+    outputietration.close()
+    outputnt.close()
+
+# differenza predicati - significativi
+def diff_pred_significant(directory, iteration):
+    with open(directory + '/output_tmp_LCS_' + str(iteration) + '_different_predicates.nt') as po1:
+        po_1 = po1.readlines()
+      
+    with open(directory + '/output_tmp_LCS_' + str(iteration) + '_po_significant_temp2.nt') as po2:
+        po_2 = po2.readlines()
+
+    outputietrationdifference =  open(directory + '/output_tmp_LCS_' + str(iteration) + '_predicate_difference.nt', 'a')
+    diffcheck = False  
+    # Find and print the diff:
+    for line in difflib.unified_diff(po_1, po_2, fromfile=str(po1), tofile=str(po2), lineterm='', n=0):
+        diffcheck = True
+        outputietrationdifference.write(line + '\n')
+
+    if diffcheck == False:
+        outputietrationdifference.write('NO DIFFERENCE WAS FOUND')
+
+    outputietrationdifference.close()
+    po1.close()
+    po2.close()
+    os.remove(directory + '/output_tmp_LCS_' + str(iteration) + '_po_significant_temp2.nt')
+

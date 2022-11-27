@@ -1,0 +1,2 @@
+_:blank_84f01fe4f87d6ecab8be3aa390e7d6f8 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://bio2rdf.org/drugbank_vocabulary:Target . 
+_:blank_84f01fe4f87d6ecab8be3aa390e7d6f8 http://bio2rdf.org/drugbank_vocabulary:x-taxonomy http://bio2rdf.org/taxonomy:9606 . 

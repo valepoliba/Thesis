@@ -197,6 +197,7 @@ iteration = 0
 
 diff_pred_significant(directory, iteration)
 """
+import statistics
 from rdf_graph_utils import pred_obj_significant, triplecount
 directory = 'outputs/drugbank/lcs_first_second_lv_evaluation/oLast_NQ_NEW_2022-11-27_12.53.23.270175'
 iteration = 1
@@ -212,3 +213,6 @@ with open('datasets/drugbank/good_predicates.tsv', 'r') as good_predicates:
 prevfilecountfirst, prevfilecountsecond = triplecount(directory, iteration - 1)
 print('Count significant row first level: ', prevfilecountfirst)
 print('Count significant row second level: ', prevfilecountsecond)
+arr = [prevfilecountfirst, prevfilecountsecond]
+mediancurr = statistics.median(arr)
+print("Media: ", mediancurr)
