@@ -77,25 +77,59 @@ def root_node(graph):
 # gestione numero predicato-oggetto significativi
 def pred_obj_significant(directory, iteration, gp):
     outputnt = open(directory + '/output_tmp_LCS_' + str(iteration) + '.nt', 'r')
-    outputietration =  open(directory + '/output_tmp_LCS_' + str(iteration) + '_po_significant.nt', 'a')
-    outputietration_temp =  open(directory + '/output_tmp_LCS_' + str(iteration) + '_po_significant_temp.nt', 'a')
-    outputietration_temp2 =  open(directory + '/output_tmp_LCS_' + str(iteration) + '_po_significant_temp2.nt', 'a')
-    filecount = 0
+    outputifirstlv =  open(directory + '/output_tmp_LCS_' + str(iteration) + '_po_significant_firstlv.nt', 'a')
+    outputisecondtlv =  open(directory + '/output_tmp_LCS_' + str(iteration) + '_po_significant_secondlv.nt', 'a')
+    filecountfirst = 0
+    filecountsecond = 0
+    row = 0
+    secondlvfound = False
+    temparrayfirst = []
+    temparraysecond = []
+
     for line in outputnt.readlines():
           line = line.replace('<', '').replace('>', '')
           s, p, o, _ = shlex.split(line)
-          if not ('_:blank_' in p) and not ('_:blank_' in o) and ('http' in o):
+          if row == 0:
+            firstlv = s
+            row += 1
+          elif s != firstlv and secondlvfound == False:
+            secondlv = s
+            secondlvfound = True
+          if s == firstlv:
+            triplecheck(s, p, o, _, gp, temparrayfirst, outputifirstlv)           
+          elif s == secondlv:
+            triplecheck(s, p, o, _, gp, temparraysecond, outputisecondtlv)
+
+    outputifirstlv.close()
+    outputisecondtlv.close()
+    outputnt.close()
+
+    filecountfirst, filecountsecond = triplecount(directory, iteration)
+
+    return filecountfirst, filecountsecond
+
+# controllo delle triple
+def triplecheck(s, p, o, _, gp, temparray, outputfile):
+    if not ('_:blank_' in p) and not ('_:blank_' in o) and ('http' in o):
                 for goodline in gp:
                   if goodline == p:
-                      outputietration.write(s + ' ' + p + ' ' + o + ' ' + _ + ' ' + '\n')
-                      outputietration_temp.write(p + ' ' + o + ' ' + _ + ' ' + '\n')
-                      outputietration_temp2.write(p + '\n')
-                      filecount += 1
-    print('Count significant row: ', filecount)
-    outputietration.close()
-    outputnt.close()
-    outputietration_temp.close()
-    outputietration_temp2.close()
+                      tempstring = s + ' ' + p + ' ' + o + ' ' + _
+                      if not (tempstring in temparray):
+                        temparray.append(tempstring)
+                        outputfile.write(s + ' ' + p + ' ' + o + ' ' + _ + ' ' + '\n')
+
+# count triple
+def triplecount(directory, iteration):
+    outputifirstlv =  open(directory + '/output_tmp_LCS_' + str(iteration) + '_po_significant_firstlv.nt', 'r')
+    outputisecondtlv =  open(directory + '/output_tmp_LCS_' + str(iteration) + '_po_significant_secondlv.nt', 'r')
+
+    filecountfirst = len(outputifirstlv.readlines())
+    filecountsecond = len(outputisecondtlv.readlines())
+
+    outputifirstlv.close()
+    outputisecondtlv.close()
+    
+    return filecountfirst, filecountsecond
 
 # confronto con iterazione precedente dei po significativi
 def compare_prev_next_iteration(directory, iteration):
