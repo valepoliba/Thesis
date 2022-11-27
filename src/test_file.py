@@ -197,14 +197,18 @@ iteration = 0
 
 diff_pred_significant(directory, iteration)
 """
-from rdf_graph_utils import pred_obj_significant
-directory = 'outputs/drugbank/po_significant/oLast_NQ_NEW_2022-11-21_18.01.19.886840'
-iteration = 0
+from rdf_graph_utils import pred_obj_significant, triplecount
+directory = 'outputs/drugbank/lcs_first_second_lv_evaluation/oLast_NQ_NEW_2022-11-27_12.53.23.270175'
+iteration = 1
 
 with open('datasets/drugbank/good_predicates.tsv', 'r') as good_predicates:
     gp = good_predicates.read().split()
 
-filecountfirst, filecountsecond = pred_obj_significant(directory, iteration, gp)
+#filecountfirst, filecountsecond = pred_obj_significant(directory, iteration, gp)
 
-print('Count significant row first level: ', filecountfirst)
-print('Count significant row second level: ', filecountsecond)
+#print('Count significant row first level: ', filecountfirst)
+#print('Count significant row second level: ', filecountsecond)
+
+prevfilecountfirst, prevfilecountsecond = triplecount(directory, iteration - 1)
+print('Count significant row first level: ', prevfilecountfirst)
+print('Count significant row second level: ', prevfilecountsecond)
