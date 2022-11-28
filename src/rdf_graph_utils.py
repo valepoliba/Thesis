@@ -132,7 +132,7 @@ def triplecount(directory, iteration):
     return filecountfirst, filecountsecond
 
 # valutazione con iterazione precedente
-def prev_iteration_evaluation(iteration, graph_1, explored_resoures_ok, resource_2, file, directory, filecountfirst, filecountsecond, graph_ok):
+def prev_iteration_evaluation(iteration, graph_1, graph_ok, explored_resoures_ok, resource_2, file, directory, filecountfirst, filecountsecond):
     stop = False
     if iteration == 0:
         graph_ok = graph_1
