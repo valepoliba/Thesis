@@ -216,3 +216,11 @@ print('Count significant row second level: ', prevfilecountsecond)
 arr = [prevfilecountfirst, prevfilecountsecond]
 mediancurr = statistics.median(arr)
 print("Media: ", mediancurr)
+
+prevfilecountfirst, prevfilecountsecond = triplecount(directory, iteration)
+print('Count significant row first level: ', prevfilecountfirst)
+print('Count significant row second level: ', prevfilecountsecond)
+arr = [prevfilecountfirst, prevfilecountsecond]
+vari = statistics.variance(arr)
+print("vari: ", vari)
+# statistics.stdev()

@@ -149,7 +149,7 @@ def prev_iteration_evaluation(iteration, graph_1, graph_ok, explored_resoures_ok
         print('Previous median: ', medianprev)
         # statistics.variance()
         # statistics.stdev()
-        if medianprev <= mediancurr:
+        if mediancurr <= medianprev:
             graph_ok = graph_1
             explored_resoures_ok.append(resource_2)
             file.write("Iterazione: " + str(iteration) +  " risorse esplorate: " + str(explored_resoures_ok) + "\n")
