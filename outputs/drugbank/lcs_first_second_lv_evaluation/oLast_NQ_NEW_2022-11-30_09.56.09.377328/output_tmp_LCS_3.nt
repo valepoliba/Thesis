@@ -1,0 +1,2 @@
+_:blank_45ed86f74933d31b7d5fbda3baecb173 <http://bio2rdf.org/drugbank_vocabulary:mechanism-of-action> _:blank_1387775139430179edbe6e7c1d4ea72f .
+_:blank_1387775139430179edbe6e7c1d4ea72f <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Mechanism-of-action> .

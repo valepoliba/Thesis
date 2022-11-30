@@ -1,0 +1,32 @@
+_:blank_cdab5affa625aa4768e00e3d22f6ddae <http://bio2rdf.org/drugbank_vocabulary:x-pfam> _:blank_1c4432d9108926769a6791d13f3e8675 .
+_:blank_cdab5affa625aa4768e00e3d22f6ddae <http://bio2rdf.org/drugbank_vocabulary:go-function> _:blank_e3870616a68358749798fed7c17796b8 .
+_:blank_cdab5affa625aa4768e00e3d22f6ddae <http://bio2rdf.org/drugbank_vocabulary:go-function> _:blank_b6518715ae63baea956c52090bf1b7c6 .
+_:blank_cdab5affa625aa4768e00e3d22f6ddae <http://bio2rdf.org/drugbank_vocabulary:general-function> _:blank_8a9f038e04165b7d667028c547be3361 .
+_:blank_94b2f97356d2020ddbc83b576e9e1c32 <http://bio2rdf.org/drugbank_vocabulary:target> _:blank_cdab5affa625aa4768e00e3d22f6ddae .
+_:blank_cdab5affa625aa4768e00e3d22f6ddae <http://bio2rdf.org/drugbank_vocabulary:molecular-weight> _:blank_464bb4eacaaf88ae2b286b59c328be59 .
+_:blank_cdab5affa625aa4768e00e3d22f6ddae <http://bio2rdf.org/drugbank_vocabulary:locus> _:blank_c86570828298dc4e4bc01bfca142f19f .
+_:blank_cdab5affa625aa4768e00e3d22f6ddae <http://bio2rdf.org/drugbank_vocabulary:theoretical-pi> _:blank_752934e2f08faef71f9ef11a81830c2c .
+_:blank_d6ccd0d525dbd3afb3ff00fd688e08e9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Mechanism-of-action> .
+_:blank_cdab5affa625aa4768e00e3d22f6ddae <http://bio2rdf.org/drugbank_vocabulary:specific-function> _:blank_ca2fc496fd58a74f62c5ffde4716ac20 .
+_:blank_cdab5affa625aa4768e00e3d22f6ddae <http://bio2rdf.org/drugbank_vocabulary:x-taxonomy> <http://bio2rdf.org/taxonomy:9606> .
+_:blank_cdab5affa625aa4768e00e3d22f6ddae <http://bio2rdf.org/drugbank_vocabulary:gene-sequence> _:blank_c886731406052ec214dc0bf96a06fdc9 .
+_:blank_94b2f97356d2020ddbc83b576e9e1c32 <http://bio2rdf.org/drugbank_vocabulary:affected-organism> <http://bio2rdf.org/drugbank_vocabulary:e1e572616d493b2affcc653e19cbcd21> .
+_:blank_94b2f97356d2020ddbc83b576e9e1c32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Small-molecule> .
+_:blank_cdab5affa625aa4768e00e3d22f6ddae <http://bio2rdf.org/drugbank_vocabulary:go-process> _:blank_4907d132e1cae9e19580fdc854dc037d .
+_:blank_cdab5affa625aa4768e00e3d22f6ddae <http://bio2rdf.org/drugbank_vocabulary:go-process> "physiological process" .
+_:blank_cdab5affa625aa4768e00e3d22f6ddae <http://bio2rdf.org/drugbank_vocabulary:go-process> "metabolism" .
+_:blank_cdab5affa625aa4768e00e3d22f6ddae <http://bio2rdf.org/drugbank_vocabulary:go-function> "hydrolase activity" .
+_:blank_cdab5affa625aa4768e00e3d22f6ddae <http://bio2rdf.org/drugbank_vocabulary:go-function> _:blank_af986868a001d7ee950669fa1e0bf9dd .
+_:blank_cdab5affa625aa4768e00e3d22f6ddae <http://bio2rdf.org/drugbank_vocabulary:organism> "Human" .
+_:blank_cdab5affa625aa4768e00e3d22f6ddae <http://bio2rdf.org/drugbank_vocabulary:go-process> _:blank_c4a9067ec2eed759efacfaeb60aaaa23 .
+_:blank_94b2f97356d2020ddbc83b576e9e1c32 <http://bio2rdf.org/drugbank_vocabulary:mechanism-of-action> _:blank_d6ccd0d525dbd3afb3ff00fd688e08e9 .
+_:blank_cdab5affa625aa4768e00e3d22f6ddae <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Target> .
+_:blank_cdab5affa625aa4768e00e3d22f6ddae <http://bio2rdf.org/drugbank_vocabulary:go-function> "catalytic activity" .
+_:blank_cdab5affa625aa4768e00e3d22f6ddae <http://bio2rdf.org/drugbank_vocabulary:gene-name> _:blank_6677f5e79431a25eb13b0c14b81b4c16 .
+_:blank_cdab5affa625aa4768e00e3d22f6ddae <http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions> _:blank_82dddfefd147b6180edaa332bb4fb1d8 .
+_:blank_cdab5affa625aa4768e00e3d22f6ddae <http://bio2rdf.org/drugbank_vocabulary:go-process> _:blank_afa22f9259401053566935cb4351064e .
+_:blank_cdab5affa625aa4768e00e3d22f6ddae <http://bio2rdf.org/drugbank_vocabulary:amino-acid-sequence> _:blank_36859df7b2a2952fc38d08c896a7d0bc .
+_:blank_cdab5affa625aa4768e00e3d22f6ddae <http://bio2rdf.org/drugbank_vocabulary:name> _:blank_e586506f57bac29c77a2fbc8bdf369aa .
+_:blank_cdab5affa625aa4768e00e3d22f6ddae <http://bio2rdf.org/drugbank_vocabulary:x-genatlas> _:blank_51f2dc150ad639ba5075aeefbae43143 .
+_:blank_cdab5affa625aa4768e00e3d22f6ddae <http://bio2rdf.org/drugbank_vocabulary:cellular-location> _:blank_f988075488f24219e0aa9a1d10564a8a .
+_:blank_cdab5affa625aa4768e00e3d22f6ddae <http://bio2rdf.org/drugbank_vocabulary:x-hgnc> _:blank_a8291e427bddb2541a0622d72a9754db .

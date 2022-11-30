@@ -1,0 +1,3 @@
+_:blank_4651bc484fb556aeb70bd002a962fd06 <http://bio2rdf.org/drugbank_vocabulary:mechanism-of-action> _:blank_610e3418cb65d32e161d8ee02c2752d0 .
+_:blank_4651bc484fb556aeb70bd002a962fd06 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Small-molecule> .
+_:blank_610e3418cb65d32e161d8ee02c2752d0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Mechanism-of-action> .
