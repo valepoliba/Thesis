@@ -1,0 +1,484 @@
+@prefix ns1: <http://bio2rdf.org/drugbank_vocabulary:> .
+
+[] a ns1:Small-molecule ;
+    [ ] [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_6264f2f099529749763120e249330012 ;
+            ns1:cellular-location _:blank_e09b9911306b410eb8372e5ae31f134a ;
+            ns1:gene-name _:blank_0204a46de94251270605e8bc32f63e72 ;
+            ns1:gene-sequence _:blank_c86b303a3840ede164bfae2b3f5911d4 ;
+            ns1:general-function _:blank_7aee95414ab8694c29cb846a1078e4a3 ;
+            ns1:go-function _:blank_3f5ff064c001f111122f4b27ef55f5e0,
+                _:blank_b2ed0889b0c704f2147fa09f06079a5d,
+                _:blank_f33c849940daef9a60154f2161de6978,
+                _:blank_f78a78bea2dd6f53c9664151b8030460 ;
+            ns1:go-process _:blank_22fcf5663271cf18de381b69d56d53ff,
+                _:blank_3c08ac05a9576c784b3b33481d25c197,
+                _:blank_9662e21d05e26822395aa6c7f863414a,
+                _:blank_b15811a513d069f648f30e8ae2ec39a7,
+                _:blank_dc10413fb1da921b252d94a034082b3b,
+                _:blank_f3fce935110a012b605fae9c4647f223,
+                _:blank_f63624d43ae547c13b22f934192a8e67 ;
+            ns1:molecular-weight _:blank_ed35d4240793e31fd69bfd272794402a ;
+            ns1:specific-function _:blank_0c432dc1f15d3a137ec5d3505b3de7c6 ;
+            ns1:theoretical-pi _:blank_f1362545f2b9ff27ba2b934e2d8950a0 ;
+            ns1:transmembrane-regions _:blank_539800ae48c90d04d91e197d67e6a87d ;
+            ns1:x-gi _:blank_1f694ff2f8f432077fba1b6207f7a232 ;
+            ns1:x-pfam _:blank_310baeadee50bba0c3ea1a1f21d71fd0 ;
+            ns1:x-taxonomy _:blank_20dd06c96b88e30b06df6cf8c65f8dde ] ;
+    [ ] [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_6264f2f099529749763120e249330012 ;
+            ns1:cellular-location _:blank_e09b9911306b410eb8372e5ae31f134a ;
+            ns1:gene-name _:blank_0204a46de94251270605e8bc32f63e72 ;
+            ns1:gene-sequence _:blank_c86b303a3840ede164bfae2b3f5911d4 ;
+            ns1:general-function _:blank_7aee95414ab8694c29cb846a1078e4a3 ;
+            ns1:go-function _:blank_3f5ff064c001f111122f4b27ef55f5e0,
+                _:blank_b2ed0889b0c704f2147fa09f06079a5d,
+                _:blank_f33c849940daef9a60154f2161de6978,
+                _:blank_f78a78bea2dd6f53c9664151b8030460 ;
+            ns1:go-process _:blank_22fcf5663271cf18de381b69d56d53ff,
+                _:blank_3c08ac05a9576c784b3b33481d25c197,
+                _:blank_9662e21d05e26822395aa6c7f863414a,
+                _:blank_b15811a513d069f648f30e8ae2ec39a7,
+                _:blank_dc10413fb1da921b252d94a034082b3b,
+                _:blank_f3fce935110a012b605fae9c4647f223,
+                _:blank_f63624d43ae547c13b22f934192a8e67 ;
+            ns1:molecular-weight _:blank_ed35d4240793e31fd69bfd272794402a ;
+            ns1:specific-function _:blank_0c432dc1f15d3a137ec5d3505b3de7c6 ;
+            ns1:theoretical-pi _:blank_f1362545f2b9ff27ba2b934e2d8950a0 ;
+            ns1:transmembrane-regions _:blank_539800ae48c90d04d91e197d67e6a87d ;
+            ns1:x-gi _:blank_1f694ff2f8f432077fba1b6207f7a232 ;
+            ns1:x-pfam _:blank_310baeadee50bba0c3ea1a1f21d71fd0 ;
+            ns1:x-taxonomy _:blank_20dd06c96b88e30b06df6cf8c65f8dde ] ;
+    [ ] [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_6264f2f099529749763120e249330012 ;
+            ns1:cellular-location _:blank_e09b9911306b410eb8372e5ae31f134a ;
+            ns1:gene-name _:blank_0204a46de94251270605e8bc32f63e72 ;
+            ns1:gene-sequence _:blank_c86b303a3840ede164bfae2b3f5911d4 ;
+            ns1:general-function _:blank_7aee95414ab8694c29cb846a1078e4a3 ;
+            ns1:go-function _:blank_3f5ff064c001f111122f4b27ef55f5e0,
+                _:blank_b2ed0889b0c704f2147fa09f06079a5d,
+                _:blank_f33c849940daef9a60154f2161de6978,
+                _:blank_f78a78bea2dd6f53c9664151b8030460 ;
+            ns1:go-process _:blank_22fcf5663271cf18de381b69d56d53ff,
+                _:blank_3c08ac05a9576c784b3b33481d25c197,
+                _:blank_9662e21d05e26822395aa6c7f863414a,
+                _:blank_b15811a513d069f648f30e8ae2ec39a7,
+                _:blank_dc10413fb1da921b252d94a034082b3b,
+                _:blank_f3fce935110a012b605fae9c4647f223,
+                _:blank_f63624d43ae547c13b22f934192a8e67 ;
+            ns1:molecular-weight _:blank_ed35d4240793e31fd69bfd272794402a ;
+            ns1:specific-function _:blank_0c432dc1f15d3a137ec5d3505b3de7c6 ;
+            ns1:theoretical-pi _:blank_f1362545f2b9ff27ba2b934e2d8950a0 ;
+            ns1:transmembrane-regions _:blank_539800ae48c90d04d91e197d67e6a87d ;
+            ns1:x-gi _:blank_1f694ff2f8f432077fba1b6207f7a232 ;
+            ns1:x-pfam _:blank_310baeadee50bba0c3ea1a1f21d71fd0 ;
+            ns1:x-taxonomy _:blank_20dd06c96b88e30b06df6cf8c65f8dde ] ;
+    _:blank_5a27c4f0e686313af82bd88c565e97a7 [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_6264f2f099529749763120e249330012 ;
+            ns1:cellular-location _:blank_e09b9911306b410eb8372e5ae31f134a ;
+            ns1:gene-name _:blank_0204a46de94251270605e8bc32f63e72 ;
+            ns1:gene-sequence _:blank_c86b303a3840ede164bfae2b3f5911d4 ;
+            ns1:general-function _:blank_7aee95414ab8694c29cb846a1078e4a3 ;
+            ns1:go-function _:blank_3f5ff064c001f111122f4b27ef55f5e0,
+                _:blank_b2ed0889b0c704f2147fa09f06079a5d,
+                _:blank_f33c849940daef9a60154f2161de6978,
+                _:blank_f78a78bea2dd6f53c9664151b8030460 ;
+            ns1:go-process _:blank_22fcf5663271cf18de381b69d56d53ff,
+                _:blank_3c08ac05a9576c784b3b33481d25c197,
+                _:blank_9662e21d05e26822395aa6c7f863414a,
+                _:blank_b15811a513d069f648f30e8ae2ec39a7,
+                _:blank_dc10413fb1da921b252d94a034082b3b,
+                _:blank_f3fce935110a012b605fae9c4647f223,
+                _:blank_f63624d43ae547c13b22f934192a8e67 ;
+            ns1:molecular-weight _:blank_ed35d4240793e31fd69bfd272794402a ;
+            ns1:specific-function _:blank_0c432dc1f15d3a137ec5d3505b3de7c6 ;
+            ns1:theoretical-pi _:blank_f1362545f2b9ff27ba2b934e2d8950a0 ;
+            ns1:transmembrane-regions _:blank_539800ae48c90d04d91e197d67e6a87d ;
+            ns1:x-gi _:blank_1f694ff2f8f432077fba1b6207f7a232 ;
+            ns1:x-pfam _:blank_310baeadee50bba0c3ea1a1f21d71fd0 ;
+            ns1:x-taxonomy _:blank_20dd06c96b88e30b06df6cf8c65f8dde ],
+        [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_6264f2f099529749763120e249330012 ;
+            ns1:cellular-location _:blank_e09b9911306b410eb8372e5ae31f134a ;
+            ns1:gene-name _:blank_0204a46de94251270605e8bc32f63e72 ;
+            ns1:gene-sequence _:blank_c86b303a3840ede164bfae2b3f5911d4 ;
+            ns1:general-function _:blank_7aee95414ab8694c29cb846a1078e4a3 ;
+            ns1:go-function _:blank_3f5ff064c001f111122f4b27ef55f5e0,
+                _:blank_b2ed0889b0c704f2147fa09f06079a5d,
+                _:blank_f33c849940daef9a60154f2161de6978,
+                _:blank_f78a78bea2dd6f53c9664151b8030460 ;
+            ns1:go-process _:blank_22fcf5663271cf18de381b69d56d53ff,
+                _:blank_3c08ac05a9576c784b3b33481d25c197,
+                _:blank_9662e21d05e26822395aa6c7f863414a,
+                _:blank_b15811a513d069f648f30e8ae2ec39a7,
+                _:blank_dc10413fb1da921b252d94a034082b3b,
+                _:blank_f3fce935110a012b605fae9c4647f223,
+                _:blank_f63624d43ae547c13b22f934192a8e67 ;
+            ns1:molecular-weight _:blank_ed35d4240793e31fd69bfd272794402a ;
+            ns1:specific-function _:blank_0c432dc1f15d3a137ec5d3505b3de7c6 ;
+            ns1:theoretical-pi _:blank_f1362545f2b9ff27ba2b934e2d8950a0 ;
+            ns1:transmembrane-regions _:blank_539800ae48c90d04d91e197d67e6a87d ;
+            ns1:x-gi _:blank_1f694ff2f8f432077fba1b6207f7a232 ;
+            ns1:x-pfam _:blank_310baeadee50bba0c3ea1a1f21d71fd0 ;
+            ns1:x-taxonomy _:blank_20dd06c96b88e30b06df6cf8c65f8dde ],
+        [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_6264f2f099529749763120e249330012 ;
+            ns1:cellular-location _:blank_e09b9911306b410eb8372e5ae31f134a ;
+            ns1:gene-name _:blank_0204a46de94251270605e8bc32f63e72 ;
+            ns1:gene-sequence _:blank_c86b303a3840ede164bfae2b3f5911d4 ;
+            ns1:general-function _:blank_7aee95414ab8694c29cb846a1078e4a3 ;
+            ns1:go-function _:blank_3f5ff064c001f111122f4b27ef55f5e0,
+                _:blank_b2ed0889b0c704f2147fa09f06079a5d,
+                _:blank_f33c849940daef9a60154f2161de6978,
+                _:blank_f78a78bea2dd6f53c9664151b8030460 ;
+            ns1:go-process _:blank_22fcf5663271cf18de381b69d56d53ff,
+                _:blank_3c08ac05a9576c784b3b33481d25c197,
+                _:blank_9662e21d05e26822395aa6c7f863414a,
+                _:blank_b15811a513d069f648f30e8ae2ec39a7,
+                _:blank_dc10413fb1da921b252d94a034082b3b,
+                _:blank_f3fce935110a012b605fae9c4647f223,
+                _:blank_f63624d43ae547c13b22f934192a8e67 ;
+            ns1:molecular-weight _:blank_ed35d4240793e31fd69bfd272794402a ;
+            ns1:specific-function _:blank_0c432dc1f15d3a137ec5d3505b3de7c6 ;
+            ns1:theoretical-pi _:blank_f1362545f2b9ff27ba2b934e2d8950a0 ;
+            ns1:transmembrane-regions _:blank_539800ae48c90d04d91e197d67e6a87d ;
+            ns1:x-gi _:blank_1f694ff2f8f432077fba1b6207f7a232 ;
+            ns1:x-pfam _:blank_310baeadee50bba0c3ea1a1f21d71fd0 ;
+            ns1:x-taxonomy _:blank_20dd06c96b88e30b06df6cf8c65f8dde ] ;
+    [ ] [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_6264f2f099529749763120e249330012 ;
+            ns1:cellular-location _:blank_e09b9911306b410eb8372e5ae31f134a ;
+            ns1:gene-name _:blank_0204a46de94251270605e8bc32f63e72 ;
+            ns1:gene-sequence _:blank_c86b303a3840ede164bfae2b3f5911d4 ;
+            ns1:general-function _:blank_7aee95414ab8694c29cb846a1078e4a3 ;
+            ns1:go-function _:blank_3f5ff064c001f111122f4b27ef55f5e0,
+                _:blank_b2ed0889b0c704f2147fa09f06079a5d,
+                _:blank_f33c849940daef9a60154f2161de6978,
+                _:blank_f78a78bea2dd6f53c9664151b8030460 ;
+            ns1:go-process _:blank_22fcf5663271cf18de381b69d56d53ff,
+                _:blank_3c08ac05a9576c784b3b33481d25c197,
+                _:blank_9662e21d05e26822395aa6c7f863414a,
+                _:blank_b15811a513d069f648f30e8ae2ec39a7,
+                _:blank_dc10413fb1da921b252d94a034082b3b,
+                _:blank_f3fce935110a012b605fae9c4647f223,
+                _:blank_f63624d43ae547c13b22f934192a8e67 ;
+            ns1:molecular-weight _:blank_ed35d4240793e31fd69bfd272794402a ;
+            ns1:specific-function _:blank_0c432dc1f15d3a137ec5d3505b3de7c6 ;
+            ns1:theoretical-pi _:blank_f1362545f2b9ff27ba2b934e2d8950a0 ;
+            ns1:transmembrane-regions _:blank_539800ae48c90d04d91e197d67e6a87d ;
+            ns1:x-gi _:blank_1f694ff2f8f432077fba1b6207f7a232 ;
+            ns1:x-pfam _:blank_310baeadee50bba0c3ea1a1f21d71fd0 ;
+            ns1:x-taxonomy _:blank_20dd06c96b88e30b06df6cf8c65f8dde ] ;
+    [ ] [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_6264f2f099529749763120e249330012 ;
+            ns1:cellular-location _:blank_e09b9911306b410eb8372e5ae31f134a ;
+            ns1:gene-name _:blank_0204a46de94251270605e8bc32f63e72 ;
+            ns1:gene-sequence _:blank_c86b303a3840ede164bfae2b3f5911d4 ;
+            ns1:general-function _:blank_7aee95414ab8694c29cb846a1078e4a3 ;
+            ns1:go-function _:blank_3f5ff064c001f111122f4b27ef55f5e0,
+                _:blank_b2ed0889b0c704f2147fa09f06079a5d,
+                _:blank_f33c849940daef9a60154f2161de6978,
+                _:blank_f78a78bea2dd6f53c9664151b8030460 ;
+            ns1:go-process _:blank_22fcf5663271cf18de381b69d56d53ff,
+                _:blank_3c08ac05a9576c784b3b33481d25c197,
+                _:blank_9662e21d05e26822395aa6c7f863414a,
+                _:blank_b15811a513d069f648f30e8ae2ec39a7,
+                _:blank_dc10413fb1da921b252d94a034082b3b,
+                _:blank_f3fce935110a012b605fae9c4647f223,
+                _:blank_f63624d43ae547c13b22f934192a8e67 ;
+            ns1:molecular-weight _:blank_ed35d4240793e31fd69bfd272794402a ;
+            ns1:specific-function _:blank_0c432dc1f15d3a137ec5d3505b3de7c6 ;
+            ns1:theoretical-pi _:blank_f1362545f2b9ff27ba2b934e2d8950a0 ;
+            ns1:transmembrane-regions _:blank_539800ae48c90d04d91e197d67e6a87d ;
+            ns1:x-gi _:blank_1f694ff2f8f432077fba1b6207f7a232 ;
+            ns1:x-pfam _:blank_310baeadee50bba0c3ea1a1f21d71fd0 ;
+            ns1:x-taxonomy _:blank_20dd06c96b88e30b06df6cf8c65f8dde ] ;
+    [ ] [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_6264f2f099529749763120e249330012 ;
+            ns1:cellular-location _:blank_e09b9911306b410eb8372e5ae31f134a ;
+            ns1:gene-name _:blank_0204a46de94251270605e8bc32f63e72 ;
+            ns1:gene-sequence _:blank_c86b303a3840ede164bfae2b3f5911d4 ;
+            ns1:general-function _:blank_7aee95414ab8694c29cb846a1078e4a3 ;
+            ns1:go-function _:blank_3f5ff064c001f111122f4b27ef55f5e0,
+                _:blank_b2ed0889b0c704f2147fa09f06079a5d,
+                _:blank_f33c849940daef9a60154f2161de6978,
+                _:blank_f78a78bea2dd6f53c9664151b8030460 ;
+            ns1:go-process _:blank_22fcf5663271cf18de381b69d56d53ff,
+                _:blank_3c08ac05a9576c784b3b33481d25c197,
+                _:blank_9662e21d05e26822395aa6c7f863414a,
+                _:blank_b15811a513d069f648f30e8ae2ec39a7,
+                _:blank_dc10413fb1da921b252d94a034082b3b,
+                _:blank_f3fce935110a012b605fae9c4647f223,
+                _:blank_f63624d43ae547c13b22f934192a8e67 ;
+            ns1:molecular-weight _:blank_ed35d4240793e31fd69bfd272794402a ;
+            ns1:specific-function _:blank_0c432dc1f15d3a137ec5d3505b3de7c6 ;
+            ns1:theoretical-pi _:blank_f1362545f2b9ff27ba2b934e2d8950a0 ;
+            ns1:transmembrane-regions _:blank_539800ae48c90d04d91e197d67e6a87d ;
+            ns1:x-gi _:blank_1f694ff2f8f432077fba1b6207f7a232 ;
+            ns1:x-pfam _:blank_310baeadee50bba0c3ea1a1f21d71fd0 ;
+            ns1:x-taxonomy _:blank_20dd06c96b88e30b06df6cf8c65f8dde ] ;
+    [ ] [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_6264f2f099529749763120e249330012 ;
+            ns1:cellular-location _:blank_e09b9911306b410eb8372e5ae31f134a ;
+            ns1:gene-name _:blank_0204a46de94251270605e8bc32f63e72 ;
+            ns1:gene-sequence _:blank_c86b303a3840ede164bfae2b3f5911d4 ;
+            ns1:general-function _:blank_7aee95414ab8694c29cb846a1078e4a3 ;
+            ns1:go-function _:blank_3f5ff064c001f111122f4b27ef55f5e0,
+                _:blank_b2ed0889b0c704f2147fa09f06079a5d,
+                _:blank_f33c849940daef9a60154f2161de6978,
+                _:blank_f78a78bea2dd6f53c9664151b8030460 ;
+            ns1:go-process _:blank_22fcf5663271cf18de381b69d56d53ff,
+                _:blank_3c08ac05a9576c784b3b33481d25c197,
+                _:blank_9662e21d05e26822395aa6c7f863414a,
+                _:blank_b15811a513d069f648f30e8ae2ec39a7,
+                _:blank_dc10413fb1da921b252d94a034082b3b,
+                _:blank_f3fce935110a012b605fae9c4647f223,
+                _:blank_f63624d43ae547c13b22f934192a8e67 ;
+            ns1:molecular-weight _:blank_ed35d4240793e31fd69bfd272794402a ;
+            ns1:specific-function _:blank_0c432dc1f15d3a137ec5d3505b3de7c6 ;
+            ns1:theoretical-pi _:blank_f1362545f2b9ff27ba2b934e2d8950a0 ;
+            ns1:transmembrane-regions _:blank_539800ae48c90d04d91e197d67e6a87d ;
+            ns1:x-gi _:blank_1f694ff2f8f432077fba1b6207f7a232 ;
+            ns1:x-pfam _:blank_310baeadee50bba0c3ea1a1f21d71fd0 ;
+            ns1:x-taxonomy _:blank_20dd06c96b88e30b06df6cf8c65f8dde ] ;
+    _:blank_8ba37393bd4b8d57b247a7be3713a8e2 [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_6264f2f099529749763120e249330012 ;
+            ns1:cellular-location _:blank_e09b9911306b410eb8372e5ae31f134a ;
+            ns1:gene-name _:blank_0204a46de94251270605e8bc32f63e72 ;
+            ns1:gene-sequence _:blank_c86b303a3840ede164bfae2b3f5911d4 ;
+            ns1:general-function _:blank_7aee95414ab8694c29cb846a1078e4a3 ;
+            ns1:go-function _:blank_3f5ff064c001f111122f4b27ef55f5e0,
+                _:blank_b2ed0889b0c704f2147fa09f06079a5d,
+                _:blank_f33c849940daef9a60154f2161de6978,
+                _:blank_f78a78bea2dd6f53c9664151b8030460 ;
+            ns1:go-process _:blank_22fcf5663271cf18de381b69d56d53ff,
+                _:blank_3c08ac05a9576c784b3b33481d25c197,
+                _:blank_9662e21d05e26822395aa6c7f863414a,
+                _:blank_b15811a513d069f648f30e8ae2ec39a7,
+                _:blank_dc10413fb1da921b252d94a034082b3b,
+                _:blank_f3fce935110a012b605fae9c4647f223,
+                _:blank_f63624d43ae547c13b22f934192a8e67 ;
+            ns1:molecular-weight _:blank_ed35d4240793e31fd69bfd272794402a ;
+            ns1:specific-function _:blank_0c432dc1f15d3a137ec5d3505b3de7c6 ;
+            ns1:theoretical-pi _:blank_f1362545f2b9ff27ba2b934e2d8950a0 ;
+            ns1:transmembrane-regions _:blank_539800ae48c90d04d91e197d67e6a87d ;
+            ns1:x-gi _:blank_1f694ff2f8f432077fba1b6207f7a232 ;
+            ns1:x-pfam _:blank_310baeadee50bba0c3ea1a1f21d71fd0 ;
+            ns1:x-taxonomy _:blank_20dd06c96b88e30b06df6cf8c65f8dde ],
+        [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_6264f2f099529749763120e249330012 ;
+            ns1:cellular-location _:blank_e09b9911306b410eb8372e5ae31f134a ;
+            ns1:gene-name _:blank_0204a46de94251270605e8bc32f63e72 ;
+            ns1:gene-sequence _:blank_c86b303a3840ede164bfae2b3f5911d4 ;
+            ns1:general-function _:blank_7aee95414ab8694c29cb846a1078e4a3 ;
+            ns1:go-function _:blank_3f5ff064c001f111122f4b27ef55f5e0,
+                _:blank_b2ed0889b0c704f2147fa09f06079a5d,
+                _:blank_f33c849940daef9a60154f2161de6978,
+                _:blank_f78a78bea2dd6f53c9664151b8030460 ;
+            ns1:go-process _:blank_22fcf5663271cf18de381b69d56d53ff,
+                _:blank_3c08ac05a9576c784b3b33481d25c197,
+                _:blank_9662e21d05e26822395aa6c7f863414a,
+                _:blank_b15811a513d069f648f30e8ae2ec39a7,
+                _:blank_dc10413fb1da921b252d94a034082b3b,
+                _:blank_f3fce935110a012b605fae9c4647f223,
+                _:blank_f63624d43ae547c13b22f934192a8e67 ;
+            ns1:molecular-weight _:blank_ed35d4240793e31fd69bfd272794402a ;
+            ns1:specific-function _:blank_0c432dc1f15d3a137ec5d3505b3de7c6 ;
+            ns1:theoretical-pi _:blank_f1362545f2b9ff27ba2b934e2d8950a0 ;
+            ns1:transmembrane-regions _:blank_539800ae48c90d04d91e197d67e6a87d ;
+            ns1:x-gi _:blank_1f694ff2f8f432077fba1b6207f7a232 ;
+            ns1:x-pfam _:blank_310baeadee50bba0c3ea1a1f21d71fd0 ;
+            ns1:x-taxonomy _:blank_20dd06c96b88e30b06df6cf8c65f8dde ],
+        [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_6264f2f099529749763120e249330012 ;
+            ns1:cellular-location _:blank_e09b9911306b410eb8372e5ae31f134a ;
+            ns1:gene-name _:blank_0204a46de94251270605e8bc32f63e72 ;
+            ns1:gene-sequence _:blank_c86b303a3840ede164bfae2b3f5911d4 ;
+            ns1:general-function _:blank_7aee95414ab8694c29cb846a1078e4a3 ;
+            ns1:go-function _:blank_3f5ff064c001f111122f4b27ef55f5e0,
+                _:blank_b2ed0889b0c704f2147fa09f06079a5d,
+                _:blank_f33c849940daef9a60154f2161de6978,
+                _:blank_f78a78bea2dd6f53c9664151b8030460 ;
+            ns1:go-process _:blank_22fcf5663271cf18de381b69d56d53ff,
+                _:blank_3c08ac05a9576c784b3b33481d25c197,
+                _:blank_9662e21d05e26822395aa6c7f863414a,
+                _:blank_b15811a513d069f648f30e8ae2ec39a7,
+                _:blank_dc10413fb1da921b252d94a034082b3b,
+                _:blank_f3fce935110a012b605fae9c4647f223,
+                _:blank_f63624d43ae547c13b22f934192a8e67 ;
+            ns1:molecular-weight _:blank_ed35d4240793e31fd69bfd272794402a ;
+            ns1:specific-function _:blank_0c432dc1f15d3a137ec5d3505b3de7c6 ;
+            ns1:theoretical-pi _:blank_f1362545f2b9ff27ba2b934e2d8950a0 ;
+            ns1:transmembrane-regions _:blank_539800ae48c90d04d91e197d67e6a87d ;
+            ns1:x-gi _:blank_1f694ff2f8f432077fba1b6207f7a232 ;
+            ns1:x-pfam _:blank_310baeadee50bba0c3ea1a1f21d71fd0 ;
+            ns1:x-taxonomy _:blank_20dd06c96b88e30b06df6cf8c65f8dde ],
+        [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_6264f2f099529749763120e249330012 ;
+            ns1:cellular-location _:blank_e09b9911306b410eb8372e5ae31f134a ;
+            ns1:gene-name _:blank_0204a46de94251270605e8bc32f63e72 ;
+            ns1:gene-sequence _:blank_c86b303a3840ede164bfae2b3f5911d4 ;
+            ns1:general-function _:blank_7aee95414ab8694c29cb846a1078e4a3 ;
+            ns1:go-function _:blank_3f5ff064c001f111122f4b27ef55f5e0,
+                _:blank_b2ed0889b0c704f2147fa09f06079a5d,
+                _:blank_f33c849940daef9a60154f2161de6978,
+                _:blank_f78a78bea2dd6f53c9664151b8030460 ;
+            ns1:go-process _:blank_22fcf5663271cf18de381b69d56d53ff,
+                _:blank_3c08ac05a9576c784b3b33481d25c197,
+                _:blank_9662e21d05e26822395aa6c7f863414a,
+                _:blank_b15811a513d069f648f30e8ae2ec39a7,
+                _:blank_dc10413fb1da921b252d94a034082b3b,
+                _:blank_f3fce935110a012b605fae9c4647f223,
+                _:blank_f63624d43ae547c13b22f934192a8e67 ;
+            ns1:molecular-weight _:blank_ed35d4240793e31fd69bfd272794402a ;
+            ns1:specific-function _:blank_0c432dc1f15d3a137ec5d3505b3de7c6 ;
+            ns1:theoretical-pi _:blank_f1362545f2b9ff27ba2b934e2d8950a0 ;
+            ns1:transmembrane-regions _:blank_539800ae48c90d04d91e197d67e6a87d ;
+            ns1:x-gi _:blank_1f694ff2f8f432077fba1b6207f7a232 ;
+            ns1:x-pfam _:blank_310baeadee50bba0c3ea1a1f21d71fd0 ;
+            ns1:x-taxonomy _:blank_20dd06c96b88e30b06df6cf8c65f8dde ],
+        [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_6264f2f099529749763120e249330012 ;
+            ns1:cellular-location _:blank_e09b9911306b410eb8372e5ae31f134a ;
+            ns1:gene-name _:blank_0204a46de94251270605e8bc32f63e72 ;
+            ns1:gene-sequence _:blank_c86b303a3840ede164bfae2b3f5911d4 ;
+            ns1:general-function _:blank_7aee95414ab8694c29cb846a1078e4a3 ;
+            ns1:go-function _:blank_3f5ff064c001f111122f4b27ef55f5e0,
+                _:blank_b2ed0889b0c704f2147fa09f06079a5d,
+                _:blank_f33c849940daef9a60154f2161de6978,
+                _:blank_f78a78bea2dd6f53c9664151b8030460 ;
+            ns1:go-process _:blank_22fcf5663271cf18de381b69d56d53ff,
+                _:blank_3c08ac05a9576c784b3b33481d25c197,
+                _:blank_9662e21d05e26822395aa6c7f863414a,
+                _:blank_b15811a513d069f648f30e8ae2ec39a7,
+                _:blank_dc10413fb1da921b252d94a034082b3b,
+                _:blank_f3fce935110a012b605fae9c4647f223,
+                _:blank_f63624d43ae547c13b22f934192a8e67 ;
+            ns1:molecular-weight _:blank_ed35d4240793e31fd69bfd272794402a ;
+            ns1:specific-function _:blank_0c432dc1f15d3a137ec5d3505b3de7c6 ;
+            ns1:theoretical-pi _:blank_f1362545f2b9ff27ba2b934e2d8950a0 ;
+            ns1:transmembrane-regions _:blank_539800ae48c90d04d91e197d67e6a87d ;
+            ns1:x-gi _:blank_1f694ff2f8f432077fba1b6207f7a232 ;
+            ns1:x-pfam _:blank_310baeadee50bba0c3ea1a1f21d71fd0 ;
+            ns1:x-taxonomy _:blank_20dd06c96b88e30b06df6cf8c65f8dde ] ;
+    [ ] [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_6264f2f099529749763120e249330012 ;
+            ns1:cellular-location _:blank_e09b9911306b410eb8372e5ae31f134a ;
+            ns1:gene-name _:blank_0204a46de94251270605e8bc32f63e72 ;
+            ns1:gene-sequence _:blank_c86b303a3840ede164bfae2b3f5911d4 ;
+            ns1:general-function _:blank_7aee95414ab8694c29cb846a1078e4a3 ;
+            ns1:go-function _:blank_3f5ff064c001f111122f4b27ef55f5e0,
+                _:blank_b2ed0889b0c704f2147fa09f06079a5d,
+                _:blank_f33c849940daef9a60154f2161de6978,
+                _:blank_f78a78bea2dd6f53c9664151b8030460 ;
+            ns1:go-process _:blank_22fcf5663271cf18de381b69d56d53ff,
+                _:blank_3c08ac05a9576c784b3b33481d25c197,
+                _:blank_9662e21d05e26822395aa6c7f863414a,
+                _:blank_b15811a513d069f648f30e8ae2ec39a7,
+                _:blank_dc10413fb1da921b252d94a034082b3b,
+                _:blank_f3fce935110a012b605fae9c4647f223,
+                _:blank_f63624d43ae547c13b22f934192a8e67 ;
+            ns1:molecular-weight _:blank_ed35d4240793e31fd69bfd272794402a ;
+            ns1:specific-function _:blank_0c432dc1f15d3a137ec5d3505b3de7c6 ;
+            ns1:theoretical-pi _:blank_f1362545f2b9ff27ba2b934e2d8950a0 ;
+            ns1:transmembrane-regions _:blank_539800ae48c90d04d91e197d67e6a87d ;
+            ns1:x-gi _:blank_1f694ff2f8f432077fba1b6207f7a232 ;
+            ns1:x-pfam _:blank_310baeadee50bba0c3ea1a1f21d71fd0 ;
+            ns1:x-taxonomy _:blank_20dd06c96b88e30b06df6cf8c65f8dde ] ;
+    [ ] [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_6264f2f099529749763120e249330012 ;
+            ns1:cellular-location _:blank_e09b9911306b410eb8372e5ae31f134a ;
+            ns1:gene-name _:blank_0204a46de94251270605e8bc32f63e72 ;
+            ns1:gene-sequence _:blank_c86b303a3840ede164bfae2b3f5911d4 ;
+            ns1:general-function _:blank_7aee95414ab8694c29cb846a1078e4a3 ;
+            ns1:go-function _:blank_3f5ff064c001f111122f4b27ef55f5e0,
+                _:blank_b2ed0889b0c704f2147fa09f06079a5d,
+                _:blank_f33c849940daef9a60154f2161de6978,
+                _:blank_f78a78bea2dd6f53c9664151b8030460 ;
+            ns1:go-process _:blank_22fcf5663271cf18de381b69d56d53ff,
+                _:blank_3c08ac05a9576c784b3b33481d25c197,
+                _:blank_9662e21d05e26822395aa6c7f863414a,
+                _:blank_b15811a513d069f648f30e8ae2ec39a7,
+                _:blank_dc10413fb1da921b252d94a034082b3b,
+                _:blank_f3fce935110a012b605fae9c4647f223,
+                _:blank_f63624d43ae547c13b22f934192a8e67 ;
+            ns1:molecular-weight _:blank_ed35d4240793e31fd69bfd272794402a ;
+            ns1:specific-function _:blank_0c432dc1f15d3a137ec5d3505b3de7c6 ;
+            ns1:theoretical-pi _:blank_f1362545f2b9ff27ba2b934e2d8950a0 ;
+            ns1:transmembrane-regions _:blank_539800ae48c90d04d91e197d67e6a87d ;
+            ns1:x-gi _:blank_1f694ff2f8f432077fba1b6207f7a232 ;
+            ns1:x-pfam _:blank_310baeadee50bba0c3ea1a1f21d71fd0 ;
+            ns1:x-taxonomy _:blank_20dd06c96b88e30b06df6cf8c65f8dde ] ;
+    [ ] [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_6264f2f099529749763120e249330012 ;
+            ns1:cellular-location _:blank_e09b9911306b410eb8372e5ae31f134a ;
+            ns1:gene-name _:blank_0204a46de94251270605e8bc32f63e72 ;
+            ns1:gene-sequence _:blank_c86b303a3840ede164bfae2b3f5911d4 ;
+            ns1:general-function _:blank_7aee95414ab8694c29cb846a1078e4a3 ;
+            ns1:go-function _:blank_3f5ff064c001f111122f4b27ef55f5e0,
+                _:blank_b2ed0889b0c704f2147fa09f06079a5d,
+                _:blank_f33c849940daef9a60154f2161de6978,
+                _:blank_f78a78bea2dd6f53c9664151b8030460 ;
+            ns1:go-process _:blank_22fcf5663271cf18de381b69d56d53ff,
+                _:blank_3c08ac05a9576c784b3b33481d25c197,
+                _:blank_9662e21d05e26822395aa6c7f863414a,
+                _:blank_b15811a513d069f648f30e8ae2ec39a7,
+                _:blank_dc10413fb1da921b252d94a034082b3b,
+                _:blank_f3fce935110a012b605fae9c4647f223,
+                _:blank_f63624d43ae547c13b22f934192a8e67 ;
+            ns1:molecular-weight _:blank_ed35d4240793e31fd69bfd272794402a ;
+            ns1:specific-function _:blank_0c432dc1f15d3a137ec5d3505b3de7c6 ;
+            ns1:theoretical-pi _:blank_f1362545f2b9ff27ba2b934e2d8950a0 ;
+            ns1:transmembrane-regions _:blank_539800ae48c90d04d91e197d67e6a87d ;
+            ns1:x-gi _:blank_1f694ff2f8f432077fba1b6207f7a232 ;
+            ns1:x-pfam _:blank_310baeadee50bba0c3ea1a1f21d71fd0 ;
+            ns1:x-taxonomy _:blank_20dd06c96b88e30b06df6cf8c65f8dde ] ;
+    [ ] [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_6264f2f099529749763120e249330012 ;
+            ns1:cellular-location _:blank_e09b9911306b410eb8372e5ae31f134a ;
+            ns1:gene-name _:blank_0204a46de94251270605e8bc32f63e72 ;
+            ns1:gene-sequence _:blank_c86b303a3840ede164bfae2b3f5911d4 ;
+            ns1:general-function _:blank_7aee95414ab8694c29cb846a1078e4a3 ;
+            ns1:go-function _:blank_3f5ff064c001f111122f4b27ef55f5e0,
+                _:blank_b2ed0889b0c704f2147fa09f06079a5d,
+                _:blank_f33c849940daef9a60154f2161de6978,
+                _:blank_f78a78bea2dd6f53c9664151b8030460 ;
+            ns1:go-process _:blank_22fcf5663271cf18de381b69d56d53ff,
+                _:blank_3c08ac05a9576c784b3b33481d25c197,
+                _:blank_9662e21d05e26822395aa6c7f863414a,
+                _:blank_b15811a513d069f648f30e8ae2ec39a7,
+                _:blank_dc10413fb1da921b252d94a034082b3b,
+                _:blank_f3fce935110a012b605fae9c4647f223,
+                _:blank_f63624d43ae547c13b22f934192a8e67 ;
+            ns1:molecular-weight _:blank_ed35d4240793e31fd69bfd272794402a ;
+            ns1:specific-function _:blank_0c432dc1f15d3a137ec5d3505b3de7c6 ;
+            ns1:theoretical-pi _:blank_f1362545f2b9ff27ba2b934e2d8950a0 ;
+            ns1:transmembrane-regions _:blank_539800ae48c90d04d91e197d67e6a87d ;
+            ns1:x-gi _:blank_1f694ff2f8f432077fba1b6207f7a232 ;
+            ns1:x-pfam _:blank_310baeadee50bba0c3ea1a1f21d71fd0 ;
+            ns1:x-taxonomy _:blank_20dd06c96b88e30b06df6cf8c65f8dde ] ;
+    ns1:target [ a ns1:Target ;
+            ns1:amino-acid-sequence _:blank_6264f2f099529749763120e249330012 ;
+            ns1:cellular-location _:blank_e09b9911306b410eb8372e5ae31f134a ;
+            ns1:gene-name _:blank_0204a46de94251270605e8bc32f63e72 ;
+            ns1:gene-sequence _:blank_c86b303a3840ede164bfae2b3f5911d4 ;
+            ns1:general-function _:blank_7aee95414ab8694c29cb846a1078e4a3 ;
+            ns1:go-function _:blank_3f5ff064c001f111122f4b27ef55f5e0,
+                _:blank_b2ed0889b0c704f2147fa09f06079a5d,
+                _:blank_f33c849940daef9a60154f2161de6978,
+                _:blank_f78a78bea2dd6f53c9664151b8030460 ;
+            ns1:go-process _:blank_22fcf5663271cf18de381b69d56d53ff,
+                _:blank_3c08ac05a9576c784b3b33481d25c197,
+                _:blank_9662e21d05e26822395aa6c7f863414a,
+                _:blank_b15811a513d069f648f30e8ae2ec39a7,
+                _:blank_dc10413fb1da921b252d94a034082b3b,
+                _:blank_f3fce935110a012b605fae9c4647f223,
+                _:blank_f63624d43ae547c13b22f934192a8e67 ;
+            ns1:molecular-weight _:blank_ed35d4240793e31fd69bfd272794402a ;
+            ns1:specific-function _:blank_0c432dc1f15d3a137ec5d3505b3de7c6 ;
+            ns1:theoretical-pi _:blank_f1362545f2b9ff27ba2b934e2d8950a0 ;
+            ns1:transmembrane-regions _:blank_539800ae48c90d04d91e197d67e6a87d ;
+            ns1:x-gi _:blank_1f694ff2f8f432077fba1b6207f7a232 ;
+            ns1:x-pfam _:blank_310baeadee50bba0c3ea1a1f21d71fd0 ;
+            ns1:x-taxonomy _:blank_20dd06c96b88e30b06df6cf8c65f8dde ] .
+
