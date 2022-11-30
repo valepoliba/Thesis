@@ -1,0 +1,30 @@
+_:blank_a0df2053e632a5c21fff194c7ce05295 <http://bio2rdf.org/drugbank_vocabulary:x-pfam> _:blank_9e700ad631d1662dd941f9d32cb6477d .
+_:blank_a0df2053e632a5c21fff194c7ce05295 <http://bio2rdf.org/drugbank_vocabulary:gene-name> _:blank_5499e10cda9468fa92f65f5a05b6a02d .
+_:blank_a0df2053e632a5c21fff194c7ce05295 <http://bio2rdf.org/drugbank_vocabulary:general-function> _:blank_338ea4f956237fe4055630d53c7da617 .
+_:blank_a0df2053e632a5c21fff194c7ce05295 <http://bio2rdf.org/drugbank_vocabulary:cellular-location> _:blank_840b79b84ae39b681187a61ee2ea25a9 .
+_:blank_a0df2053e632a5c21fff194c7ce05295 <http://bio2rdf.org/drugbank_vocabulary:go-process> "metabolism" .
+_:blank_a0df2053e632a5c21fff194c7ce05295 <http://bio2rdf.org/drugbank_vocabulary:specific-function> _:blank_0d8b42d02205ab300583851f25560fe6 .
+_:blank_a0df2053e632a5c21fff194c7ce05295 <http://bio2rdf.org/drugbank_vocabulary:go-function> "peptidase activity" .
+_:blank_a0df2053e632a5c21fff194c7ce05295 <http://bio2rdf.org/drugbank_vocabulary:organism> "Human" .
+_:blank_6de96eded011fdde148f028469c3a0be <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Small-molecule> .
+_:blank_a0df2053e632a5c21fff194c7ce05295 <http://bio2rdf.org/drugbank_vocabulary:molecular-weight> _:blank_eeef6934c8bf2acc6dc9fb22ac0ddfc2 .
+_:blank_a0df2053e632a5c21fff194c7ce05295 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Target> .
+_:blank_6de96eded011fdde148f028469c3a0be <http://bio2rdf.org/drugbank_vocabulary:target> _:blank_a0df2053e632a5c21fff194c7ce05295 .
+_:blank_a0df2053e632a5c21fff194c7ce05295 <http://bio2rdf.org/drugbank_vocabulary:go-process> "cellular protein metabolism" .
+_:blank_a0df2053e632a5c21fff194c7ce05295 <http://bio2rdf.org/drugbank_vocabulary:go-function> "endopeptidase activity" .
+_:blank_a0df2053e632a5c21fff194c7ce05295 <http://bio2rdf.org/drugbank_vocabulary:go-function> "catalytic activity" .
+_:blank_a0df2053e632a5c21fff194c7ce05295 <http://bio2rdf.org/drugbank_vocabulary:name> _:blank_a21ac32aca24617817914384fa1706bc .
+_:blank_a0df2053e632a5c21fff194c7ce05295 <http://bio2rdf.org/drugbank_vocabulary:x-taxonomy> <http://bio2rdf.org/taxonomy:9606> .
+_:blank_a0df2053e632a5c21fff194c7ce05295 <http://bio2rdf.org/drugbank_vocabulary:go-function> _:blank_0036b8d654d8b5d5e000b254f3f46101 .
+_:blank_a0df2053e632a5c21fff194c7ce05295 <http://bio2rdf.org/drugbank_vocabulary:go-process> "proteolysis" .
+_:blank_a0df2053e632a5c21fff194c7ce05295 <http://bio2rdf.org/drugbank_vocabulary:go-process> "protein metabolism" .
+_:blank_a0df2053e632a5c21fff194c7ce05295 <http://bio2rdf.org/drugbank_vocabulary:x-genatlas> _:blank_ef60f5005127a93c75cfc9d788afb806 .
+_:blank_a0df2053e632a5c21fff194c7ce05295 <http://bio2rdf.org/drugbank_vocabulary:theoretical-pi> _:blank_19fcdaa6427138572bfcc8468a1126b4 .
+_:blank_a0df2053e632a5c21fff194c7ce05295 <http://bio2rdf.org/drugbank_vocabulary:go-function> "hydrolase activity" .
+_:blank_a0df2053e632a5c21fff194c7ce05295 <http://bio2rdf.org/drugbank_vocabulary:locus> _:blank_e1bf7dc7fee0af365038a5b511311fa5 .
+_:blank_a0df2053e632a5c21fff194c7ce05295 <http://bio2rdf.org/drugbank_vocabulary:go-process> "macromolecule metabolism" .
+_:blank_a0df2053e632a5c21fff194c7ce05295 <http://bio2rdf.org/drugbank_vocabulary:amino-acid-sequence> _:blank_69aa12fece5033b84cde696b1d363e97 .
+_:blank_a0df2053e632a5c21fff194c7ce05295 <http://bio2rdf.org/drugbank_vocabulary:go-process> "physiological process" .
+_:blank_a0df2053e632a5c21fff194c7ce05295 <http://bio2rdf.org/drugbank_vocabulary:gene-sequence> _:blank_d7d78a9180efb9bd3c9c919a88abd2e4 .
+_:blank_a0df2053e632a5c21fff194c7ce05295 <http://bio2rdf.org/drugbank_vocabulary:x-hgnc> _:blank_11322b63d8c89e500d5344f15254ba1e .
+_:blank_a0df2053e632a5c21fff194c7ce05295 <http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions> _:blank_561be8742f54611a926930b2c592dd9f .
